@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-07",
+  "coverage_claim": "none",
+  "method_zh": "按用户选择的AI科研主线进行关键词发现、代表文献追踪、正式版本核验和方法争议追踪；并非按venue-year或数据库全量筛查。只保存查询与原创筛选说明，不存原文全文。",
+  "searches": [
+    {
+      "query": "site.nature.com artificial intelligence science scientists impact focus 2026",
+      "source": "Web search → Nature official articles",
+      "checked_on": "2026-10-07",
+      "scope_zh": "定位AI对科学整体影响及2026正式版本，将候选交给其他主题批次核验。",
+      "limitations_zh": "关键词发现检索；未穷尽筛查Nature全部文章。"
+    },
+    {
+      "query": "\"Science of science\" Fortunato 2018 Science eaao0185",
+      "source": "Science DOI / NSF / PMC / eScholarship",
+      "checked_on": "2026-10-07",
+      "scope_zh": "核验领域入门综述及其对AI科研分析的关系。",
+      "limitations_zh": "出版商403、存档部分链接502；使用原文搜索索引和作者机构元数据，未通读。"
+    },
+    {
+      "query": "\"Leakage and the reproducibility crisis\" Patterns 2023",
+      "source": "ScienceDirect / Cell / NSF / Princeton",
+      "checked_on": "2026-10-07",
+      "scope_zh": "核验AI科研可靠性的跨学科方法文献。",
+      "limitations_zh": "直接访问失败，正文仅阅读原文索引返回片段；未复现。"
+    },
+    {
+      "query": "\"The growing influence of industry in AI research\" Science 2023",
+      "source": "Science DOI / MIT author-hosted typeset PDF / PubMed",
+      "checked_on": "2026-10-07",
+      "scope_zh": "核验产业与学术资源格局的政策讨论。",
+      "limitations_zh": "Science页面403；原文由作者机构提供，非全面资源调查。"
+    },
+    {
+      "query": "\"AI\" \"scientific\" \"hypotheses\" \"scientists\" Evans 2023 Nature Human Behaviour alien",
+      "source": "Nature Human Behaviour official article",
+      "checked_on": "2026-10-07",
+      "scope_zh": "核验以科学家网络改进AI探索方向的研究。",
+      "limitations_zh": "摘要、扩展图和数据声明可读，正文受订阅限制。"
+    },
+    {
+      "query": "\"Atypical Combinations and Scientific Impact\"; \"Tradition and Innovation in Scientists\"; \"Papers and patents are becoming less disruptive over time\"; \"Slowed canonical progress in large fields of science\"",
+      "source": "web search; Science; SAGE; Nature; PNAS; PubMed/PMC; author institutional repositories",
+      "checked_on": "2026-10-07",
+      "scope_zh": "按预先选定的四篇代表作逐项核对身份与摘要，作为 AI 与科研创新主题的基础背景。",
+      "limitations_zh": "定向核验而非系统综述；最初两次 web 请求连接失败，后恢复。部分期刊只能读取搜索返回的官方索引文本，访问状态已逐条记录。"
+    },
+    {
+      "query": "\"The disruption index is biased by citation inflation\" site:direct.mit.edu",
+      "source": "MIT Press official article indexed text; University of California eScholarship",
+      "checked_on": "2026-10-07",
+      "scope_zh": "寻找正式发表的颠覆性指标稳健性研究，与 Park 2023 成对阅读。",
+      "limitations_zh": "MIT Press 直接打开失败，核验使用检索返回的官方元数据与正文片段；未跑数据或代码。"
+    },
+    {
+      "query": "\"Papers and patents are becoming less disruptive over time\" \"Matters Arising\" \"2026\" site:nature.com",
+      "source": "Nature official original article, Matters Arising and reply indexed text",
+      "checked_on": "2026-10-07",
+      "scope_zh": "检查原研究的后续正式争论，发现 2026 年数据伪影评论及原作者回复并关联入来源。",
+      "limitations_zh": "只读官方检索呈现的导言、开头正文及图说明，未完整审查双方补充材料；不作裁决，也不另计为五篇已收录论文。"
+    },
+    {
+      "query": "\"Artificial intelligence and the changing landscape of science\" Nature 2023 Wang; \"Scientific discovery in the age of artificial intelligence\"",
+      "source": "Web search; Nature official article and Publisher Correction",
+      "checked_on": "2026-10-07",
+      "scope_zh": "核实入门综述题名、作者、类型、正式发表年份及出版更正。",
+      "limitations_zh": "原线索题名有误；确认正式题名后读取官方摘要，正文受订阅限制。"
+    },
+    {
+      "query": "\"Artificial intelligence and illusions of understanding in scientific research\"; \"Towards a unified framework for responsible AI in science\"",
+      "source": "Web search; Nature; Nature Communications",
+      "checked_on": "2026-10-07",
+      "scope_zh": "查找AI科研认知与责任框架的正式论文；沿官方相关文章核验Risks of AI scientists。",
+      "limitations_zh": "未找到统一框架线索题名的可定位原始书目，不猜造记录；检索非穷尽，也不据此断言该论文不存在。"
+    },
+    {
+      "query": "\"Can large language models provide useful feedback on research papers\" NEJM DOI; \"AIoa2400196\"; \"Monitoring AI-Modified Content at Scale\" PMLR",
+      "source": "Web search; NEJM AI; NSF PAR; PMLR; author arXiv",
+      "checked_on": "2026-10-07",
+      "scope_zh": "核验模型反馈及评审语料采用研究；区分正式发表记录、作者版本和发现线索。",
+      "limitations_zh": "NEJM AI原站403、NSF存档PDF502，未能直接读正式版；保留待核验。PMLR元数据成功读取，正式PDF下载失败，内容辅以作者arXiv版本。"
+    },
+    {
+      "query": "\"A large-scale randomized study of large language model feedback in peer review\" arxiv",
+      "source": "Nature Machine Intelligence; linked arXiv preprint",
+      "checked_on": "2026-10-07",
+      "scope_zh": "核验2026年期刊文章，并阅读官方链接预印本中的随机实验设计与局限。",
+      "limitations_zh": "期刊正文订阅受限；预印本与发表版未逐段比对，因此不写精确效应数。"
+    },
+    {
+      "query": "\"Small teams disrupt science and technology\" Nature; \"The increasing dominance of teams in production of knowledge\" Science",
+      "source": "Nature; Science author-hosted final PDF; PubMed",
+      "checked_on": "2026-10-07",
+      "scope_zh": "筛选两篇团队组织背景文献，核对正式题名、作者、卷期和DOI。",
+      "limitations_zh": "Nature正文受限；Science官网访问失败，改以作者保存的正式排印PDF和NLM记录交叉核验。两篇均为历史背景，不作为AI因果证据。"
+    },
+    {
+      "query": "https://www.nature.com/articles/s41586-026-10265-5",
+      "source": "Nature official open-access article",
+      "checked_on": "2026-10-07",
+      "scope_zh": "根据关联检索发现的候选链接核验The AI Scientist正式期刊版及评议实验边界。",
+      "limitations_zh": "阅读主体与部分方法，未逐项审阅补充材料或复现实验；不把生成稿达到评议门槛写成正式接收发表。"
+    },
+    {
+      "query": "\"Artificial intelligence tools expand scientists’ impact but contract science’s focus\"",
+      "source": "Web search → Nature official article",
+      "checked_on": "2026-10-07",
+      "scope_zh": "核对AI采用与科学主题收缩研究的正式发表版本。",
+      "limitations_zh": "定向检索，不表示系统覆盖全部自然科学或Nature年份。"
+    },
+    {
+      "query": "\"Quantifying the use of ChatGPT\" scientific papers Nature",
+      "source": "Web search → Nature Human Behaviour",
+      "checked_on": "2026-10-07",
+      "scope_zh": "追踪旧标题或简称到Liang等正式文章。",
+      "limitations_zh": "需以正式标题及DOI去重，旧预印本不是独立研究。"
+    },
+    {
+      "query": "Kobak González-Márquez Horvát Lause Science Advances 2025 vocabulary",
+      "source": "Web search → AAAS/PMC",
+      "checked_on": "2026-10-07",
+      "scope_zh": "核验超额词汇文章正式题名、作者和发表身份。",
+      "limitations_zh": "AAAS直接页面访问受限，以PMC所载正式文章交叉核验。"
+    },
+    {
+      "query": "AI science scientists inequality productivity empirical Nature 2025 2024",
+      "source": "Web search → PNAS Nexus/Oxford Academic",
+      "checked_on": "2026-10-07",
+      "scope_zh": "发现并核验研究者生产率差异的直接实证研究。",
+      "limitations_zh": "结果为选择性候选，不能说明性别、地域或机构不平等研究已穷尽。"
+    },
+    {
+      "query": "\"Scientific production in the era of large language models\" Science 2025",
+      "source": "Web search → PubMed/Science article text",
+      "checked_on": "2026-10-07",
+      "scope_zh": "核验Science产量研究，继续追踪其已发表方法争议。",
+      "limitations_zh": "Science直接访问403；原文正文读取为检索返回的排版稿片段，非完整审阅。"
+    },
+    {
+      "query": "\"2618638123\"",
+      "source": "Web search → PubMed/PMC",
+      "checked_on": "2026-10-07",
+      "scope_zh": "核验对首次检测采用时间规则的方法批评。",
+      "limitations_zh": "本次阅读摘要和正式文章元数据，未执行模拟或复现。"
+    },
+    {
+      "query": "\"AI in science: When and where it makes a difference\"",
+      "source": "Web search → Research Policy/ScienceDirect",
+      "checked_on": "2026-10-07",
+      "scope_zh": "核验跨领域AI扩散、新颖性与影响异质性研究。",
+      "limitations_zh": "直接全文访问受限，摘要及部分正文来自出版商索引内容。"
+    },
+    {
+      "query": "\"Artificial intelligence in science\" \"Bianchini\" 2022",
+      "source": "Web search → Research Policy/ScienceDirect",
+      "checked_on": "2026-10-07",
+      "scope_zh": "补充生成式AI以前的神经网络采用和知识重组实证。",
+      "limitations_zh": "聚焦一项早期代表研究，非历史计量文献全覆盖。"
+    },
+    {
+      "query": "\"The rise of large language models and the direction and impact of US federal research funding\"",
+      "source": "Web search → PNAS/PMC/PubMed",
+      "checked_on": "2026-10-07",
+      "scope_zh": "将2026年预印本映射至已正式发表的PNAS版本。",
+      "limitations_zh": "保密申请数据与短期产出限制外部复核；本次不进行数据复现。"
+    },
+    {
+      "query": "site.economics.mit.edu Aidan Toner Rodgers paper statement 2025",
+      "source": "Web search → MIT Economics; arXiv withdrawal record",
+      "checked_on": "2026-10-07",
+      "scope_zh": "核验广泛流传的AI材料发现工作论文撤回状态。",
+      "limitations_zh": "仅记录撤回及机构不信任数据的官方声明，不采用旧摘要中的效果估计。"
+    },
+    {
+      "query": "https://www.pnas.org/doi/10.1073/pnas.2601439123 ; https://www.pnas.org/doi/10.1073/pnas.2618638123 ; https://openreview.net/pdf?id=rAZnP2cfpz",
+      "source": "PNAS official articles; Science typeset article indexed text",
+      "checked_on": "2026-10-07",
+      "scope_zh": "独立复核两篇2026年PNAS研究及其关联的Science原研究，确认正式类型、作者、年份和因果解释限制。",
+      "limitations_zh": "PNAS官网本轮可直接读取；Science类型复核仍使用正式排版原文索引。未复现原始数据或模拟。"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "Dataset artefacts can partially drive the measured decline in disruption",
+      "url": "https://www.nature.com/articles/s41586-026-10787-y",
+      "decision": "pending",
+      "reason_zh": "已见 Nature 正式 Matters Arising 的元数据及开头正文，作为 Park 2023 的争论来源；待与回复和补充材料成对细读，再考虑独立收录。当前五篇精选未为此增加条目。"
+    },
+    {
+      "title": "Reply to: Dataset artefacts can partially drive the measured decline in disruption",
+      "url": "https://www.nature.com/articles/s41586-026-10788-x",
+      "decision": "pending",
+      "reason_zh": "已见 Nature 正式回复的元数据及开头正文，并记录其与评论的分歧；待成对细读正文与补充材料后评估独立收录，当前仅为关联来源。"
+    },
+    {
+      "title": "Can Large Language Models Provide Useful Feedback on Research Papers? A Large-Scale Empirical Analysis",
+      "url": "https://ai.nejm.org/doi/10.1056/AIoa2400196",
+      "decision": "pending",
+      "reason_zh": "作者和大学元数据指向NEJM AI 2024, 1(8), DOI 10.1056/AIoa2400196，NSF搜索索引也显示正式刊名卷期；但本次出版社403、NSF正式PDF502，尚未直接取得原始出版记录内容，暂不纳入已核验主目录。候选作者预印本为arXiv:2310.01783。"
+    },
+    {
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "url": "https://arxiv.org/abs/2408.06292",
+      "decision": "excluded",
+      "reason_zh": "已核验并收录2026年Nature正式扩展版Towards end-to-end automation of AI research；作为版本线索保留，不重复计数为补充论文。"
+    },
+    {
+      "title": "Artificial Intelligence, Scientific Discovery, and Product Innovation",
+      "url": "https://arxiv.org/abs/2412.17866",
+      "decision": "excluded",
+      "reason_zh": "arXiv管理员在2025-05-20撤回，理由为数据有效性和IRB手续问题。MIT Economics 2025-05-16官方声明明确不信任数据来源、可靠性与有效性，并要求撤回：https://economics.mit.edu/news/assuring-accurate-research-record 。仅作排除记录，旧摘要中的效果数字不作有效证据。"
+    },
+    {
+      "title": "Artificial Intelligence in Science: Returns, Reallocation, and Reorganization",
+      "url": "https://arxiv.org/abs/2603.27956",
+      "decision": "pending",
+      "reason_zh": "已见2026年arXiv预印本与作者页，主题直接涉及科研团队和预算重组；本轮优先9项已发表研究，未完成正文及后续发表核验。"
+    },
+    {
+      "title": "LLM-assisted writing and citation advantage: evidence from scientific publications before and after ChatGPT release",
+      "url": "https://link.springer.com/article/10.1007/s11192-026-05805-9",
+      "decision": "pending",
+      "reason_zh": "出版商显示Scientometrics 2026正式文章；已查看摘要与分类误差限制，但尚未评估全部模型和引用窗口，留作后续补充，不计入收录数。"
+    },
+    {
+      "title": "AI in Science: Early Insights",
+      "url": "https://arxiv.org/abs/2609.28504",
+      "decision": "pending",
+      "reason_zh": "检索发现2026年9月预印本，涉及研究者采用和时间使用；尚未核验全部作者、正文和后续发表，不计入收录数。"
+    },
+    {
+      "title": "Autonomous chemical research with large language models",
+      "url": "https://doi.org/10.1038/s41586-023-06792-0",
+      "decision": "out-of-scope",
+      "reason_zh": "重点是Coscientist系统及化学任务表现，未直接评估科研生产、创新或学术生态的群体性变化。"
+    }
+  ]
+}
