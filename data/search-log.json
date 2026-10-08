@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-07",
+  "snapshot_date": "2026-10-08",
   "coverage_claim": "none",
-  "method_zh": "按用户选择的AI科研主线进行关键词发现、代表文献追踪、正式版本核验和方法争议追踪；并非按venue-year或数据库全量筛查。只保存查询与原创筛选说明，不存原文全文。",
+  "method_zh": "按用户选择的 AI 科研主线进行 EDITH 库内检索、网络补充、正式版本核验与方法争议追踪。首版为网络精选；2026-10-08 增补轮已重新实际查询 EDITH。并非按 venue-year 或数据库全量筛查。只保存可公开的查询与原创筛选说明，不存原文全文。",
   "searches": [
     {
       "query": "site.nature.com artificial intelligence science scientists impact focus 2026",
@@ -178,6 +178,69 @@
       "checked_on": "2026-10-07",
       "scope_zh": "独立复核两篇2026年PNAS研究及其关联的Science原研究，确认正式类型、作者、年份和因果解释限制。",
       "limitations_zh": "PNAS官网本轮可直接读取；Science类型复核仍使用正式排版原文索引。未复现原始数据或模拟。"
+    },
+    {
+      "query": "FTS5 phrase queries with exact journal/year filters: Inventing with Machines [ISR,2025]; Ideation with Generative AI [JCR,2025]; Measuring Science [AER,2024]; Race to the Bottom [QJE,2025]; Scooped [JPE,2025]; Information Technology on Academic Scientists [MS,2010]; Does Science Advance One Funeral [AER,2019]",
+      "source": "EDITH configured literature library / native FTS5 search_fts5 entrypoint",
+      "checked_on": "2026-10-08",
+      "executed_at": "2026-10-08T16:01:28+08:00",
+      "status": "success",
+      "query_count": 7,
+      "corpus_records": 41873,
+      "hit_count": 7,
+      "unique_hit_count": 7,
+      "included_count": 7,
+      "scope_zh": "重新定向查询前轮待加入的七篇论文，各查询命中一篇；核对库内原文与摘要存在。与现有目录按 DOI、规范化标题和来源链接合并查重后无重复，正式来源复核后全部纳入：五篇科研机制背景、两篇交叉框架。",
+      "limitations_zh": "仅对七个已知候选做题名短语及期刊年份过滤；不代表已查全 AI 与科研主题。库内命中不证明出版身份；本机详细查询脚本、结果与路径单独保存在仓库外，由本机交接记录定位。"
+    },
+    {
+      "query": "Inventing with Machines: Generative AI and the Evolving Landscape of IS Research | DOI 10.1287/isre.2025.editorial.v36.n4",
+      "source": "https://pubsonline.informs.org/doi/full/10.1287/isre.2025.editorial.v36.n4",
+      "checked_on": "2026-10-08",
+      "scope_zh": "EDITH 候选正式发表身份及内容核验，纳入 gopal-2025-inventing-with-machines；类型与证据层级见主数据。",
+      "limitations_zh": "直接读取 INFORMS 官方正文页，核对八位作者、DOI、2025 年及 36(4):1949–1967；正文自称 editorial，映射为 perspective。阅读摘要、导言、责任框架及部分实践与制度讨论，并核对 EDITH 原文摘录；未通读全部参考文献或复核所引案例。"
+    },
+    {
+      "query": "Ideation with Generative AI—in Consumer Research and Beyond | DOI 10.1093/jcr/ucaf012",
+      "source": "https://academic.oup.com/jcr/article/52/1/18/8132290",
+      "checked_on": "2026-10-08",
+      "scope_zh": "EDITH 候选正式发表身份及内容核验，纳入 de-freitas-2025-ideation-generative-ai；类型与证据层级见主数据。",
+      "limitations_zh": "OUP 官方卷期目录及文章索引核对 52(1):18–31、2025 年和 DOI；文章直接打开转入简版。读取 HBS 作者机构保存的正式排印 PDF 首页与正文片段，核对三位作者、受邀及非常规评议声明和框架边界，并对照 EDITH 原文。未通读全文或复核引用研究。"
+    },
+    {
+      "query": "The Impact of Information Technology on Academic Scientists' Productivity and Collaboration Patterns | DOI 10.1287/mnsc.1100.1195",
+      "source": "https://pubsonline.informs.org/doi/10.1287/mnsc.1100.1195",
+      "checked_on": "2026-10-08",
+      "scope_zh": "EDITH 候选正式发表身份及内容核验，纳入 ding-2010-it-scientists-productivity；类型与证据层级见主数据。",
+      "limitations_zh": "直接读取 INFORMS 官方摘要与书目信息，核对四位作者、DOI 和 Management Science 56(9):1439–1461 (2010)；读取作者机构网站保存的正式排印 PDF 结论与限制，并从 EDITH 原文核对方法段落。未复算模型或通读全部附表；按正式卷期年归档。"
+    },
+    {
+      "query": "Measuring Science: Performance Metrics and the Allocation of Talent | DOI 10.1257/aer.20230515",
+      "source": "https://www.aeaweb.org/articles?id=10.1257/aer.20230515",
+      "checked_on": "2026-10-08",
+      "scope_zh": "EDITH 候选正式发表身份及内容核验，纳入 hager-2024-measuring-science；类型与证据层级见主数据。",
+      "limitations_zh": "直接读取 AEA 官方页，核验三位作者、AER 114(12):4052–4090、2024 年和 DOI；正式 PDF 入口要求订阅。另读所存 2023 讨论稿的导言与结论进行版本比对：旧稿称少数群体未额外受益，正式摘要改为获益更多，并加入 NSF 资助结果。因此短评依正式摘要，旧稿不作为正式版结论证据，证据级别仍为摘要。"
+    },
+    {
+      "query": "Race to the Bottom: Competition and Quality in Science | DOI 10.1093/qje/qjaf010",
+      "source": "https://academic.oup.com/qje/article/140/2/1111/7997678",
+      "checked_on": "2026-10-08",
+      "scope_zh": "EDITH 候选正式发表身份及内容核验，纳入 hill-2025-race-to-bottom；类型与证据层级见主数据。",
+      "limitations_zh": "直接读取 Oxford 官方文章页，经出版商 CDN 返回可读原文，核验两位作者、140(2):1111–1185、2025 年和 DOI；阅读摘要、导言与结论，并与所存正式排印原文片段交叉核对。未通读所有实证表格和补充材料，未复现；本文与同作者的 Scooped! 是研究不同结果变量的两篇论文。"
+    },
+    {
+      "query": "Scooped! Estimating Rewards for Priority in Science | DOI 10.1086/733398",
+      "source": "https://www.journals.uchicago.edu/doi/10.1086/733398",
+      "checked_on": "2026-10-08",
+      "scope_zh": "EDITH 候选正式发表身份及内容核验，纳入 hill-2025-scooped-priority；类型与证据层级见主数据。",
+      "limitations_zh": "直接读取芝加哥大学出版社官方原文，核验两位作者、JPE 133(3):793–845、2025 年和 DOI；阅读摘要、导言及数据代码声明，并与所存正式排印原文的结论核对。未通读全部实证分析或复现。期刊声明给出 Harvard Dataverse 复现包入口，因此保留该代码链接。"
+    },
+    {
+      "query": "Does Science Advance One Funeral at a Time? | DOI 10.1257/aer.20161574",
+      "source": "https://www.aeaweb.org/articles?id=10.1257/aer.20161574",
+      "checked_on": "2026-10-08",
+      "scope_zh": "EDITH 候选正式发表身份及内容核验，纳入 azoulay-2019-funeral-science；类型与证据层级见主数据。",
+      "limitations_zh": "直接读取 AEA 官方页，核验三位作者、AER 109(8):2889–2920、2019 年和 DOI。官方 PDF 下载未成功；直接读取 PMC 作者稿的导言和结论，并核对所存相同作者稿的研究设计及外推限制。PMC 页面注明最终正式发表身份，作者稿不声称为出版社排印版；未复现。"
     }
   ],
   "candidates": [

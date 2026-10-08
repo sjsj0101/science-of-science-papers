@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-07",
-  "description_zh": "一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。关注研究者、团队、知识与制度层面的变化，把工具能力、实际采用、个体收益和科学整体进展分开讨论。",
+  "snapshot_date": "2026-10-08",
+  "description_zh": "一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。按研究对象与主要贡献区分 SoS 核心、元研究／理论与治理、技术背景与案例，将实际采用、个体收益和科学整体进展分别讨论。",
   "scope": {
     "coverage": "curated-not-exhaustive",
     "include_zh": [
-      "AI / LLM 采用、论文写作、科研产出与机会差异的实证研究。",
-      "AI 与知识搜索、新颖性、研究主题范围、资助议题及学术评价的研究。",
-      "同行评议、科研可靠性、资源分配与认知机制；明确区分实证、综述和观点。",
-      "少量创新、团队及测量方法经典文献；科研自动化系统仅保留与评价制度直接相关的边界案例。"
+      "SoS 核心：AI / LLM 采用、论文写作、科研产出、创新方向、资助与学术评价的研究。",
+      "SoS 核心的经典与科研制度：团队、知识重组、竞争、优先权、人才配置与历史技术冲击；不作为 AI 效果的直接证据。",
+      "交叉研究：元研究与科研可靠性、科学认知、研究构思框架及治理观点；明确区分实证、综述与规范建议。",
+      "技术背景与案例：少量 AI for Science 技术综述与自动化科研系统，单列且不计入 SoS 核心。"
     ],
     "exclude_zh": [
       "仅展示某学科预测性能的 AI 应用",
@@ -17,7 +17,7 @@
       "已撤回且数据有效性受质疑的结果"
     ],
     "year_policy_zh": "不为代表性历史背景设硬起始年；AI 主线优先选择 2022 年以来的工作。年份采用正式卷期年，尚未分配卷期时采用官方在线发表年；不用 DOI 字符串中的年份或机构入库日期推断发表年。预印本与正式版按同一研究去重。",
-    "source_policy_zh": "不限定固定期刊清单。主目录和背景仅收已核验正式发表的期刊或会议文章；会议主会、文章类型及版本限制在核验记录中说明。补充预印本与待核验候选单列。",
+    "source_policy_zh": "不限定固定期刊清单。除补充预印本外，各分层仅收已核验正式发表的期刊或会议文章；会议 track、社论、邀稿与特殊评审流程逐条说明。每轮文献检索实际查询 EDITH，并结合网络原始来源核验；预印本和待核验候选单列。",
     "gaps_zh": [
       "关键词发现和代表作追踪不能证明已覆盖任何完整 venue-year；尤其不声称穷尽 2026 年成果。",
       "目前英文来源和文献计量研究占比较高；非英语科研、全球南方、实验室实际工时、阴性结果与长期科研质量的覆盖有限。",
@@ -43,9 +43,10 @@
   "reading_routes": [
     {
       "title": "1. 建立问题地图",
-      "description_zh": "从学科框架与技术综述出发，再区分认知机制与个人收益、集体探索范围。",
+      "description_zh": "从 SoS 学科框架出发，对照社论、技术背景和认知机制，再读个人收益与集体探索范围的实证研究；不同类型分别解释。",
       "paper_ids": [
         "fortunato-2018-science-of-science",
+        "gopal-2025-inventing-with-machines",
         "wang-2023-scientific-discovery-ai",
         "messeri-2024-illusions-understanding",
         "hao-2026-ai-impact-science-focus"
@@ -65,11 +66,12 @@
     },
     {
       "title": "3. AI 是否改变创新方向",
-      "description_zh": "先理解新颖性与颠覆性的不同指标，再阅读人机互补和跨领域的异质性证据。",
+      "description_zh": "先理解新颖性与颠覆性的不同指标，再对照构思框架、人机互补设计和跨领域证据；构思建议不等于创新效果已被验证。",
       "paper_ids": [
         "uzzi-2013-atypical-combinations",
         "park-2023-less-disruptive",
         "petersen-2024-disruption-citation-inflation",
+        "de-freitas-2025-ideation-generative-ai",
         "sourati-2023-human-aware-ai",
         "bianchini-2022-ai-emerging-method-invention",
         "bianchini-2026-ai-science-when-where"
@@ -85,6 +87,17 @@
         "ahmed-2023-industry-ai",
         "lu-2026-end-to-end-ai-research",
         "tang-2025-risks-ai-scientists"
+      ]
+    },
+    {
+      "title": "5. 科研激励、竞争与技术变迁",
+      "description_zh": "用历史技术扩散、评价指标、优先权竞争与领域进入研究建立机制基线；这些论文属于 SoS，但不直接估计 AI 的效果。",
+      "paper_ids": [
+        "ding-2010-it-scientists-productivity",
+        "hager-2024-measuring-science",
+        "hill-2025-scooped-priority",
+        "hill-2025-race-to-bottom",
+        "azoulay-2019-funeral-science"
       ]
     }
   ],
@@ -190,7 +203,7 @@
     },
     {
       "id": "kapoor-2023-leakage",
-      "collection": "ai-core",
+      "collection": "cross-disciplinary",
       "title": "Leakage and the reproducibility crisis in machine-learning-based science",
       "authors": [
         "Sayash Kapoor",
@@ -514,7 +527,7 @@
     },
     {
       "id": "wang-2023-scientific-discovery-ai",
-      "collection": "ai-core",
+      "collection": "technical-background",
       "title": "Scientific discovery in the age of artificial intelligence",
       "authors": [
         "Hanchen Wang",
@@ -582,7 +595,7 @@
     },
     {
       "id": "messeri-2024-illusions-understanding",
-      "collection": "ai-core",
+      "collection": "cross-disciplinary",
       "title": "Artificial intelligence and illusions of understanding in scientific research",
       "authors": [
         "Lisa Messeri",
@@ -791,7 +804,7 @@
     },
     {
       "id": "lu-2026-end-to-end-ai-research",
-      "collection": "ai-core",
+      "collection": "technical-background",
       "title": "Towards end-to-end automation of AI research",
       "authors": [
         "Chris Lu",
@@ -833,7 +846,7 @@
     },
     {
       "id": "tang-2025-risks-ai-scientists",
-      "collection": "ai-core",
+      "collection": "cross-disciplinary",
       "title": "Risks of AI scientists: prioritizing safeguarding over autonomy",
       "authors": [
         "Xiangru Tang",
@@ -1304,6 +1317,311 @@
           "url": "https://www.pnas.org/doi/10.1073/pnas.2618638123",
           "role": "publication",
           "note_zh": "同日独立复核已直接读取PNAS官方原页，确认Brief Report及完整出版身份；初次访问限制保留为历史记录。"
+        }
+      ]
+    },
+    {
+      "id": "gopal-2025-inventing-with-machines",
+      "collection": "cross-disciplinary",
+      "title": "Inventing with Machines: Generative AI and the Evolving Landscape of IS Research",
+      "authors": [
+        "Ram D. Gopal",
+        "Jingjing Li",
+        "Kai Riemer",
+        "Suprateek Sarker",
+        "Param Vir Singh",
+        "Anjana Susarla",
+        "Martin Bichler",
+        "Jason Bennett Thatcher"
+      ],
+      "authors_complete": true,
+      "year": 2025,
+      "venue": "Information Systems Research",
+      "publication_type": "perspective",
+      "publication_status": "published",
+      "doi": "10.1287/isre.2025.editorial.v36.n4",
+      "url": "https://pubsonline.informs.org/doi/full/10.1287/isre.2025.editorial.v36.n4",
+      "official_url": "https://pubsonline.informs.org/doi/full/10.1287/isre.2025.editorial.v36.n4",
+      "tags": [
+        "ai-science",
+        "knowledge-production",
+        "institutions",
+        "reliability",
+        "peer-review"
+      ],
+      "summary_zh": "这篇社论从信息系统研究的社会技术视角讨论生成式 AI 如何进入构思、分析与评议。作者结合自身试用经验，区分文字编辑、研究助手与更高自主协作层级，主张通过披露、来源追踪和结果核验保留研究者对理论与解释的责任。",
+      "limitations_zh": "属于社论与实践框架，自身试用和引用案例不构成科研生产率或治理效果的系统性因果证据；建议主要立足信息系统学科，适用性受研究方法、工具能力与制度环境影响。",
+      "relevance_zh": "提供 AI 改变学科研究流程和学术规范的具体参照，放入跨学科关联；它为科学学提出治理问题，不能替代对科研生态变化的直接测量。",
+      "evidence_level": "selected-full-text",
+      "verification_note_zh": "直接读取 INFORMS 官方正文页，核对八位作者、DOI、2025 年及 36(4):1949–1967；正文自称 editorial，映射为 perspective。阅读摘要、导言、责任框架及部分实践与制度讨论，并核对 EDITH 原文摘录；未通读全部参考文献或复核所引案例。",
+      "verified_on": "2026-10-08",
+      "sources": [
+        {
+          "url": "https://pubsonline.informs.org/doi/full/10.1287/isre.2025.editorial.v36.n4",
+          "role": "publication",
+          "note_zh": "INFORMS 正式页面列出完整作者、2025 年卷期页码与 DOI；正文明确标为 editorial。"
+        },
+        {
+          "url": "https://pubsonline.informs.org/doi/full/10.1287/isre.2025.editorial.v36.n4",
+          "role": "content",
+          "note_zh": "读取导言中的三级使用框架、披露/来源/核验原则及部分科研实践和制度讨论。"
+        }
+      ]
+    },
+    {
+      "id": "de-freitas-2025-ideation-generative-ai",
+      "collection": "cross-disciplinary",
+      "title": "Ideation with Generative AI—in Consumer Research and Beyond",
+      "authors": [
+        "Julian De Freitas",
+        "Gideon Nave",
+        "Stefano Puntoni"
+      ],
+      "authors_complete": true,
+      "year": 2025,
+      "venue": "Journal of Consumer Research",
+      "publication_type": "perspective",
+      "publication_status": "published",
+      "doi": "10.1093/jcr/ucaf012",
+      "url": "https://academic.oup.com/jcr/article/52/1/18/8132290",
+      "official_url": "https://academic.oup.com/jcr/article/52/1/18/8132290",
+      "tags": [
+        "ai-science",
+        "innovation",
+        "knowledge-production"
+      ],
+      "summary_zh": "作者借助人类创造力文献，将模型的生成效率与语义覆盖范围分别类比持续探索和灵活联想，并区分设计者、写作者、访谈者与扮演者四种构思角色。框架强调让模型激发人的问题重构，而不仅直接生成更多消费研究点子。",
+      "limitations_zh": "这是受邀概念文章，经过加速审阅与修改，未走期刊常规同行评议；不是对科研创新效果的新因果检验。所援引构思研究常由非专家生成或评价点子，不能直接外推到专家研究、重大突破或长期科学进展。",
+      "relevance_zh": "为研究 AI 如何影响科研构思、人机分工和新颖性提供跨学科框架；消费研究语境中的方法建议与科学学的总体创新证据分别归类。",
+      "evidence_level": "selected-full-text",
+      "verification_note_zh": "OUP 官方卷期目录及文章索引核对 52(1):18–31、2025 年和 DOI；文章直接打开转入简版。读取 HBS 作者机构保存的正式排印 PDF 首页与正文片段，核对三位作者、受邀及非常规评议声明和框架边界，并对照 EDITH 原文。未通读全文或复核引用研究。",
+      "verified_on": "2026-10-08",
+      "sources": [
+        {
+          "url": "https://academic.oup.com/jcr/issue/52/1",
+          "role": "publication",
+          "note_zh": "官方 2025 年 6 月卷期目录列入 Gen AI and Consumer Research 专栏，确认卷期、页码与 DOI。"
+        },
+        {
+          "url": "https://academic.oup.com/jcr/article-abstract/52/1/18/8132290",
+          "role": "metadata",
+          "note_zh": "原始出版页面可读索引列出三位作者、2025 年 5 月 15 日在线发表及摘要；直接打开转入简版页面。"
+        },
+        {
+          "url": "https://www.hbs.edu/ris/Publication%20Files/Ideation%20with%20Generative%20AI%20%28Published%29_75dccafd-9c43-46f5-9f56-06a11da7a7cf.pdf",
+          "role": "content",
+          "note_zh": "作者机构保存的正式排印 PDF，读取首页审阅流程声明、创造力类比和非专家证据外推限制等段落。"
+        }
+      ]
+    },
+    {
+      "id": "ding-2010-it-scientists-productivity",
+      "collection": "foundations",
+      "title": "The Impact of Information Technology on Academic Scientists' Productivity and Collaboration Patterns",
+      "authors": [
+        "Waverly W. Ding",
+        "Sharon G. Levin",
+        "Paula E. Stephan",
+        "Anne E. Winkler"
+      ],
+      "authors_complete": true,
+      "year": 2010,
+      "venue": "Management Science",
+      "publication_type": "journal-research",
+      "publication_status": "published",
+      "doi": "10.1287/mnsc.1100.1195",
+      "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.1100.1195",
+      "official_url": "https://pubsonline.informs.org/doi/10.1287/mnsc.1100.1195",
+      "tags": [
+        "knowledge-production",
+        "teams",
+        "inequality",
+        "methods"
+      ],
+      "summary_zh": "把美国高校接入 BITNET 与 DNS 的时间同生命科学家的职业、发表和合著记录相连，估计信息技术可用性与论文产出及新增合作者的关系。作者报告 BITNET 接入后这些指标总体改善，女性与非精英机构研究者的收益更明显。",
+      "limitations_zh": "机构接入时间不能确认个人何时实际使用技术；观察性纵向估计仍依赖控制变量与识别假设。论文数和新增合作者不等于研究质量，早期美国生命科学网络的结果不能直接外推到生成式 AI。",
+      "relevance_zh": "为比较科研技术扩散的生产率、合作与机会差异提供历史基准，并提醒区分基础设施可得性、实际采用和最终科学贡献。",
+      "evidence_level": "selected-full-text",
+      "verification_note_zh": "直接读取 INFORMS 官方摘要与书目信息，核对四位作者、DOI 和 Management Science 56(9):1439–1461 (2010)；读取作者机构网站保存的正式排印 PDF 结论与限制，并从 EDITH 原文核对方法段落。未复算模型或通读全部附表；按正式卷期年归档。",
+      "verified_on": "2026-10-08",
+      "sources": [
+        {
+          "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.1100.1195",
+          "role": "publication",
+          "note_zh": "正式页面核对作者、2010 年卷期页码、接收与在线发表信息及 DOI，并读取摘要。"
+        },
+        {
+          "url": "https://bpb-us-w2.wpmucdn.com/sites.gsu.edu/dist/c/581/files/2014/07/The-Impact-of-Information-Technology-15asd66.pdf",
+          "role": "content",
+          "note_zh": "Georgia State University 作者网站保存的 Management Science 排印版；读取第 7 节结论及关于机构接入与个人实际使用差异的限制。"
+        }
+      ]
+    },
+    {
+      "id": "hager-2024-measuring-science",
+      "collection": "foundations",
+      "title": "Measuring Science: Performance Metrics and the Allocation of Talent",
+      "authors": [
+        "Sebastian Hager",
+        "Carlo Schwarz",
+        "Fabian Waldinger"
+      ],
+      "authors_complete": true,
+      "year": 2024,
+      "venue": "American Economic Review",
+      "publication_type": "journal-research",
+      "publication_status": "published",
+      "doi": "10.1257/aer.20230515",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20230515",
+      "official_url": "https://www.aeaweb.org/articles?id=10.1257/aer.20230515",
+      "tags": [
+        "institutions",
+        "inequality",
+        "methods"
+      ],
+      "summary_zh": "研究引用指标的出现如何改变科研人才配置。作者利用早期引文数据库对期刊和年份的技术性覆盖差异，比较可见与不可见引用对职业结果的预测作用。正式版报告，指标降低跨地域和知识领域的信息摩擦，增强科学家与院系的同类匹配；低排名院系中的高被引者及少数群体获益更多，晋升与 NSF 资助分配也受到影响。",
+      "limitations_zh": "早期引文索引带来的信息变化具有特定历史背景，不能直接代表当代算法评价或 AI 的效果；引用和职业匹配也不等于科研质量或社会福利改善。本次正式版内容证据限于摘要，未检查完整识别分析或复现。",
+      "relevance_zh": "作为科研评价与机会分配的历史机制背景，帮助提出 AI 评价工具会降低信息摩擦还是放大累积优势的问题；本文本身不估计 AI 效应。",
+      "evidence_level": "abstract",
+      "verified_on": "2026-10-08",
+      "verification_note_zh": "直接读取 AEA 官方页，核验三位作者、AER 114(12):4052–4090、2024 年和 DOI；正式 PDF 入口要求订阅。另读所存 2023 讨论稿的导言与结论进行版本比对：旧稿称少数群体未额外受益，正式摘要改为获益更多，并加入 NSF 资助结果。因此短评依正式摘要，旧稿不作为正式版结论证据，证据级别仍为摘要。",
+      "sources": [
+        {
+          "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20230515",
+          "role": "publication",
+          "note_zh": "AEA 官方文章页直接可读，列出完整作者、2024 年卷期页码与 DOI。"
+        },
+        {
+          "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20230515",
+          "role": "content",
+          "note_zh": "正式摘要支持可见引用识别思路、人才匹配、少数群体、晋升和 NSF 资助的概括；付费正文未读取。"
+        },
+        {
+          "url": "https://hdl.handle.net/10419/282146",
+          "role": "metadata",
+          "note_zh": "所读 2023 年 Discussion Paper No.455 注明的公开永久入口，本次直接打开失败；已从原文副本核实其旧稿身份及与正式摘要的结论差异，不按独立论文计数。"
+        }
+      ]
+    },
+    {
+      "id": "hill-2025-race-to-bottom",
+      "collection": "foundations",
+      "title": "Race to the Bottom: Competition and Quality in Science",
+      "authors": [
+        "Ryan Hill",
+        "Carolyn Stein"
+      ],
+      "authors_complete": true,
+      "year": 2025,
+      "venue": "The Quarterly Journal of Economics",
+      "publication_type": "journal-research",
+      "publication_status": "published",
+      "doi": "10.1093/qje/qjaf010",
+      "url": "https://academic.oup.com/qje/article/140/2/1111/7997678",
+      "official_url": "https://academic.oup.com/qje/article/140/2/1111/7997678",
+      "tags": [
+        "institutions",
+        "reliability",
+        "knowledge-production"
+      ],
+      "summary_zh": "研究优先发表竞争是否使科研团队过早提交结果。作者建立项目进入与成熟时间选择模型，并用蛋白质结构数据库检验：事前潜力较高的项目更拥挤、完成更快，结构质量较低。与较少依赖发表优先权的结构基因组学团队比较，以及调查实验，为竞争机制提供补充证据；后续研究虽可改善结构，却需投入额外工作。",
+      "limitations_zh": "质量指标衡量结构解析的执行质量，不是论文重要性；实地结果依赖对项目难度及团队差异的处理，调查实验不能替代实际科研产出的随机分配。特定学科的竞争制度、修正成本和政策模拟不可直接推广到全部科学或 AI 辅助研究。",
+      "relevance_zh": "提供科研速度、竞争激励与可靠性之间的机制背景，可用来设计 AI 加速研究的评价问题；不能据此断言 AI 必然降低研究质量。",
+      "evidence_level": "selected-full-text",
+      "verified_on": "2026-10-08",
+      "verification_note_zh": "直接读取 Oxford 官方文章页，经出版商 CDN 返回可读原文，核验两位作者、140(2):1111–1185、2025 年和 DOI；阅读摘要、导言与结论，并与所存正式排印原文片段交叉核对。未通读所有实证表格和补充材料，未复现；本文与同作者的 Scooped! 是研究不同结果变量的两篇论文。",
+      "sources": [
+        {
+          "url": "https://academic.oup.com/qje/article/140/2/1111/7997678",
+          "role": "publication",
+          "note_zh": "Oxford 官方页列出 Journal Article、完整作者、2025 年卷期页码和 DOI；页面显示 2025-02-03 在线发表。"
+        },
+        {
+          "url": "https://academic.oup.com/qje/article/140/2/1111/7997678",
+          "role": "content",
+          "note_zh": "读取导言中项目潜力、质量定义、团队比较及调查实验说明，以及结论对质量修正和模型政策边界的讨论。"
+        }
+      ]
+    },
+    {
+      "id": "hill-2025-scooped-priority",
+      "collection": "foundations",
+      "title": "Scooped! Estimating Rewards for Priority in Science",
+      "authors": [
+        "Ryan Hill",
+        "Carolyn Stein"
+      ],
+      "authors_complete": true,
+      "year": 2025,
+      "venue": "Journal of Political Economy",
+      "publication_type": "journal-research",
+      "publication_status": "published",
+      "doi": "10.1086/733398",
+      "url": "https://www.journals.uchicago.edu/doi/10.1086/733398",
+      "official_url": "https://www.journals.uchicago.edu/doi/10.1086/733398",
+      "tags": [
+        "institutions",
+        "inequality",
+        "scholarly-communication"
+      ],
+      "summary_zh": "研究相近成果被他人抢先公开后，发表机会与学术认可如何变化。作者利用蛋白质结构数据库的存入、保密和公开时间，识别独立开展且接近完成的优先权竞赛。作者报告，落后团队进入顶级期刊的机会与引用较少，但奖励并非赢家通吃；既有声誉还影响认可分配，科学家对抢先风险与损失的判断比所测结果更悲观。",
+      "limitations_zh": "竞赛胜负并非随机，解释依赖可比团队和控制变量等识别条件；主样本着重已完成并存入数据库的晚期竞赛，难以代表更早放弃或从未留存的项目。结构生物学的优先权规则也不能直接外推到其他学科，更未估计最优奖励制度。",
+      "relevance_zh": "提供科研认可、声誉与竞争激励的背景，帮助区分 AI 提速带来的先发优势和真实知识贡献；本文没有 AI 采用干预。",
+      "evidence_level": "selected-full-text",
+      "verified_on": "2026-10-08",
+      "verification_note_zh": "直接读取芝加哥大学出版社官方原文，核验两位作者、JPE 133(3):793–845、2025 年和 DOI；阅读摘要、导言及数据代码声明，并与所存正式排印原文的结论核对。未通读全部实证分析或复现。期刊声明给出 Harvard Dataverse 复现包入口，因此保留该代码链接。",
+      "sources": [
+        {
+          "url": "https://www.journals.uchicago.edu/doi/10.1086/733398",
+          "role": "publication",
+          "note_zh": "期刊官方页核验题名、两位作者、133(3):793–845 (2025)、DOI 及 2025-01-07 在线发表信息。"
+        },
+        {
+          "url": "https://www.journals.uchicago.edu/doi/10.1086/733398",
+          "role": "content",
+          "note_zh": "导言说明竞赛构造、非随机胜负的识别限制、声誉差异与科学家调查；Data Availability 明确给出表图复现数据及代码 DOI。"
+        }
+      ],
+      "code_url": "https://doi.org/10.7910/DVN/TJ5VCW"
+    },
+    {
+      "id": "azoulay-2019-funeral-science",
+      "collection": "foundations",
+      "title": "Does Science Advance One Funeral at a Time?",
+      "authors": [
+        "Pierre Azoulay",
+        "Christian Fons-Rosen",
+        "Joshua S. Graff Zivin"
+      ],
+      "authors_complete": true,
+      "year": 2019,
+      "venue": "American Economic Review",
+      "publication_type": "journal-research",
+      "publication_status": "published",
+      "doi": "10.1257/aer.20161574",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20161574",
+      "official_url": "https://www.aeaweb.org/articles?id=10.1257/aer.20161574",
+      "tags": [
+        "institutions",
+        "knowledge-evolution",
+        "innovation"
+      ],
+      "summary_zh": "研究著名生命科学家的去世是否改变相关领域的进入与知识方向。作者用主题相似性界定子领域，并在匹配样本中比较去世事件前后的变化。作者报告，原合作者的论文流入减少，未曾合作的外部研究者进入增加；新增工作使用不同知识来源，较容易获得高引用，提示学术网络与领域领导者可能影响新思想进入。",
+      "limitations_zh": "证据来自生命科学中的精英研究者及其子领域，事件比较依赖匹配与趋势假设；死亡事件不能等同于退休或一般制度改革。引用代理也不能独立证明真理性或社会价值，作者明确不据此断定学术把关的净福利效果。",
+      "relevance_zh": "作为科研权威、领域进入和知识更新的机制背景，帮助分析 AI 是否改变外部研究者的进入机会；不将历史死亡事件的结果写成 AI 效应。",
+      "evidence_level": "selected-full-text",
+      "verified_on": "2026-10-08",
+      "verification_note_zh": "直接读取 AEA 官方页，核验三位作者、AER 109(8):2889–2920、2019 年和 DOI。官方 PDF 下载未成功；直接读取 PMC 作者稿的导言和结论，并核对所存相同作者稿的研究设计及外推限制。PMC 页面注明最终正式发表身份，作者稿不声称为出版社排印版；未复现。",
+      "sources": [
+        {
+          "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20161574",
+          "role": "publication",
+          "note_zh": "AEA 官方页面直接可读，核验完整作者、AER 109(8):2889–2920、2019 年及 DOI。"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6814193/",
+          "role": "content",
+          "note_zh": "PMC 公开作者稿注明正式版书目信息；读取导言中的匹配及差分设计、结论中的外部进入机制、生命科学外推及福利解释限制。"
         }
       ]
     }

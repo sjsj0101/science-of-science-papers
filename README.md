@@ -1,22 +1,22 @@
 <!-- Generated from data/papers.json by scripts/catalog.py; do not edit directly. -->
 # Science of Science · AI 与科研
 
-一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。关注研究者、团队、知识与制度层面的变化，把工具能力、实际采用、个体收益和科学整体进展分开讨论。
+一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。按研究对象与主要贡献区分 SoS 核心、元研究／理论与治理、技术背景与案例，将实际采用、个体收益和科学整体进展分别讨论。
 
-检索与核验截止：**2026-10-07**。当前收录年份：**2007–2026**。这是按问题组织的精选目录，不是系统综述或完整 venue-year 覆盖。
+检索与核验截止：**2026-10-08**。当前收录年份：**2007–2026**。这是按问题组织的精选目录，不是系统综述或完整 venue-year 覆盖。
 
 ## 范围与入口
 
-- AI / LLM 采用、论文写作、科研产出与机会差异的实证研究。
-- AI 与知识搜索、新颖性、研究主题范围、资助议题及学术评价的研究。
-- 同行评议、科研可靠性、资源分配与认知机制；明确区分实证、综述和观点。
-- 少量创新、团队及测量方法经典文献；科研自动化系统仅保留与评价制度直接相关的边界案例。
+- SoS 核心：AI / LLM 采用、论文写作、科研产出、创新方向、资助与学术评价的研究。
+- SoS 核心的经典与科研制度：团队、知识重组、竞争、优先权、人才配置与历史技术冲击；不作为 AI 效果的直接证据。
+- 交叉研究：元研究与科研可靠性、科学认知、研究构思框架及治理观点；明确区分实证、综述与规范建议。
+- 技术背景与案例：少量 AI for Science 技术综述与自动化科研系统，单列且不计入 SoS 核心。
 
 不纳入：仅展示某学科预测性能的 AI 应用；与科研生态问题无直接关系的通用 Agent 系统或排行榜；普通新闻报道；已撤回且数据有效性受质疑的结果。
 
 不为代表性历史背景设硬起始年；AI 主线优先选择 2022 年以来的工作。年份采用正式卷期年，尚未分配卷期时采用官方在线发表年；不用 DOI 字符串中的年份或机构入库日期推断发表年。预印本与正式版按同一研究去重。
 
-不限定固定期刊清单。主目录和背景仅收已核验正式发表的期刊或会议文章；会议主会、文章类型及版本限制在核验记录中说明。补充预印本与待核验候选单列。
+不限定固定期刊清单。除补充预印本外，各分层仅收已核验正式发表的期刊或会议文章；会议 track、社论、邀稿与特殊评审流程逐条说明。每轮文献检索实际查询 EDITH，并结合网络原始来源核验；预印本和待核验候选单列。
 
 入口：[研究问题与阅读方法](docs/reading-guide.md) · [主数据](data/papers.json) · [检索与候选记录](data/search-log.json) · [维护说明](CONTRIBUTING.md)
 
@@ -24,18 +24,22 @@
 
 | 分层 | 去重条目数 |
 | --- | ---: |
-| AI 与科研主目录 | 18 |
-| 经典与方法背景 | 8 |
+| SoS 核心 · AI 与科研 | 13 |
+| SoS 核心 · 经典与科研制度 | 13 |
+| 元研究、理论与治理 | 5 |
+| 技术背景与案例 | 2 |
 | 补充预印本 | 0 |
-| 合计 | 26 |
+| 合计 | 33 |
+
+SoS 核心合计 26 篇；交叉研究 5 篇；技术背景与案例 2 篇。分层是按研究对象与主要贡献作出的编辑判断，不是互斥的学科归属；经典文献仍属于 SoS，技术案例不计入核心。
 
 未收录候选单列：待核验 6 条，范围外 1 条，排除 2 条；不计入上表。
 
-已发表条目的类型：会议论文 1 篇、期刊研究 19 篇、观点 / 评论 3 篇、政策分析（含实证） 1 篇、综述 2 篇。观点与综述单独标注，不能当作实证结论。
+已发表条目的类型：会议论文 1 篇、期刊研究 24 篇、观点 / 评论 5 篇、政策分析（含实证） 1 篇、综述 2 篇。观点与综述单独标注，不能当作实证结论。
 
-内容阅读层次：摘要 6 篇、部分正文 / 图表 20 篇。阅读层次与发表身份核验是两个维度；搜索索引中的原文片段、访问失败与订阅限制逐条说明。**未独立复现实验。**
+内容阅读层次：摘要 7 篇、部分正文 / 图表 26 篇。阅读层次与发表身份核验是两个维度；搜索索引中的原文片段、访问失败与订阅限制逐条说明。**未独立复现实验。**
 
-主题标签允许交叉：AI 与科研 18、科研生产 14、测量与识别 12、创新 10、知识演化 6、学术传播 6、科研可靠性 4、机会与不平等 4、团队组织 3、同行评议 3、科研制度与资源 1。标签数不能相加作为论文总数。
+主题标签允许交叉：AI 与科研 20、科研生产 18、测量与识别 14、创新 12、知识演化 7、机会与不平等 7、学术传播 7、科研可靠性 6、科研制度与资源 6、团队组织 4、同行评议 4。标签数不能相加作为论文总数。
 
 ## 建议阅读路线
 
@@ -43,12 +47,13 @@
 
 ### 1. 建立问题地图
 
-从学科框架与技术综述出发，再区分认知机制与个人收益、集体探索范围。
+从 SoS 学科框架出发，对照社论、技术背景和认知机制，再读个人收益与集体探索范围的实证研究；不同类型分别解释。
 
 1. [Science of science](#fortunato-2018-science-of-science)（2018）
-2. [Scientific discovery in the age of artificial intelligence](#wang-2023-scientific-discovery-ai)（2023）
-3. [Artificial intelligence and illusions of understanding in scientific research](#messeri-2024-illusions-understanding)（2024）
-4. [Artificial intelligence tools expand scientists’ impact but contract science’s focus](#hao-2026-ai-impact-science-focus)（2026）
+2. [Inventing with Machines: Generative AI and the Evolving Landscape of IS Research](#gopal-2025-inventing-with-machines)（2025）
+3. [Scientific discovery in the age of artificial intelligence](#wang-2023-scientific-discovery-ai)（2023）
+4. [Artificial intelligence and illusions of understanding in scientific research](#messeri-2024-illusions-understanding)（2024）
+5. [Artificial intelligence tools expand scientists’ impact but contract science’s focus](#hao-2026-ai-impact-science-focus)（2026）
 
 ### 2. AI 采用与生产率：先读测量，再读识别
 
@@ -63,14 +68,15 @@
 
 ### 3. AI 是否改变创新方向
 
-先理解新颖性与颠覆性的不同指标，再阅读人机互补和跨领域的异质性证据。
+先理解新颖性与颠覆性的不同指标，再对照构思框架、人机互补设计和跨领域证据；构思建议不等于创新效果已被验证。
 
 1. [Atypical Combinations and Scientific Impact](#uzzi-2013-atypical-combinations)（2013）
 2. [Papers and patents are becoming less disruptive over time](#park-2023-less-disruptive)（2023）
 3. [The disruption index is biased by citation inflation](#petersen-2024-disruption-citation-inflation)（2024）
-4. [Accelerating science with human-aware artificial intelligence](#sourati-2023-human-aware-ai)（2023）
-5. [Artificial intelligence in science: An emerging general method of invention](#bianchini-2022-ai-emerging-method-invention)（2022）
-6. [AI in science: When and where it makes a difference](#bianchini-2026-ai-science-when-where)（2026）
+4. [Ideation with Generative AI—in Consumer Research and Beyond](#de-freitas-2025-ideation-generative-ai)（2025）
+5. [Accelerating science with human-aware artificial intelligence](#sourati-2023-human-aware-ai)（2023）
+6. [Artificial intelligence in science: An emerging general method of invention](#bianchini-2022-ai-emerging-method-invention)（2022）
+7. [AI in science: When and where it makes a difference](#bianchini-2026-ai-science-when-where)（2026）
 
 ### 4. 评议、可靠性与科研制度
 
@@ -83,7 +89,17 @@
 5. [Towards end-to-end automation of AI research](#lu-2026-end-to-end-ai-research)（2026）
 6. [Risks of AI scientists: prioritizing safeguarding over autonomy](#tang-2025-risks-ai-scientists)（2025）
 
-## AI 与科研主目录
+### 5. 科研激励、竞争与技术变迁
+
+用历史技术扩散、评价指标、优先权竞争与领域进入研究建立机制基线；这些论文属于 SoS，但不直接估计 AI 的效果。
+
+1. [The Impact of Information Technology on Academic Scientists' Productivity and Collaboration Patterns](#ding-2010-it-scientists-productivity)（2010）
+2. [Measuring Science: Performance Metrics and the Allocation of Talent](#hager-2024-measuring-science)（2024）
+3. [Scooped! Estimating Rewards for Priority in Science](#hill-2025-scooped-priority)（2025）
+4. [Race to the Bottom: Competition and Quality in Science](#hill-2025-race-to-bottom)（2025）
+5. [Does Science Advance One Funeral at a Time?](#azoulay-2019-funeral-science)（2019）
+
+## SoS 核心 · AI 与科研
 
 <a id="bianchini-2026-ai-science-when-where"></a>
 
@@ -139,33 +155,6 @@ Nature正式Article页核对4名作者、2026年1月14日发表、卷649页1237�
 - [publication](https://www.nature.com/articles/s41586-025-09922-y)：Nature正式出版页面；DOI中虽有2025，正式卷期与发表年均为2026。
 - [content](https://www.nature.com/articles/s41586-025-09922-y)：摘要和扩展图注支持个人职业与集体主题范围的主要结论及代理变量限制。
 - [content](https://fi.ee.tsinghua.edu.cn/public/publications/35f947be-f27c-11f0-b382-2aaffa21d846.pdf)：作者机构公开的Nature排版稿，读取首页和引言片段。
-
-</details>
-
-<a id="lu-2026-end-to-end-ai-research"></a>
-
-### Towards end-to-end automation of AI research
-
-**2026 · Nature · 期刊研究**
-
-Chris Lu; Cong Lu; Robert Tjarko Lange; Yutaro Yamada; Shengran Hu; Jakob Foerster; David Ha; Jeff Clune
-
-[论文](https://www.nature.com/articles/s41586-026-10265-5) · [正式来源](https://www.nature.com/articles/s41586-026-10265-5)
-
-文章将构思、代码实验、分析、写作与自动评议串为科研流程，并用计算实验及经主办方同意的workshop送审考察产出。作者报告部分生成稿达到该workshop评议门槛，同时讨论低质量产出、评审负担和科学诚信，是自动化科研的边界案例。
-
-**为什么读：**用单篇系统案例连接科研生产和评议制度，重点阅读人类筛选、外部评价与科研诚信限制，不将仓库扩成Agent排行榜。
-
-**限制：**送审稿经人工筛选且按预定程序撤回，达到workshop评议门槛不等于正式发表或主会水平；案例限于计算型机器学习研究，失败模式仍多。
-
-标签：AI 与科研 / 科研生产 / 同行评议 / 科研可靠性
-
-<details>
-<summary>核验记录 · 2026-10-07 · 部分正文 / 图表</summary>
-
-Nature开放原文核验2026年正式文章、八位作者、卷651页914–919及DOI；阅读工作流程、Human evaluation results、Limitations和部分Methods。旧The AI Scientist预印本按版本关系不重复收录。
-
-- [publication](https://www.nature.com/articles/s41586-026-10265-5)：Nature正式开放文章；正文明确人工筛选、workshop评议门槛、按协议撤回及未达主会水平。
 
 </details>
 
@@ -371,33 +360,6 @@ Chuang Tang; Shaobo (Kevin) Li; Suming Hu; Fue Zeng; Qianzhou Du
 
 </details>
 
-<a id="tang-2025-risks-ai-scientists"></a>
-
-### Risks of AI scientists: prioritizing safeguarding over autonomy
-
-**2025 · Nature Communications · 观点 / 评论**
-
-Xiangru Tang; Qiao Jin; Kunlun Zhu; Tongxin Yuan; Yichi Zhang; Wangchunshu Zhou; Meng Qu; Yilun Zhao; Jian Tang; Zhuosheng Zhang; Arman Cohan; Dov Greenbaum; Zhiyong Lu; Mark Gerstein
-
-[论文](https://www.nature.com/articles/s41467-025-63913-1) · [正式来源](https://www.nature.com/articles/s41467-025-63913-1)
-
-文章从使用者、智能体与外部环境的关系梳理AI科研系统风险，结合范围综述提出人类监管、智能体对齐和环境反馈的三部分保障框架。重点是如何组织监督、工具权限和责任，而非只追求系统自主能力，为科研治理提供问题清单。
-
-**为什么读：**为AI参与科研后的责任、监督与研究可靠性提供制度视角，可与自动化系统实证案例配对阅读。
-
-**限制：**这是观点与框架论文，作者未开发或测试针对现有AI科研系统的具体攻击；提出的保障措施不能视为已验证有效的统一治理方案。
-
-标签：AI 与科研 / 科研可靠性 / 科研生产
-
-<details>
-<summary>核验记录 · 2026-10-07 · 部分正文 / 图表</summary>
-
-Nature Communications开放原文核验Perspective类型、完整作者、2025年卷16文章8317及DOI；阅读摘要、引言框架与结尾局限声明，未复现实验。
-
-- [publication](https://www.nature.com/articles/s41467-025-63913-1)：2025-09-18正式Perspective；开放正文明确框架性质及未测试具体漏洞。
-
-</details>
-
 <a id="liang-2024-monitoring-ai-peer-reviews"></a>
 
 ### Monitoring AI-Modified Content at Scale: A Case Study on the Impact of ChatGPT on AI Conference Peer Reviews
@@ -423,33 +385,6 @@ PMLR官方页核验ICML 2024、卷235、页29575–29620与完整作者；该页
 
 - [publication](https://proceedings.mlr.press/v235/liang24b.html)：ICML 2024正式proceedings记录、作者列表与摘要。
 - [content](https://arxiv.org/html/2403.07183v3)：阅读作者版本讨论及Limitations，辅助辨别语料估计和个体检测的边界；不是发表证明。
-
-</details>
-
-<a id="messeri-2024-illusions-understanding"></a>
-
-### Artificial intelligence and illusions of understanding in scientific research
-
-**2024 · Nature · 观点 / 评论**
-
-Lisa Messeri; M. J. Crockett
-
-[论文](https://www.nature.com/articles/s41586-024-07146-0) · [正式来源](https://www.nature.com/articles/s41586-024-07146-0)
-
-文章从科学家对人工智能的期待出发，分析生产率与客观性承诺为何具有吸引力。作者提出，工具也可能放大理解错觉，使某些方法、问题和观点占据优势，形成科研单一化，并据此讨论负责任的知识生产。
-
-**为什么读：**把研究重点从模型能力转向科学共同体如何理解、选择和评价知识，直接连接AI与Science of Science。
-
-**限制：**这是认知与科学技术研究取向的观点框架，提出的是风险机制，并未识别人工智能采用对创新的总体因果效应；本次仅阅读官方摘要。
-
-标签：AI 与科研 / 科研可靠性 / 科研生产
-
-<details>
-<summary>核验记录 · 2026-10-07 · 摘要</summary>
-
-Nature原页核验Perspective类型、两位作者、Nature 627卷及DOI；官方摘要可读，正文订阅受限，未按全文阅读标记。
-
-- [publication](https://www.nature.com/articles/s41586-024-07146-0)：Nature 627, 49–58 (2024)，官方发表身份与摘要。
 
 </details>
 
@@ -482,36 +417,6 @@ Science页面403；直接阅读作者所在MIT机构保存的Science三页排印
 
 </details>
 
-<a id="kapoor-2023-leakage"></a>
-
-### Leakage and the reproducibility crisis in machine-learning-based science
-
-**2023 · Patterns · 期刊研究**
-
-Sayash Kapoor; Arvind Narayanan
-
-[论文](https://doi.org/10.1016/j.patter.2023.100804) · [正式来源](https://www.cell.com/patterns/fulltext/S2666-3899(23)00159-9)
-
-整理跨学科机器学习研究中的数据泄漏类型，并以战争预测复核展示评估流程如何夸大模型优势。作者提出模型信息表，要求把科学主张、目标人群与训练测试划分连在一起报告。
-
-**为什么读：**评估 AI 是否促进科研时，需要检查证据是否可靠，而不仅比较论文数量或模型分数。
-
-**限制：**所汇总案例不是全部机器学习科学研究的随机样本，不能据此估计总体错误比例；特定任务的复核也不意味着复杂模型普遍无效。
-
-标签：AI 与科研 / 科研可靠性 / 测量与识别
-
-<details>
-<summary>核验记录 · 2026-10-07 · 部分正文 / 图表</summary>
-
-出版商页面直接访问失败，但ScienceDirect及Cell DOI搜索索引返回正式卷期、摘要和泄漏分类正文；NSF存档索引返回非系统性元综述的限制。交叉核对作者机构记录，未运行原实验。
-
-- [publication](https://www.sciencedirect.com/science/article/am/pii/S2666389923001599)：官方出版页面索引含Patterns 4(9),100804 (2023)、DOI、摘要与数据声明；直接访问失败。
-- [content](https://doi.org/10.1016/j.patter.2023.100804)：出版商索引可读泄漏分类、评估人群及模型信息表正文片段。
-- [content](https://par.nsf.gov/servlets/purl/10513990)：正式排印版索引说明检索不是来自一致样本的系统性元综述；直接打开502。
-- [metadata](https://collaborate.princeton.edu/en/publications/leakage-and-the-reproducibility-crisis-in-machine-learning-based-/)：作者机构记录交叉核对姓名、正式题名和出版年。
-
-</details>
-
 <a id="sourati-2023-human-aware-ai"></a>
 
 ### Accelerating science with human-aware artificial intelligence
@@ -537,34 +442,6 @@ Jamshid Sourati; James A. Evans
 
 - [publication](https://www.nature.com/articles/s41562-023-01648-z)：官方Article页面：2023年、两位作者、摘要、扩展图及数据代码声明。
 - [content](https://www.nature.com/articles/s41562-023-01648-z)：摘要及Extended Data关于历史发现预测、专家密度和理论评分的说明。
-
-</details>
-
-<a id="wang-2023-scientific-discovery-ai"></a>
-
-### Scientific discovery in the age of artificial intelligence
-
-**2023 · Nature · 综述**
-
-Hanchen Wang; Tianfan Fu; Yuanqi Du; Wenhao Gao; Kexin Huang; Ziming Liu; Payal Chandak; Shengchao Liu; Peter Van Katwyk; Andreea Deac; Anima Anandkumar; Karianne Bergen; Carla P. Gomes; Shirley Ho; Pushmeet Kohli; Joan Lasenby; Jure Leskovec; Tie-Yan Liu; Arjun Manrai; Debora Marks; Bharath Ramsundar; Le Song; Jimeng Sun; Jian Tang; Petar Veličković; Max Welling; Linfeng Zhang; Connor W. Coley; Yoshua Bengio; Marinka Zitnik
-
-[论文](https://www.nature.com/articles/s41586-023-06221-2) · [正式来源](https://www.nature.com/articles/s41586-023-06221-2)
-
-综述把人工智能放入假设生成、实验设计和数据解释等科研环节，梳理自监督学习、几何深度学习与生成模型的作用。作者认为这些方法能够扩展研究手段，同时强调数据质量、治理及科学理解仍是跨学科采用的关键问题。
-
-**为什么读：**作为技术能力与科研流程的入门地图，为后续讨论科研组织、认知和制度影响提供共同背景。
-
-**限制：**属于方法与应用综述，不能证明采用人工智能会普遍提高科研质量。本次阅读官方摘要与书目信息，未阅读全文或逐一核验案例效果。
-
-标签：AI 与科研 / 科研生产 / 测量与识别
-
-<details>
-<summary>核验记录 · 2026-10-07 · 摘要</summary>
-
-Nature原页核验Review类型、完整作者、2023年卷期与DOI；正式题名并非检索线索中的Artificial intelligence and the changing landscape of science。正文订阅受限。另核验2023年出版更正，内容仅为Petar Veličković的单位。
-
-- [publication](https://www.nature.com/articles/s41586-023-06221-2)：Nature 620, 47–60 (2023)，官方书目信息与摘要。
-- [metadata](https://www.nature.com/articles/s41586-023-06559-7)：2023-08-30出版更正，修正作者单位，非独立研究条目。
 
 </details>
 
@@ -597,7 +474,92 @@ Stefano Bianchini; Moritz Müller; Pierre Pelletier
 </details>
 
 
-## 经典与方法背景
+## SoS 核心 · 经典与科研制度
+
+<a id="hill-2025-race-to-bottom"></a>
+
+### Race to the Bottom: Competition and Quality in Science
+
+**2025 · The Quarterly Journal of Economics · 期刊研究**
+
+Ryan Hill; Carolyn Stein
+
+[论文](https://academic.oup.com/qje/article/140/2/1111/7997678) · [正式来源](https://academic.oup.com/qje/article/140/2/1111/7997678)
+
+研究优先发表竞争是否使科研团队过早提交结果。作者建立项目进入与成熟时间选择模型，并用蛋白质结构数据库检验：事前潜力较高的项目更拥挤、完成更快，结构质量较低。与较少依赖发表优先权的结构基因组学团队比较，以及调查实验，为竞争机制提供补充证据；后续研究虽可改善结构，却需投入额外工作。
+
+**为什么读：**提供科研速度、竞争激励与可靠性之间的机制背景，可用来设计 AI 加速研究的评价问题；不能据此断言 AI 必然降低研究质量。
+
+**限制：**质量指标衡量结构解析的执行质量，不是论文重要性；实地结果依赖对项目难度及团队差异的处理，调查实验不能替代实际科研产出的随机分配。特定学科的竞争制度、修正成本和政策模拟不可直接推广到全部科学或 AI 辅助研究。
+
+标签：科研制度与资源 / 科研可靠性 / 科研生产
+
+<details>
+<summary>核验记录 · 2026-10-08 · 部分正文 / 图表</summary>
+
+直接读取 Oxford 官方文章页，经出版商 CDN 返回可读原文，核验两位作者、140(2):1111–1185、2025 年和 DOI；阅读摘要、导言与结论，并与所存正式排印原文片段交叉核对。未通读所有实证表格和补充材料，未复现；本文与同作者的 Scooped! 是研究不同结果变量的两篇论文。
+
+- [publication](https://academic.oup.com/qje/article/140/2/1111/7997678)：Oxford 官方页列出 Journal Article、完整作者、2025 年卷期页码和 DOI；页面显示 2025-02-03 在线发表。
+- [content](https://academic.oup.com/qje/article/140/2/1111/7997678)：读取导言中项目潜力、质量定义、团队比较及调查实验说明，以及结论对质量修正和模型政策边界的讨论。
+
+</details>
+
+<a id="hill-2025-scooped-priority"></a>
+
+### Scooped! Estimating Rewards for Priority in Science
+
+**2025 · Journal of Political Economy · 期刊研究**
+
+Ryan Hill; Carolyn Stein
+
+[论文](https://www.journals.uchicago.edu/doi/10.1086/733398) · [正式来源](https://www.journals.uchicago.edu/doi/10.1086/733398) · [代码](https://doi.org/10.7910/DVN/TJ5VCW)
+
+研究相近成果被他人抢先公开后，发表机会与学术认可如何变化。作者利用蛋白质结构数据库的存入、保密和公开时间，识别独立开展且接近完成的优先权竞赛。作者报告，落后团队进入顶级期刊的机会与引用较少，但奖励并非赢家通吃；既有声誉还影响认可分配，科学家对抢先风险与损失的判断比所测结果更悲观。
+
+**为什么读：**提供科研认可、声誉与竞争激励的背景，帮助区分 AI 提速带来的先发优势和真实知识贡献；本文没有 AI 采用干预。
+
+**限制：**竞赛胜负并非随机，解释依赖可比团队和控制变量等识别条件；主样本着重已完成并存入数据库的晚期竞赛，难以代表更早放弃或从未留存的项目。结构生物学的优先权规则也不能直接外推到其他学科，更未估计最优奖励制度。
+
+标签：科研制度与资源 / 机会与不平等 / 学术传播
+
+<details>
+<summary>核验记录 · 2026-10-08 · 部分正文 / 图表</summary>
+
+直接读取芝加哥大学出版社官方原文，核验两位作者、JPE 133(3):793–845、2025 年和 DOI；阅读摘要、导言及数据代码声明，并与所存正式排印原文的结论核对。未通读全部实证分析或复现。期刊声明给出 Harvard Dataverse 复现包入口，因此保留该代码链接。
+
+- [publication](https://www.journals.uchicago.edu/doi/10.1086/733398)：期刊官方页核验题名、两位作者、133(3):793–845 (2025)、DOI 及 2025-01-07 在线发表信息。
+- [content](https://www.journals.uchicago.edu/doi/10.1086/733398)：导言说明竞赛构造、非随机胜负的识别限制、声誉差异与科学家调查；Data Availability 明确给出表图复现数据及代码 DOI。
+
+</details>
+
+<a id="hager-2024-measuring-science"></a>
+
+### Measuring Science: Performance Metrics and the Allocation of Talent
+
+**2024 · American Economic Review · 期刊研究**
+
+Sebastian Hager; Carlo Schwarz; Fabian Waldinger
+
+[论文](https://www.aeaweb.org/articles?id=10.1257/aer.20230515) · [正式来源](https://www.aeaweb.org/articles?id=10.1257/aer.20230515)
+
+研究引用指标的出现如何改变科研人才配置。作者利用早期引文数据库对期刊和年份的技术性覆盖差异，比较可见与不可见引用对职业结果的预测作用。正式版报告，指标降低跨地域和知识领域的信息摩擦，增强科学家与院系的同类匹配；低排名院系中的高被引者及少数群体获益更多，晋升与 NSF 资助分配也受到影响。
+
+**为什么读：**作为科研评价与机会分配的历史机制背景，帮助提出 AI 评价工具会降低信息摩擦还是放大累积优势的问题；本文本身不估计 AI 效应。
+
+**限制：**早期引文索引带来的信息变化具有特定历史背景，不能直接代表当代算法评价或 AI 的效果；引用和职业匹配也不等于科研质量或社会福利改善。本次正式版内容证据限于摘要，未检查完整识别分析或复现。
+
+标签：科研制度与资源 / 机会与不平等 / 测量与识别
+
+<details>
+<summary>核验记录 · 2026-10-08 · 摘要</summary>
+
+直接读取 AEA 官方页，核验三位作者、AER 114(12):4052–4090、2024 年和 DOI；正式 PDF 入口要求订阅。另读所存 2023 讨论稿的导言与结论进行版本比对：旧稿称少数群体未额外受益，正式摘要改为获益更多，并加入 NSF 资助结果。因此短评依正式摘要，旧稿不作为正式版结论证据，证据级别仍为摘要。
+
+- [publication](https://www.aeaweb.org/articles?id=10.1257/aer.20230515)：AEA 官方文章页直接可读，列出完整作者、2024 年卷期页码与 DOI。
+- [content](https://www.aeaweb.org/articles?id=10.1257/aer.20230515)：正式摘要支持可见引用识别思路、人才匹配、少数群体、晋升和 NSF 资助的概括；付费正文未读取。
+- [metadata](https://hdl.handle.net/10419/282146)：所读 2023 年 Discussion Paper No.455 注明的公开永久入口，本次直接打开失败；已从原文副本核实其旧稿身份及与正式摘要的结论差异，不按独立论文计数。
+
+</details>
 
 <a id="petersen-2024-disruption-citation-inflation"></a>
 
@@ -684,6 +646,34 @@ Johan S. G. Chu; James A. Evans
 - [publication](https://pmc.ncbi.nlm.nih.gov/articles/PMC8522281/)：检索呈现 PNAS 正式原文的作者、118(41):e2021636118、2021 年、DOI 及 Published by PNAS 声明；直接打开遇验证页。
 - [content](https://knowledge.uchicago.edu/records/x681q-nn777)：已直接读取作者机构库的完整摘要、作者、期刊及 DOI；机构库页面自身更新日期不作为论文发表日期。
 - [publication](https://www.pnas.org/doi/10.1073/pnas.2021636118)：期刊规范入口；本次直接打开重定向到 cookieAbsent，未取得正文。
+
+</details>
+
+<a id="azoulay-2019-funeral-science"></a>
+
+### Does Science Advance One Funeral at a Time?
+
+**2019 · American Economic Review · 期刊研究**
+
+Pierre Azoulay; Christian Fons-Rosen; Joshua S. Graff Zivin
+
+[论文](https://www.aeaweb.org/articles?id=10.1257/aer.20161574) · [正式来源](https://www.aeaweb.org/articles?id=10.1257/aer.20161574)
+
+研究著名生命科学家的去世是否改变相关领域的进入与知识方向。作者用主题相似性界定子领域，并在匹配样本中比较去世事件前后的变化。作者报告，原合作者的论文流入减少，未曾合作的外部研究者进入增加；新增工作使用不同知识来源，较容易获得高引用，提示学术网络与领域领导者可能影响新思想进入。
+
+**为什么读：**作为科研权威、领域进入和知识更新的机制背景，帮助分析 AI 是否改变外部研究者的进入机会；不将历史死亡事件的结果写成 AI 效应。
+
+**限制：**证据来自生命科学中的精英研究者及其子领域，事件比较依赖匹配与趋势假设；死亡事件不能等同于退休或一般制度改革。引用代理也不能独立证明真理性或社会价值，作者明确不据此断定学术把关的净福利效果。
+
+标签：科研制度与资源 / 知识演化 / 创新
+
+<details>
+<summary>核验记录 · 2026-10-08 · 部分正文 / 图表</summary>
+
+直接读取 AEA 官方页，核验三位作者、AER 109(8):2889–2920、2019 年和 DOI。官方 PDF 下载未成功；直接读取 PMC 作者稿的导言和结论，并核对所存相同作者稿的研究设计及外推限制。PMC 页面注明最终正式发表身份，作者稿不声称为出版社排印版；未复现。
+
+- [publication](https://www.aeaweb.org/articles?id=10.1257/aer.20161574)：AEA 官方页面直接可读，核验完整作者、AER 109(8):2889–2920、2019 年及 DOI。
+- [content](https://pmc.ncbi.nlm.nih.gov/articles/PMC6814193/)：PMC 公开作者稿注明正式版书目信息；读取导言中的匹配及差分设计、结论中的外部进入机制、生命科学外推及福利解释限制。
 
 </details>
 
@@ -800,6 +790,34 @@ Brian Uzzi; Satyam Mukherjee; Michael Stringer; Ben Jones
 
 </details>
 
+<a id="ding-2010-it-scientists-productivity"></a>
+
+### The Impact of Information Technology on Academic Scientists' Productivity and Collaboration Patterns
+
+**2010 · Management Science · 期刊研究**
+
+Waverly W. Ding; Sharon G. Levin; Paula E. Stephan; Anne E. Winkler
+
+[论文](https://pubsonline.informs.org/doi/10.1287/mnsc.1100.1195) · [正式来源](https://pubsonline.informs.org/doi/10.1287/mnsc.1100.1195)
+
+把美国高校接入 BITNET 与 DNS 的时间同生命科学家的职业、发表和合著记录相连，估计信息技术可用性与论文产出及新增合作者的关系。作者报告 BITNET 接入后这些指标总体改善，女性与非精英机构研究者的收益更明显。
+
+**为什么读：**为比较科研技术扩散的生产率、合作与机会差异提供历史基准，并提醒区分基础设施可得性、实际采用和最终科学贡献。
+
+**限制：**机构接入时间不能确认个人何时实际使用技术；观察性纵向估计仍依赖控制变量与识别假设。论文数和新增合作者不等于研究质量，早期美国生命科学网络的结果不能直接外推到生成式 AI。
+
+标签：科研生产 / 团队组织 / 机会与不平等 / 测量与识别
+
+<details>
+<summary>核验记录 · 2026-10-08 · 部分正文 / 图表</summary>
+
+直接读取 INFORMS 官方摘要与书目信息，核对四位作者、DOI 和 Management Science 56(9):1439–1461 (2010)；读取作者机构网站保存的正式排印 PDF 结论与限制，并从 EDITH 原文核对方法段落。未复算模型或通读全部附表；按正式卷期年归档。
+
+- [publication](https://pubsonline.informs.org/doi/10.1287/mnsc.1100.1195)：正式页面核对作者、2010 年卷期页码、接收与在线发表信息及 DOI，并读取摘要。
+- [content](https://bpb-us-w2.wpmucdn.com/sites.gsu.edu/dist/c/581/files/2014/07/The-Impact-of-Information-Technology-15asd66.pdf)：Georgia State University 作者网站保存的 Management Science 排印版；读取第 7 节结论及关于机构接入与个人实际使用差异的限制。
+
+</details>
+
 <a id="wuchty-2007-dominance-teams"></a>
 
 ### The Increasing Dominance of Teams in Production of Knowledge
@@ -825,6 +843,208 @@ Science直接页面访问失败；作者所在大学保存的Science正式排印
 
 - [publication](https://www.kellogg.northwestern.edu/faculty/uzzi/ftp/Teams.PrintVersion.pdf)：作者大学保存的Science正式排印原文：316, 1036–1039，2007-05-18；含DOI和完整作者。
 - [metadata](https://pubmed.ncbi.nlm.nih.gov/17431139/)：NLM记录确认卷期年、在线日期、DOI与三位作者。
+
+</details>
+
+
+## 元研究、理论与治理
+
+<a id="de-freitas-2025-ideation-generative-ai"></a>
+
+### Ideation with Generative AI—in Consumer Research and Beyond
+
+**2025 · Journal of Consumer Research · 观点 / 评论**
+
+Julian De Freitas; Gideon Nave; Stefano Puntoni
+
+[论文](https://academic.oup.com/jcr/article/52/1/18/8132290) · [正式来源](https://academic.oup.com/jcr/article/52/1/18/8132290)
+
+作者借助人类创造力文献，将模型的生成效率与语义覆盖范围分别类比持续探索和灵活联想，并区分设计者、写作者、访谈者与扮演者四种构思角色。框架强调让模型激发人的问题重构，而不仅直接生成更多消费研究点子。
+
+**为什么读：**为研究 AI 如何影响科研构思、人机分工和新颖性提供跨学科框架；消费研究语境中的方法建议与科学学的总体创新证据分别归类。
+
+**限制：**这是受邀概念文章，经过加速审阅与修改，未走期刊常规同行评议；不是对科研创新效果的新因果检验。所援引构思研究常由非专家生成或评价点子，不能直接外推到专家研究、重大突破或长期科学进展。
+
+标签：AI 与科研 / 创新 / 科研生产
+
+<details>
+<summary>核验记录 · 2026-10-08 · 部分正文 / 图表</summary>
+
+OUP 官方卷期目录及文章索引核对 52(1):18–31、2025 年和 DOI；文章直接打开转入简版。读取 HBS 作者机构保存的正式排印 PDF 首页与正文片段，核对三位作者、受邀及非常规评议声明和框架边界，并对照 EDITH 原文。未通读全文或复核引用研究。
+
+- [publication](https://academic.oup.com/jcr/issue/52/1)：官方 2025 年 6 月卷期目录列入 Gen AI and Consumer Research 专栏，确认卷期、页码与 DOI。
+- [metadata](https://academic.oup.com/jcr/article-abstract/52/1/18/8132290)：原始出版页面可读索引列出三位作者、2025 年 5 月 15 日在线发表及摘要；直接打开转入简版页面。
+- [content](https://www.hbs.edu/ris/Publication%20Files/Ideation%20with%20Generative%20AI%20%28Published%29_75dccafd-9c43-46f5-9f56-06a11da7a7cf.pdf)：作者机构保存的正式排印 PDF，读取首页审阅流程声明、创造力类比和非专家证据外推限制等段落。
+
+</details>
+
+<a id="gopal-2025-inventing-with-machines"></a>
+
+### Inventing with Machines: Generative AI and the Evolving Landscape of IS Research
+
+**2025 · Information Systems Research · 观点 / 评论**
+
+Ram D. Gopal; Jingjing Li; Kai Riemer; Suprateek Sarker; Param Vir Singh; Anjana Susarla; Martin Bichler; Jason Bennett Thatcher
+
+[论文](https://pubsonline.informs.org/doi/full/10.1287/isre.2025.editorial.v36.n4) · [正式来源](https://pubsonline.informs.org/doi/full/10.1287/isre.2025.editorial.v36.n4)
+
+这篇社论从信息系统研究的社会技术视角讨论生成式 AI 如何进入构思、分析与评议。作者结合自身试用经验，区分文字编辑、研究助手与更高自主协作层级，主张通过披露、来源追踪和结果核验保留研究者对理论与解释的责任。
+
+**为什么读：**提供 AI 改变学科研究流程和学术规范的具体参照，放入跨学科关联；它为科学学提出治理问题，不能替代对科研生态变化的直接测量。
+
+**限制：**属于社论与实践框架，自身试用和引用案例不构成科研生产率或治理效果的系统性因果证据；建议主要立足信息系统学科，适用性受研究方法、工具能力与制度环境影响。
+
+标签：AI 与科研 / 科研生产 / 科研制度与资源 / 科研可靠性 / 同行评议
+
+<details>
+<summary>核验记录 · 2026-10-08 · 部分正文 / 图表</summary>
+
+直接读取 INFORMS 官方正文页，核对八位作者、DOI、2025 年及 36(4):1949–1967；正文自称 editorial，映射为 perspective。阅读摘要、导言、责任框架及部分实践与制度讨论，并核对 EDITH 原文摘录；未通读全部参考文献或复核所引案例。
+
+- [publication](https://pubsonline.informs.org/doi/full/10.1287/isre.2025.editorial.v36.n4)：INFORMS 正式页面列出完整作者、2025 年卷期页码与 DOI；正文明确标为 editorial。
+- [content](https://pubsonline.informs.org/doi/full/10.1287/isre.2025.editorial.v36.n4)：读取导言中的三级使用框架、披露/来源/核验原则及部分科研实践和制度讨论。
+
+</details>
+
+<a id="tang-2025-risks-ai-scientists"></a>
+
+### Risks of AI scientists: prioritizing safeguarding over autonomy
+
+**2025 · Nature Communications · 观点 / 评论**
+
+Xiangru Tang; Qiao Jin; Kunlun Zhu; Tongxin Yuan; Yichi Zhang; Wangchunshu Zhou; Meng Qu; Yilun Zhao; Jian Tang; Zhuosheng Zhang; Arman Cohan; Dov Greenbaum; Zhiyong Lu; Mark Gerstein
+
+[论文](https://www.nature.com/articles/s41467-025-63913-1) · [正式来源](https://www.nature.com/articles/s41467-025-63913-1)
+
+文章从使用者、智能体与外部环境的关系梳理AI科研系统风险，结合范围综述提出人类监管、智能体对齐和环境反馈的三部分保障框架。重点是如何组织监督、工具权限和责任，而非只追求系统自主能力，为科研治理提供问题清单。
+
+**为什么读：**为AI参与科研后的责任、监督与研究可靠性提供制度视角，可与自动化系统实证案例配对阅读。
+
+**限制：**这是观点与框架论文，作者未开发或测试针对现有AI科研系统的具体攻击；提出的保障措施不能视为已验证有效的统一治理方案。
+
+标签：AI 与科研 / 科研可靠性 / 科研生产
+
+<details>
+<summary>核验记录 · 2026-10-07 · 部分正文 / 图表</summary>
+
+Nature Communications开放原文核验Perspective类型、完整作者、2025年卷16文章8317及DOI；阅读摘要、引言框架与结尾局限声明，未复现实验。
+
+- [publication](https://www.nature.com/articles/s41467-025-63913-1)：2025-09-18正式Perspective；开放正文明确框架性质及未测试具体漏洞。
+
+</details>
+
+<a id="messeri-2024-illusions-understanding"></a>
+
+### Artificial intelligence and illusions of understanding in scientific research
+
+**2024 · Nature · 观点 / 评论**
+
+Lisa Messeri; M. J. Crockett
+
+[论文](https://www.nature.com/articles/s41586-024-07146-0) · [正式来源](https://www.nature.com/articles/s41586-024-07146-0)
+
+文章从科学家对人工智能的期待出发，分析生产率与客观性承诺为何具有吸引力。作者提出，工具也可能放大理解错觉，使某些方法、问题和观点占据优势，形成科研单一化，并据此讨论负责任的知识生产。
+
+**为什么读：**把研究重点从模型能力转向科学共同体如何理解、选择和评价知识，直接连接AI与Science of Science。
+
+**限制：**这是认知与科学技术研究取向的观点框架，提出的是风险机制，并未识别人工智能采用对创新的总体因果效应；本次仅阅读官方摘要。
+
+标签：AI 与科研 / 科研可靠性 / 科研生产
+
+<details>
+<summary>核验记录 · 2026-10-07 · 摘要</summary>
+
+Nature原页核验Perspective类型、两位作者、Nature 627卷及DOI；官方摘要可读，正文订阅受限，未按全文阅读标记。
+
+- [publication](https://www.nature.com/articles/s41586-024-07146-0)：Nature 627, 49–58 (2024)，官方发表身份与摘要。
+
+</details>
+
+<a id="kapoor-2023-leakage"></a>
+
+### Leakage and the reproducibility crisis in machine-learning-based science
+
+**2023 · Patterns · 期刊研究**
+
+Sayash Kapoor; Arvind Narayanan
+
+[论文](https://doi.org/10.1016/j.patter.2023.100804) · [正式来源](https://www.cell.com/patterns/fulltext/S2666-3899(23)00159-9)
+
+整理跨学科机器学习研究中的数据泄漏类型，并以战争预测复核展示评估流程如何夸大模型优势。作者提出模型信息表，要求把科学主张、目标人群与训练测试划分连在一起报告。
+
+**为什么读：**评估 AI 是否促进科研时，需要检查证据是否可靠，而不仅比较论文数量或模型分数。
+
+**限制：**所汇总案例不是全部机器学习科学研究的随机样本，不能据此估计总体错误比例；特定任务的复核也不意味着复杂模型普遍无效。
+
+标签：AI 与科研 / 科研可靠性 / 测量与识别
+
+<details>
+<summary>核验记录 · 2026-10-07 · 部分正文 / 图表</summary>
+
+出版商页面直接访问失败，但ScienceDirect及Cell DOI搜索索引返回正式卷期、摘要和泄漏分类正文；NSF存档索引返回非系统性元综述的限制。交叉核对作者机构记录，未运行原实验。
+
+- [publication](https://www.sciencedirect.com/science/article/am/pii/S2666389923001599)：官方出版页面索引含Patterns 4(9),100804 (2023)、DOI、摘要与数据声明；直接访问失败。
+- [content](https://doi.org/10.1016/j.patter.2023.100804)：出版商索引可读泄漏分类、评估人群及模型信息表正文片段。
+- [content](https://par.nsf.gov/servlets/purl/10513990)：正式排印版索引说明检索不是来自一致样本的系统性元综述；直接打开502。
+- [metadata](https://collaborate.princeton.edu/en/publications/leakage-and-the-reproducibility-crisis-in-machine-learning-based-/)：作者机构记录交叉核对姓名、正式题名和出版年。
+
+</details>
+
+
+## 技术背景与案例
+
+<a id="lu-2026-end-to-end-ai-research"></a>
+
+### Towards end-to-end automation of AI research
+
+**2026 · Nature · 期刊研究**
+
+Chris Lu; Cong Lu; Robert Tjarko Lange; Yutaro Yamada; Shengran Hu; Jakob Foerster; David Ha; Jeff Clune
+
+[论文](https://www.nature.com/articles/s41586-026-10265-5) · [正式来源](https://www.nature.com/articles/s41586-026-10265-5)
+
+文章将构思、代码实验、分析、写作与自动评议串为科研流程，并用计算实验及经主办方同意的workshop送审考察产出。作者报告部分生成稿达到该workshop评议门槛，同时讨论低质量产出、评审负担和科学诚信，是自动化科研的边界案例。
+
+**为什么读：**用单篇系统案例连接科研生产和评议制度，重点阅读人类筛选、外部评价与科研诚信限制，不将仓库扩成Agent排行榜。
+
+**限制：**送审稿经人工筛选且按预定程序撤回，达到workshop评议门槛不等于正式发表或主会水平；案例限于计算型机器学习研究，失败模式仍多。
+
+标签：AI 与科研 / 科研生产 / 同行评议 / 科研可靠性
+
+<details>
+<summary>核验记录 · 2026-10-07 · 部分正文 / 图表</summary>
+
+Nature开放原文核验2026年正式文章、八位作者、卷651页914–919及DOI；阅读工作流程、Human evaluation results、Limitations和部分Methods。旧The AI Scientist预印本按版本关系不重复收录。
+
+- [publication](https://www.nature.com/articles/s41586-026-10265-5)：Nature正式开放文章；正文明确人工筛选、workshop评议门槛、按协议撤回及未达主会水平。
+
+</details>
+
+<a id="wang-2023-scientific-discovery-ai"></a>
+
+### Scientific discovery in the age of artificial intelligence
+
+**2023 · Nature · 综述**
+
+Hanchen Wang; Tianfan Fu; Yuanqi Du; Wenhao Gao; Kexin Huang; Ziming Liu; Payal Chandak; Shengchao Liu; Peter Van Katwyk; Andreea Deac; Anima Anandkumar; Karianne Bergen; Carla P. Gomes; Shirley Ho; Pushmeet Kohli; Joan Lasenby; Jure Leskovec; Tie-Yan Liu; Arjun Manrai; Debora Marks; Bharath Ramsundar; Le Song; Jimeng Sun; Jian Tang; Petar Veličković; Max Welling; Linfeng Zhang; Connor W. Coley; Yoshua Bengio; Marinka Zitnik
+
+[论文](https://www.nature.com/articles/s41586-023-06221-2) · [正式来源](https://www.nature.com/articles/s41586-023-06221-2)
+
+综述把人工智能放入假设生成、实验设计和数据解释等科研环节，梳理自监督学习、几何深度学习与生成模型的作用。作者认为这些方法能够扩展研究手段，同时强调数据质量、治理及科学理解仍是跨学科采用的关键问题。
+
+**为什么读：**作为技术能力与科研流程的入门地图，为后续讨论科研组织、认知和制度影响提供共同背景。
+
+**限制：**属于方法与应用综述，不能证明采用人工智能会普遍提高科研质量。本次阅读官方摘要与书目信息，未阅读全文或逐一核验案例效果。
+
+标签：AI 与科研 / 科研生产 / 测量与识别
+
+<details>
+<summary>核验记录 · 2026-10-07 · 摘要</summary>
+
+Nature原页核验Review类型、完整作者、2023年卷期与DOI；正式题名并非检索线索中的Artificial intelligence and the changing landscape of science。正文订阅受限。另核验2023年出版更正，内容仅为Petar Veličković的单位。
+
+- [publication](https://www.nature.com/articles/s41586-023-06221-2)：Nature 620, 47–60 (2023)，官方书目信息与摘要。
+- [metadata](https://www.nature.com/articles/s41586-023-06559-7)：2023-08-30出版更正，修正作者单位，非独立研究条目。
 
 </details>
 

@@ -2,6 +2,8 @@
 
 这份导读把 AI 与科研的问题分成工具、研究者、知识和制度四个层次。下面的组织方式是编辑框架；各论文的结论仍以其数据、研究设计及核验说明为边界。完整书目和来源见 [README](../README.md)。
 
+目录按主要贡献区分 SoS 核心、元研究／理论与治理、技术背景与案例。核心同时包含 AI 相关研究和经典科研机制研究；技术综述与自动化系统用于理解工具能力，单独计数。阅读路线可以跨层，但不能把系统表现、理论框架与现实科研效果视为同一种证据。
+
 ## 先区分问题与分析单位
 
 | 层次 | 核心问题 | 可观察结果 | 常见解释限制 |
@@ -12,6 +14,8 @@
 | 制度与生态 | 如何资助、评审和验证？ | 资助方向、反馈质量、错误、资源可及性 | 短期局部干预不等于长期制度效果 |
 
 [Fortunato 等的领域综述](../README.md#fortunato-2018-science-of-science)提供整体框架；[Wang 等的技术综述](../README.md#wang-2023-scientific-discovery-ai)帮助定位工具所处环节。两者并读，可以避免把“模型能做科研任务”直接当作“科学整体进步更快”的证据。
+
+[Gopal 等的社论](../README.md#gopal-2025-inventing-with-machines)讨论信息系统学科中的研究实践与责任；[De Freitas 等的构思框架](../README.md#de-freitas-2025-ideation-generative-ai)将 AI 放入问题重构与人机分工。这两篇属于交叉框架，均不能替代科研创新或生产率的实证检验。后者为受邀文章，原文明确说明未走常规同行评议。
 
 ## 采用测量与因果识别要分开
 
@@ -36,6 +40,14 @@
 [Lu 等的自动化科研案例](../README.md#lu-2026-end-to-end-ai-research)需要连同人工筛选、workshop评议和撤回安排一起阅读。系统论文正式发表于 Nature，与生成稿是否正式发表是两件独立的事。
 
 [Kapoor 与 Narayanan](../README.md#kapoor-2023-leakage)提醒读者检查训练测试划分和科学主张是否匹配；[Messeri 与 Crockett](../README.md#messeri-2024-illusions-understanding)、[Tang 等的风险框架](../README.md#tang-2025-risks-ai-scientists)与 [Ahmed 等的政策讨论](../README.md#ahmed-2023-industry-ai)提供认知、责任和资源层面的提问方式。观点的价值在于形成可检查的问题，不能当作已验证的总体因果结论。
+
+## 科研激励与技术变迁的历史参照
+
+[Ding 等的信息技术研究](../README.md#ding-2010-it-scientists-productivity)将网络接入与科研产出、合作及机会差异相连，提供比较新技术扩散的历史参照。[Hager 等的评价指标研究](../README.md#hager-2024-measuring-science)则提醒我们，评价工具本身会改变人才匹配与资源分配。后者所存早期工作论文与正式摘要存在结论差异，阅读时以目录中的正式版为准。
+
+[Scooped!](../README.md#hill-2025-scooped-priority)研究优先发现权带来的认可回报，[Race to the Bottom](../README.md#hill-2025-race-to-bottom)研究竞争与成果成熟度、质量之间的关系；同作者和相近数据不代表同一篇研究。它们可以帮助提出“AI 加速是否放大抢先激励”的问题，但没有检验 AI 的影响。
+
+[Azoulay 等的研究](../README.md#azoulay-2019-funeral-science)进一步考察领域领导者退出后外部研究者的进入与知识变化，为学术权威和创新方向提供机制背景。这五篇都属于 SoS 核心，作为历史参照使用。
 
 ## 可以继续探索的问题
 

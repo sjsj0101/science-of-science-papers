@@ -11,7 +11,13 @@ import unicodedata
 from urllib.parse import parse_qsl, unquote, urlencode, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-COLLECTIONS = {"ai-core": "AI 与科研主目录", "foundations": "经典与方法背景", "supplement": "补充预印本"}
+COLLECTIONS = {
+    "ai-core": "SoS 核心 · AI 与科研",
+    "foundations": "SoS 核心 · 经典与科研制度",
+    "cross-disciplinary": "元研究、理论与治理",
+    "technical-background": "技术背景与案例",
+    "supplement": "补充预印本",
+}
 TYPES = {"journal-research": "期刊研究", "conference-paper": "会议论文", "review": "综述", "perspective": "观点 / 评论", "policy-analysis": "政策分析（含实证）", "preprint": "预印本"}
 EVIDENCE = {"abstract": "摘要", "selected-full-text": "部分正文 / 图表", "full-text": "全文"}
 
@@ -108,6 +114,8 @@ def render(data, log):
     out += ["", "不纳入：" + "；".join(data["scope"]["exclude_zh"]) + "。", "", data["scope"]["year_policy_zh"], "", data["scope"]["source_policy_zh"], "", "入口：[研究问题与阅读方法](docs/reading-guide.md) · [主数据](data/papers.json) · [检索与候选记录](data/search-log.json) · [维护说明](CONTRIBUTING.md)", "", "## 数量与证据口径", "", "| 分层 | 去重条目数 |", "| --- | ---: |"]
     out.extend(f"| {label} | {counts[key]} |" for key, label in COLLECTIONS.items())
     out += [f"| 合计 | {len(papers)} |",
+        "",
+        f"SoS 核心合计 {counts['ai-core'] + counts['foundations']} 篇；交叉研究 {counts['cross-disciplinary']} 篇；技术背景与案例 {counts['technical-background']} 篇。分层是按研究对象与主要贡献作出的编辑判断，不是互斥的学科归属；经典文献仍属于 SoS，技术案例不计入核心。",
         "",
         f"未收录候选单列：待核验 {decisions['pending']} 条，范围外 {decisions['out-of-scope']} 条，排除 {decisions['excluded']} 条；不计入上表。",
         "",
