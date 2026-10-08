@@ -241,6 +241,72 @@
       "checked_on": "2026-10-08",
       "scope_zh": "EDITH 候选正式发表身份及内容核验，纳入 azoulay-2019-funeral-science；类型与证据层级见主数据。",
       "limitations_zh": "直接读取 AEA 官方页，核验三位作者、AER 109(8):2889–2920、2019 年和 DOI。官方 PDF 下载未成功；直接读取 PMC 作者稿的导言和结论，并核对所存相同作者稿的研究设计及外推限制。PMC 页面注明最终正式发表身份，作者稿不声称为出版社排印版；未复现。"
+    },
+    {
+      "query": "Direct open: https://aclanthology.org/2025.acl-long.1534/ and https://aclanthology.org/2025.acl-long.1534.pdf; PDF find: Limitations; site:aclanthology.org \"2025.acl-long.1534\" correction",
+      "source": "ACL Anthology official publication page and proceedings PDF",
+      "checked_on": "2026-10-08",
+      "scope_zh": "科学文献专题定向核验 Chen 等的引用保真研究；确认三位作者、2025 年 ACL 主会 Long Papers 和 DOI，阅读部分正文，形成 1 条正式论文记录。",
+      "limitations_zh": "句子匹配测量和准实验需要按其假设解释；仅部分正文核验，未复现。更正定向查询未发现单独更正结果，不构成全面争议排查。"
+    },
+    {
+      "query": "Direct open: https://aclanthology.org/2025.findings-naacl.381/ and https://aclanthology.org/2025.findings-naacl.381.pdf; PDF find: Limitations; site:aclanthology.org \"2025.findings-naacl.381\" correction",
+      "source": "ACL Anthology official publication page and Findings PDF",
+      "checked_on": "2026-10-08",
+      "scope_zh": "科学文献专题定向核验 Algaba 等的 LLM 引用推荐偏差；确认六位作者、NAACL 2025 Findings 及 DOI，形成 1 条正式论文记录。",
+      "limitations_zh": "实验仅用参数知识，不是检索增强系统或真实学者采纳效果；阅读摘要及部分讨论，未完整审核附录或复现。更正定向查询未发现单独更正结果，不构成全面争议排查。"
+    },
+    {
+      "query": "site.royalsocietypublishing.org \"Generalization bias\" \"2025\"; \"10.1098/rsos.241776\" correction retraction; \"Generalization bias in large language model summarization\" \"correction\"; direct open DOI and Utrecht institutional Publisher version PDF",
+      "source": "Royal Society official article index / Utrecht University institutional repository final PDF",
+      "checked_on": "2026-10-08",
+      "scope_zh": "科学文献专题定向核验 Peters 与 Chin-Yee 的过度概括研究；核对两位作者、Research、2025 年 12(4):241776 及 DOI，形成 1 条正式论文记录。",
+      "limitations_zh": "DOI 入口直接打开返回 Internal Error；使用官方检索索引及可直接读取的机构正式排印 PDF。仅阅读摘要、首页及限制，未复现；更正定向查询未找到对应结果，不代表已穷尽检查。"
+    },
+    {
+      "query": "site.nature.com/articles/s41562-026-02553-x \"Quantifying\" \"Isch\"; site.nature.com/articles/s41562-026-02553-x \"non-experimental\" \"1105\" \"limitations\"; site.nature.com/articles/s41562-026-02553-x \"limitations\"; site.nature.com/articles/s41562-026-02553-x \"Article\" \"Published\"; \"s41562-026-02553-x\" \"correction\"",
+      "source": "Nature Human Behaviour official article search index",
+      "checked_on": "2026-10-08",
+      "scope_zh": "科学文献专题定向核验 Isch 等的因果越界研究；官方索引确认五位作者、Article、2026-08-24 正式发表及 DOI，读取方法、实验讨论与限制，形成 1 条正式论文记录。",
+      "limitations_zh": "Nature 原页直接打开返回 Internal Error，内容证据来自官方可读索引；含 non-experimental / 1105 的过窄查询未返回目标，后续放宽查询成功。未通读补充材料或复现；更正定向查询未发现对应通知，未宣称完整争议排查。"
+    },
+    {
+      "query": "Synthesizing scientific literature with retrieval-augmented language models | DOI 10.1038/s41586-025-10072-4",
+      "source": "https://www.nature.com/articles/s41586-025-10072-4",
+      "checked_on": "2026-10-08",
+      "scope_zh": "定向核验科学文献综合系统，作为技术背景纳入 asai-2026-openscholar。",
+      "limitations_zh": "通过 Nature 原始出版页的可读索引核对完整 28 位作者、Article、2026 年 2 月 4 日、650:857–863 与 DOI，读取摘要、Main 和 Limitations。直接打开遇身份服务跳转；页面标注已更新，但更新明细未能核实，因此不采用存在口径差异的基准数量或具体提升幅度。未通读全文、附录或复现。"
+    },
+    {
+      "query": "FTS5 phrase queries: A Model of Scientific Communication; Identification of and Correction for Publication Bias; The Noisy Path from Source to Citation; Large Language Models Reflect Human Citation Patterns; Generalization bias in large language model summarization; Quantifying the prevalence and impact of overreaching causal claims; Synthesizing scientific literature with retrieval-augmented language models",
+      "source": "EDITH configured literature library / native FTS5 search_fts5 entrypoint",
+      "checked_on": "2026-10-08",
+      "executed_at": "2026-10-08T20:13:17+08:00",
+      "status": "success",
+      "integration_status": "integrated",
+      "query_count": 7,
+      "corpus_records": 41873,
+      "hit_count": 2,
+      "returned_count": 2,
+      "unique_hit_count": 2,
+      "zero_hit_query_count": 5,
+      "included_count": 2,
+      "scope_zh": "为科学文献专题重新实际查询七个题名或辨识短语，不设年份或期刊过滤，每查询最多20条。两篇 Andrews 论文各命中一条，另五项查询成功但零命中；按 DOI 与规范化标题对照现有33篇目录，两条命中均无重复。两篇经正式来源核验后纳入 foundations；其余五篇通过网络正式来源核验后收录，本主题合计新增七篇。",
+      "limitations_zh": "仅做七篇已知候选的定向复核，不是科学文献主题的全量覆盖；零命中不说明论文不存在。库内两篇原文为 NBER 工作论文，不单凭库记录证明期刊发表。详细命令、时间、命中映射及数据库未变的校验记录保存在仓库外的本机维护记录，由本机交接定位。"
+    },
+    {
+      "query": "A Model of Scientific Communication | DOI 10.3982/ECTA18155",
+      "source": "https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA18155",
+      "checked_on": "2026-10-08",
+      "scope_zh": "本轮 EDITH 命中的科学传播理论论文；复核正式发表身份，纳入 andrews-2021-scientific-communication。",
+      "limitations_zh": "直接读取 Wiley 官方摘要与书目信息，核验两位作者、Original Articles、Econometrica 89(5):2117–2142、2021-09-27 及 DOI。全文入口转向摘要页；EDITH 原文为 March 2021 修订的 NBER 旧稿，只阅读首页、摘要与导言，未逐段比较正式版；短评以正式摘要为依据，证据级别保留 abstract。"
+    },
+    {
+      "query": "Identification of and Correction for Publication Bias | DOI 10.1257/aer.20180310",
+      "source": "https://www.aeaweb.org/articles?id=10.1257/aer.20180310",
+      "checked_on": "2026-10-08",
+      "scope_zh": "本轮 EDITH 命中的发表选择识别与校正论文；复核正式发表身份，纳入 andrews-2019-publication-bias。",
+      "limitations_zh": "直接读取 AEA 官方页，核验两位作者、AER 109(8):2766–2794、August 2019 和 DOI；官方 PDF 403。EDITH 原文为 November 2017 修订的 NBER 旧稿，应用列表与正式摘要有差别；短评依正式摘要且保留 abstract 证据级别。沿官方链接确认 openICPSR 复现包身份，但未下载或执行。"
     }
   ],
   "candidates": [

@@ -92,6 +92,15 @@ def validate(data, log):
     for route in data["reading_routes"]:
         require(route["title"] and route["description_zh"], "Empty reading route")
         require(route["paper_ids"] and len(route["paper_ids"]) == len(set(route["paper_ids"])) and set(route["paper_ids"]) <= seen["id"], "Invalid reading route references")
+    anchors = set(seen["id"])
+    for section in data.get("topic_sections", []):
+        sid = section["id"]
+        require(isinstance(sid, str) and re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", sid), "Invalid topic section ID")
+        require(sid not in anchors, f"Duplicate anchor: {sid}")
+        anchors.add(sid)
+        require(all(isinstance(section.get(k), str) and section[k].strip() for k in ("title", "description_zh")), f"Empty topic section: {sid}")
+        refs = section["paper_ids"]
+        require(isinstance(refs, list) and refs and len(refs) == len(set(refs)) and set(refs) <= seen["id"], f"Invalid topic section references: {sid}")
     require(log["snapshot_date"] == data["snapshot_date"], "Search log date mismatch")
     require(log["coverage_claim"] == "none", "Searches do not prove exhaustive coverage")
     for search in log["searches"]:
@@ -111,7 +120,9 @@ def render(data, log):
     years = [p["year"] for p in papers]
     out = ["<!-- Generated from data/papers.json by scripts/catalog.py; do not edit directly. -->", "# Science of Science · AI 与科研", "", data["description_zh"], "", f"检索与核验截止：**{data['snapshot_date']}**。当前收录年份：**{min(years)}–{max(years)}**。这是按问题组织的精选目录，不是系统综述或完整 venue-year 覆盖。", "", "## 范围与入口", ""]
     out.extend(f"- {s}" for s in data["scope"]["include_zh"])
-    out += ["", "不纳入：" + "；".join(data["scope"]["exclude_zh"]) + "。", "", data["scope"]["year_policy_zh"], "", data["scope"]["source_policy_zh"], "", "入口：[研究问题与阅读方法](docs/reading-guide.md) · [主数据](data/papers.json) · [检索与候选记录](data/search-log.json) · [维护说明](CONTRIBUTING.md)", "", "## 数量与证据口径", "", "| 分层 | 去重条目数 |", "| --- | ---: |"]
+    entry_links = "入口：[研究问题与阅读方法](docs/reading-guide.md) · [主数据](data/papers.json) · [检索与候选记录](data/search-log.json) · [维护说明](CONTRIBUTING.md)"
+    entry_links += "".join(f" · [{s['title']}](#{s['id']})" for s in data.get("topic_sections", []))
+    out += ["", "不纳入：" + "；".join(data["scope"]["exclude_zh"]) + "。", "", data["scope"]["year_policy_zh"], "", data["scope"]["source_policy_zh"], "", entry_links, "", "## 数量与证据口径", "", "| 分层 | 去重条目数 |", "| --- | ---: |"]
     out.extend(f"| {label} | {counts[key]} |" for key, label in COLLECTIONS.items())
     out += [f"| 合计 | {len(papers)} |",
         "",
@@ -134,6 +145,10 @@ def render(data, log):
     for route in data["reading_routes"]:
         out += ["", "### " + route["title"], "", route["description_zh"], ""]
         out.extend(f"{i}. [{lookup[pid]['title']}](#{pid})（{lookup[pid]['year']}）" for i, pid in enumerate(route["paper_ids"], 1))
+    for section in data.get("topic_sections", []):
+        subset = [lookup[pid] for pid in section["paper_ids"]]
+        out += ["", f'<a id="{section["id"]}"></a>', "", "## " + section["title"], "", section["description_zh"], "", f"本主题引用 {len(subset)} 篇已收录论文，沿用原分层，不重复计数；点击题名查看完整书目、来源与限制。", "", "| 论文 | 关注问题 | 分层 |", "| --- | --- | --- |"]
+        out.extend(f"| [{p['title']}](#{p['id']})（{p['year']}） | {p['relevance_zh'].replace('|', '&#124;')} | {COLLECTIONS[p['collection']]} |" for p in subset)
     for collection, label in COLLECTIONS.items():
         subset = sorted((p for p in papers if p["collection"] == collection), key=lambda p: (-p["year"], p["id"]))
         out += ["", "## " + label, ""]

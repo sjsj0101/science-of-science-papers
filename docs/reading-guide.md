@@ -49,6 +49,16 @@
 
 [Azoulay 等的研究](../README.md#azoulay-2019-funeral-science)进一步考察领域领导者退出后外部研究者的进入与知识变化，为学术权威和创新方向提供机制背景。这五篇都属于 SoS 核心，作为历史参照使用。
 
+## 科学文献：形成、传播与失真
+
+[主题区](../README.md#scientific-literature)把论文作为研究对象，沿着“哪些结果进入文献—主张怎样表达—引用和摘要怎样传播”组织阅读。这里同时包含科研传播机制、元研究和 AI 系统研究，证据类型分别解释。
+
+先读 [Andrews 与 Kasy](../README.md#andrews-2019-publication-bias)的发表偏差识别，再读 [Andrews 与 Shapiro](../README.md#andrews-2021-scientific-communication)的科学传播模型：前者研究文献为何是选择后的样本，后者讨论报告怎样向具有不同需求的读者传递信息。两篇都提供机制背景，没有估计 AI 采用的效果。
+
+[Chen 等](../README.md#chen-2025-noisy-path)研究科学主张沿引用链的保真，[Isch 等](../README.md#isch-2026-overreaching-causal-claims)研究非实验横截面论文中过度因果表述及其理解后果。NLP 或 LLM 可以是测量工具；使用这些工具，并不意味着论文研究的就是 AI 对科研的影响。
+
+再对照 [Algaba 等](../README.md#algaba-2025-heightened-citation-bias)的 LLM 引用偏差与 [Peters、Chin-Yee](../README.md#peters-2025-generalization-bias)的摘要过度概括：分别关注模型选择哪些文献，以及如何改写证据边界。[OpenScholar](../README.md#asai-2026-openscholar)提供检索增强文献综合的技术案例；任务评测不能直接推出科研人员的长期效率、创新或文献生态改善。
+
 ## 可以继续探索的问题
 
 以下是基于目录形成的研究设想，尚未由本仓库验证，也不代表新颖性已完成查重。
