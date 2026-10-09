@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "snapshot_date": "2026-10-08",
-  "description_zh": "一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。按研究对象与主要贡献区分 SoS 核心、元研究／理论与治理、技术背景与案例，将实际采用、个体收益和科学整体进展分别讨论。",
+  "description_zh": "一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。按研究问题组织全部论文，将科研流程、生产率、创新、文献传播、评议和科研制度串成阅读地图。",
   "scope": {
     "coverage": "curated-not-exhaustive",
     "include_zh": [
@@ -104,17 +104,85 @@
   ],
   "topic_sections": [
     {
+      "id": "workflow-and-human-ai-roles",
+      "title": "科研流程、人机分工与科学理解",
+      "description_zh": "AI 可以进入哪些科研环节，研究者应保留哪些判断与解释责任？从科学学的问题地图出发，对照技术综述、学科实践框架、认知风险和自动化系统案例；能力演示与规范建议不等于真实科研收益已得到验证。",
+      "paper_ids": [
+        "fortunato-2018-science-of-science",
+        "wang-2023-scientific-discovery-ai",
+        "gopal-2025-inventing-with-machines",
+        "messeri-2024-illusions-understanding",
+        "lu-2026-end-to-end-ai-research"
+      ]
+    },
+    {
+      "id": "productivity-and-opportunity",
+      "title": "科研生产率、采用效果与机会差异",
+      "description_zh": "技术进入科研后，谁的产出和参与机会发生变化，怎样区分实际收益与测量或识别偏差？以历史信息技术扩散为基线，将 LLM 生产率研究与直接方法批评配对阅读，再考察不同研究者群体的差异。",
+      "paper_ids": [
+        "ding-2010-it-scientists-productivity",
+        "kusumegi-2025-scientific-production-llms",
+        "renault-2026-llm-production-timing-bias",
+        "tang-2025-gender-disparities-generative-ai"
+      ]
+    },
+    {
+      "id": "innovation-and-knowledge-evolution",
+      "title": "创新方向、知识重组与集体探索",
+      "description_zh": "AI 是否改变研究者探索的问题、知识组合与科学整体的多样性？先理解新颖性、颠覆性及其测量争议，再比较构思框架、人机互补策略和跨领域观察证据；个人影响力增长与集体知识拓展分别判断。",
+      "paper_ids": [
+        "uzzi-2013-atypical-combinations",
+        "foster-2015-tradition-innovation",
+        "park-2023-less-disruptive",
+        "petersen-2024-disruption-citation-inflation",
+        "de-freitas-2025-ideation-generative-ai",
+        "sourati-2023-human-aware-ai",
+        "bianchini-2022-ai-emerging-method-invention",
+        "bianchini-2026-ai-science-when-where",
+        "hao-2026-ai-impact-science-focus"
+      ]
+    },
+    {
       "id": "scientific-literature",
       "title": "科学文献：形成、传播与失真",
-      "description_zh": "把科学文献作为研究对象：哪些结果进入发表记录，科学主张怎样表达，又怎样在引用和摘要中保留或失真。先读发表选择与传播机制，再看引用、因果表述和 LLM 的影响；另附 OpenScholar 作为文献综合的技术背景。机制模型、语料分析、读者实验与系统评测分别解释。",
+      "description_zh": "哪些结果进入文献，AI 如何参与写作，学术注意力与科学主张又怎样在引用、摘要和综合中分配或失真？沿发表选择、证据报告、辅助写作、注意力分配和转述保真展开；语料层面的采用测量、机制模型与系统评测分别解释。",
       "paper_ids": [
         "andrews-2019-publication-bias",
         "andrews-2021-scientific-communication",
+        "kobak-2025-llm-excess-vocabulary",
+        "liang-2025-quantifying-llm-scientific-papers",
+        "chu-2021-slowed-canonical-progress",
         "chen-2025-noisy-path",
-        "isch-2026-overreaching-causal-claims",
         "algaba-2025-heightened-citation-bias",
+        "isch-2026-overreaching-causal-claims",
         "peters-2025-generalization-bias",
         "asai-2026-openscholar"
+      ]
+    },
+    {
+      "id": "peer-review-and-reliability",
+      "title": "同行评议、研究可靠性与监督",
+      "description_zh": "AI 如何改变研究评价，科研流程中的错误又怎样被发现、约束和纠正？将真实评议中的采用测量与随机反馈实验对照，再考察数据泄漏和自动化科研监督；评语改善、模型表现与最终科学质量分别评价。",
+      "paper_ids": [
+        "liang-2024-monitoring-ai-peer-reviews",
+        "thakkar-2026-randomized-peer-review-feedback",
+        "kapoor-2023-leakage",
+        "tang-2025-risks-ai-scientists"
+      ]
+    },
+    {
+      "id": "organizations-resources-and-incentives",
+      "title": "科研组织、资源分配与竞争激励",
+      "description_zh": "谁能够组织研究、获得资源与认可，合作结构、评价规则和竞争如何塑造科研行为？从团队与产业资源格局，读到 AI 资助申请、人才配置、优先权奖励及领域进入；历史机制为 AI 时代的问题提供参照，不直接充当 AI 效果证据。",
+      "paper_ids": [
+        "wuchty-2007-dominance-teams",
+        "wu-2019-team-size-disruption",
+        "ahmed-2023-industry-ai",
+        "qian-2026-llm-us-research-funding",
+        "hager-2024-measuring-science",
+        "hill-2025-scooped-priority",
+        "hill-2025-race-to-bottom",
+        "azoulay-2019-funeral-science"
       ]
     }
   ],
