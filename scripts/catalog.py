@@ -139,7 +139,7 @@ def render(data, log):
     years = [p["year"] for p in papers]
     out = [GENERATED, "# Science of Science · AI 与科研", "", data["description_zh"], "",
            f"**{len(papers)} 篇论文 · {len(data['topic_sections'])} 个研究主题 · 中文导读**", "",
-           f"文献检索与核验截止：**{data['snapshot_date']}**。收录年份：**{min(years)}–{max(years)}**。精选目录，不声称系统综述或完整 venue-year 覆盖。", "",
+           f"最近定向检索日期：**{data['snapshot_date']}**。收录年份：**{min(years)}–{max(years)}**。精选目录，不声称系统综述或完整 venue-year 覆盖。", "",
            '<a id="scope"></a>', "", "## 研究范围", ""]
     out.extend(f"- {s}" for s in data["scope"]["include_zh"])
     out += ["", "不纳入：" + "；".join(data["scope"]["exclude_zh"]) + "。", "", data["scope"]["year_policy_zh"], "", data["scope"]["source_policy_zh"], "",

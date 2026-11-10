@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-08",
+  "snapshot_date": "2026-11-10",
   "coverage_claim": "none",
   "method_zh": "按用户选择的 AI 科研主线进行 EDITH 库内检索、网络补充、正式版本核验与方法争议追踪。首版为网络精选；2026-10-08 增补轮已重新实际查询 EDITH。并非按 venue-year 或数据库全量筛查。只保存可公开的查询与原创筛选说明，不存原文全文。",
   "searches": [
@@ -307,6 +307,13 @@
       "checked_on": "2026-10-08",
       "scope_zh": "本轮 EDITH 命中的发表选择识别与校正论文；复核正式发表身份，纳入 andrews-2019-publication-bias。",
       "limitations_zh": "直接读取 AEA 官方页，核验两位作者、AER 109(8):2766–2794、August 2019 和 DOI；官方 PDF 403。EDITH 原文为 November 2017 修订的 NBER 旧稿，应用列表与正式摘要有差别；短评依正式摘要且保留 abstract 证据级别。沿官方链接确认 openICPSR 复现包身份，但未下载或执行。"
+    },
+    {
+      "query": "scientific production; artificial intelligence science; large language models scientific; peer review; scientific innovation; plus targeted official-title verification",
+      "source": "EDITH current corpus and official publisher web records",
+      "checked_on": "2026-11-10",
+      "scope_zh": "2022–2026精确短语查询5项，共12次命中/12条去重结果，无截断；纳入1篇评议制度研究（2026卷期，2025在线）。网上补查AI科研近况，与已收录论文和候选查重。",
+      "limitations_zh": "定向增量批次，不刷新原全库快照；其余相关命中与既有积压保留待筛，不表示已补齐2026-10-08之后的缺口。"
     }
   ],
   "candidates": [
@@ -364,5 +371,6 @@
       "decision": "out-of-scope",
       "reason_zh": "重点是Coscientist系统及化学任务表现，未直接评估科研生产、创新或学术生态的群体性变化。"
     }
-  ]
+  ],
+  "baseline_date": "2026-10-08"
 }

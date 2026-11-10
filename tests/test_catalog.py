@@ -86,7 +86,7 @@ class CatalogTestCase(unittest.TestCase):
 class TopicValidationTests(CatalogTestCase):
     def test_current_catalog_is_a_complete_six_topic_partition(self):
         papers = catalog.validate(self.data, self.log)
-        self.assertEqual(len(papers), 40)
+        self.assertEqual(len(papers), len(self.data["papers"]))
         self.assertEqual(len(self.data["topic_sections"]), 6)
         assigned = [pid for topic in self.data["topic_sections"] for pid in topic["paper_ids"]]
         self.assertEqual(Counter(assigned), Counter(p["id"] for p in papers))

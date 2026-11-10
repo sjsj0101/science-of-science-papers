@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-10-08",
+  "snapshot_date": "2026-11-10",
   "description_zh": "一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。按研究问题组织全部论文，将科研流程、生产率、创新、文献传播、评议和科研制度串成阅读地图。",
   "scope": {
     "coverage": "curated-not-exhaustive",
@@ -19,6 +19,7 @@
     "year_policy_zh": "不为代表性历史背景设硬起始年；AI 主线优先选择 2022 年以来的工作。年份采用正式卷期年，尚未分配卷期时采用官方在线发表年；不用 DOI 字符串中的年份或机构入库日期推断发表年。预印本与正式版按同一研究去重。",
     "source_policy_zh": "不限定固定期刊清单。除补充预印本外，各分层仅收已核验正式发表的期刊或会议文章；会议 track、社论、邀稿与特殊评审流程逐条说明。每轮文献检索实际查询 EDITH，并结合网络原始来源核验；预印本和待核验候选单列。",
     "gaps_zh": [
+      "2026-11-10版本仅定向增补1篇评审制度研究；原系统检索基线为2026-10-08，尚未补齐此后全部时间缺口。本版日期是最近增量查询日期，不是全库逐项重新核验截止日。",
       "关键词发现和代表作追踪不能证明已覆盖任何完整 venue-year；尤其不声称穷尽 2026 年成果。",
       "目前英文来源和文献计量研究占比较高；非英语科研、全球南方、实验室实际工时、阴性结果与长期科研质量的覆盖有限。",
       "多数采用研究依赖文本或文献代理；语言润色、工具使用、研究过程自动化是不同干预，不能统一解释为一个 AI 效果。",
@@ -167,7 +168,8 @@
         "liang-2024-monitoring-ai-peer-reviews",
         "thakkar-2026-randomized-peer-review-feedback",
         "kapoor-2023-leakage",
-        "tang-2025-risks-ai-scientists"
+        "tang-2025-risks-ai-scientists",
+        "pleskac-2026-blinded-review"
       ]
     },
     {
@@ -2043,6 +2045,58 @@
         }
       ],
       "code_url": "https://doi.org/10.3886/E116208V1"
+    },
+    {
+      "id": "pleskac-2026-blinded-review",
+      "collection": "foundations",
+      "title": "Blinded versus Unblinded Review: A Field Study on the Equity of Peer-Review Processes",
+      "authors": [
+        "Timothy J. Pleskac",
+        "Ellie J. Kyung",
+        "Gretchen B. Chapman",
+        "Oleg Urminsky"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "Management Science",
+      "publication_type": "journal-research",
+      "publication_status": "published",
+      "doi": "10.1287/mnsc.2022.01646",
+      "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2022.01646",
+      "official_url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2022.01646",
+      "tags": [
+        "peer-review",
+        "inequality",
+        "institutions",
+        "reliability"
+      ],
+      "summary_zh": "通过学术会议评审的现场实验比较单盲与双盲制度，同时考察评分一致性、公平性和后续表现。作者报告，两种制度均有明显评审噪声，隐藏身份并不能消除所有群体差异；公开身份也未显示足以抵消偏向风险的评价优势。",
+      "limitations_zh": "来自特定会议场景的制度比较，不能直接外推到所有期刊、学科或自动评审。短评基于正式摘要，未重新分析原始数据；这是评议制度的背景研究，不是AI采用效果证据。",
+      "relevance_zh": "为讨论科学评价中的噪声、身份信号和机会差异提供制度基准，可与AI辅助评审研究对照。",
+      "evidence_level": "abstract",
+      "verified_on": "2026-11-10",
+      "verification_note_zh": "从本轮文献库命中追踪至INFORMS官方文章页，直接核验四位作者、摘要、DOI、72(4):2702–2719及2025-08-06在线日期。按本库正式卷期年规则归档2026；出版商推荐引文中的2025在线年另保留说明。未通读正文或复现。",
+      "sources": [
+        {
+          "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2022.01646",
+          "role": "publication",
+          "note_zh": "直接读取官方文章页的元数据与摘要；2025在线、2026卷期，非新近发表但属于本轮补接的既有缺口。"
+        }
+      ],
+      "publication_dates": {
+        "online_date": "2025-08-06",
+        "issue_year": 2026
+      }
+    }
+  ],
+  "incremental_updates": [
+    {
+      "checked_on": "2026-11-10",
+      "baseline_date": "2026-10-08",
+      "added_ids": [
+        "pleskac-2026-blinded-review"
+      ],
+      "coverage": "targeted-not-exhaustive"
     }
   ]
 }

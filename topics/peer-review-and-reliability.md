@@ -5,7 +5,7 @@
 
 AI 如何改变研究评价，科研流程中的错误又怎样被发现、约束和纠正？将真实评议中的采用测量与随机反馈实验对照，再考察数据泄漏和自动化科研监督；评语改善、模型表现与最终科学质量分别评价。
 
-本主题 4 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
+本主题 5 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
 
 ## 阅读顺序
 
@@ -13,6 +13,7 @@ AI 如何改变研究评价，科研流程中的错误又怎样被发现、约�
 2. [A large-scale randomized study of large language model feedback in peer review](#thakkar-2026-randomized-peer-review-feedback)（2026）
 3. [Leakage and the reproducibility crisis in machine-learning-based science](#kapoor-2023-leakage)（2023）
 4. [Risks of AI scientists: prioritizing safeguarding over autonomy](#tang-2025-risks-ai-scientists)（2025）
+5. [Blinded versus Unblinded Review: A Field Study on the Equity of Peer-Review Processes](#pleskac-2026-blinded-review)（2026）
 
 <a id="liang-2024-monitoring-ai-peer-reviews"></a>
 
@@ -132,5 +133,34 @@ Xiangru Tang; Qiao Jin; Kunlun Zhu; Tongxin Yuan; Yichi Zhang; Wangchunshu Zhou;
 Nature Communications开放原文核验Perspective类型、完整作者、2025年卷16文章8317及DOI；阅读摘要、引言框架与结尾局限声明，未复现实验。
 
 - [publication](https://www.nature.com/articles/s41467-025-63913-1)：2025-09-18正式Perspective；开放正文明确框架性质及未测试具体漏洞。
+
+</details>
+
+<a id="pleskac-2026-blinded-review"></a>
+
+## Blinded versus Unblinded Review: A Field Study on the Equity of Peer-Review Processes
+
+**2026 · Management Science · 期刊研究**
+
+**研究定位：**SoS 核心 · 经典与科研制度
+
+Timothy J. Pleskac; Ellie J. Kyung; Gretchen B. Chapman; Oleg Urminsky
+
+[论文](https://pubsonline.informs.org/doi/10.1287/mnsc.2022.01646) · [正式来源](https://pubsonline.informs.org/doi/10.1287/mnsc.2022.01646)
+
+通过学术会议评审的现场实验比较单盲与双盲制度，同时考察评分一致性、公平性和后续表现。作者报告，两种制度均有明显评审噪声，隐藏身份并不能消除所有群体差异；公开身份也未显示足以抵消偏向风险的评价优势。
+
+**为什么读：**为讨论科学评价中的噪声、身份信号和机会差异提供制度基准，可与AI辅助评审研究对照。
+
+**限制：**来自特定会议场景的制度比较，不能直接外推到所有期刊、学科或自动评审。短评基于正式摘要，未重新分析原始数据；这是评议制度的背景研究，不是AI采用效果证据。
+
+标签：同行评议 / 机会与不平等 / 科研制度与资源 / 科研可靠性
+
+<details>
+<summary>核验记录 · 2026-11-10 · 摘要</summary>
+
+从本轮文献库命中追踪至INFORMS官方文章页，直接核验四位作者、摘要、DOI、72(4):2702–2719及2025-08-06在线日期。按本库正式卷期年规则归档2026；出版商推荐引文中的2025在线年另保留说明。未通读正文或复现。
+
+- [publication](https://pubsonline.informs.org/doi/10.1287/mnsc.2022.01646)：直接读取官方文章页的元数据与摘要；2025在线、2026卷期，非新近发表但属于本轮补接的既有缺口。
 
 </details>
