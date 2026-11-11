@@ -5,7 +5,7 @@
 
 AI 如何改变研究评价，科研流程中的错误又怎样被发现、约束和纠正？将真实评议中的采用测量与随机反馈实验对照，再考察数据泄漏和自动化科研监督；评语改善、模型表现与最终科学质量分别评价。
 
-本主题 5 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
+本主题 6 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
 
 ## 阅读顺序
 
@@ -14,6 +14,7 @@ AI 如何改变研究评价，科研流程中的错误又怎样被发现、约�
 3. [Leakage and the reproducibility crisis in machine-learning-based science](#kapoor-2023-leakage)（2023）
 4. [Risks of AI scientists: prioritizing safeguarding over autonomy](#tang-2025-risks-ai-scientists)（2025）
 5. [Blinded versus Unblinded Review: A Field Study on the Equity of Peer-Review Processes](#pleskac-2026-blinded-review)（2026）
+6. [Clubs and Networks in Economics Reviewing](#carrell-2024-clubs-networks)（2024）
 
 <a id="liang-2024-monitoring-ai-peer-reviews"></a>
 
@@ -162,5 +163,34 @@ Timothy J. Pleskac; Ellie J. Kyung; Gretchen B. Chapman; Oleg Urminsky
 从本轮文献库命中追踪至INFORMS官方文章页，直接核验四位作者、摘要、DOI、72(4):2702–2719及2025-08-06在线日期。按本库正式卷期年规则归档2026；出版商推荐引文中的2025在线年另保留说明。未通读正文或复现。
 
 - [publication](https://pubsonline.informs.org/doi/10.1287/mnsc.2022.01646)：直接读取官方文章页的元数据与摘要；2025在线、2026卷期，非新近发表但属于本轮补接的既有缺口。
+
+</details>
+
+<a id="carrell-2024-clubs-networks"></a>
+
+## Clubs and Networks in Economics Reviewing
+
+**2024 · Journal of Political Economy · 期刊研究**
+
+**研究定位：**SoS 核心 · 经典与科研制度
+
+Scott Carrell; David Figlio; Lester Lusher
+
+[论文](https://www.journals.uchicago.edu/doi/10.1086/730208) · [正式来源](https://www.journals.uchicago.edu/doi/10.1086/730208)
+
+研究Journal of Human Resources投稿中的作者—编辑及作者—审稿人联系，考察同学、同事、合作网络和学术地位信号与送审及评价的关系。作者报告，多类联系与更有利的评审结果相关，为科学评价中的关系网络提供微观证据。
+
+**为什么读：**提供同行评议中身份信号与关系网络的制度背景，可与双盲评审和AI辅助评价研究对照，但不是AI采用效果。
+
+**限制：**来自单一期刊的投稿制度，不能直接外推到整个经济学或所有学科；关系网络与能力及稿件分配可能共同变化，短评不将摘要相关性升级为无条件因果。仅核验正式摘要和元数据，未审计识别策略或复现。
+
+标签：同行评议 / 科研制度与资源 / 机会与不平等 / 团队组织
+
+<details>
+<summary>核验记录 · 2026-11-11 · 摘要</summary>
+
+从本轮文献库命中追踪至UChicago官方文章页，直接核验三位作者、JPE132(9)、页2999–3024、DOI和2024-07-31在线日期；期刊卷期为2024。以正式版为单一条目，不重复收录2022工作论文。
+
+- [publication](https://www.journals.uchicago.edu/doi/10.1086/730208)：官方出版社书目与摘要均直接读取；本轮未读付费全文。
 
 </details>
