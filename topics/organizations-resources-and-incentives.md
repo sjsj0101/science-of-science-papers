@@ -5,7 +5,7 @@
 
 谁能够组织研究、获得资源与认可，合作结构、评价规则和竞争如何塑造科研行为？从团队与产业资源格局，读到 AI 资助申请、人才配置、优先权奖励及领域进入；历史机制为 AI 时代的问题提供参照，不直接充当 AI 效果证据。
 
-本主题 8 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
+本主题 9 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
 
 ## 阅读顺序
 
@@ -17,6 +17,7 @@
 6. [Scooped! Estimating Rewards for Priority in Science](#hill-2025-scooped-priority)（2025）
 7. [Race to the Bottom: Competition and Quality in Science](#hill-2025-race-to-bottom)（2025）
 8. [Does Science Advance One Funeral at a Time?](#azoulay-2019-funeral-science)（2019）
+9. [Institutional Ties and Publications in Top Accounting Journals](#whited-2025-institutional-ties)（2025）
 
 <a id="wuchty-2007-dominance-teams"></a>
 
@@ -258,5 +259,34 @@ Pierre Azoulay; Christian Fons-Rosen; Joshua S. Graff Zivin
 
 - [publication](https://www.aeaweb.org/articles?id=10.1257/aer.20161574)：AEA 官方页面直接可读，核验完整作者、AER 109(8):2889–2920、2019 年及 DOI。
 - [content](https://pmc.ncbi.nlm.nih.gov/articles/PMC6814193/)：PMC 公开作者稿注明正式版书目信息；读取导言中的匹配及差分设计、结论中的外部进入机制、生命科学外推及福利解释限制。
+
+</details>
+
+<a id="whited-2025-institutional-ties"></a>
+
+## Institutional Ties and Publications in Top Accounting Journals
+
+**2025 · Management Science · 期刊研究**
+
+**研究定位：**SoS 核心 · 经典与科研制度
+
+Robert L. Whited
+
+[论文](https://pubsonline.informs.org/doi/10.1287/mnsc.2024.04553) · [正式来源](https://pubsonline.informs.org/doi/10.1287/mnsc.2024.04553)
+
+比较会计学期刊的治理和高校联系，考察关联机构作者在对应期刊中的发表分布及后续引用。作者报告，机构关联与发表集中及引用表现存在系统性联系，并讨论投稿偏好能否解释这一模式。
+
+**为什么读：**直接研究期刊治理、机构网络和知识传播，为理解学术评价中的制度性机会差异提供背景，不作为AI采用效果证据。
+
+**限制：**来自特定会计期刊与机构关系的观察性分析；不能把关联直接解释为单一因果机制或普遍学术偏差。短评只据正式摘要，未复核全部识别分析、投稿数据或复现实验。
+
+标签：科研制度与资源 / 同行评议 / 机会与不平等 / 科学文献
+
+<details>
+<summary>核验记录 · 2026-11-12 · 摘要</summary>
+
+本轮文献库候选经INFORMS正式页核验单一作者、DOI、2025-02-26在线、Management Science71(11):9041–9070及摘要。在线与卷期均2025，不根据DOI中的2024猜年份。
+
+- [publication](https://pubsonline.informs.org/doi/10.1287/mnsc.2024.04553)：直接读取官方书目、摘要、在线与卷期日期；未声称已阅读全文。
 
 </details>

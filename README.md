@@ -3,9 +3,9 @@
 
 一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。按研究问题组织全部论文，将科研流程、生产率、创新、文献传播、评议和科研制度串成阅读地图。
 
-**42 篇论文 · 6 个研究主题 · 中文导读**
+**43 篇论文 · 6 个研究主题 · 中文导读**
 
-最近定向检索日期：**2026-11-11**。收录年份：**2007–2026**。精选目录，不声称系统综述或完整 venue-year 覆盖。
+最近定向检索日期：**2026-11-12**。收录年份：**2007–2026**。精选目录，不声称系统综述或完整 venue-year 覆盖。
 
 <a id="scope"></a>
 
@@ -28,8 +28,8 @@
 
 | 项目 | 数量 |
 | --- | ---: |
-| 收录论文 | 42 |
-| SoS 核心（AI 与科研 / 经典与制度） | 32（14 / 18） |
+| 收录论文 | 43 |
+| SoS 核心（AI 与科研 / 经典与制度） | 33（14 / 19） |
 | 交叉研究 / 技术背景 | 7 / 3 |
 | 补充预印本 / 待核验候选 | 0 / 6 |
 
@@ -57,7 +57,7 @@
 | [创新方向、知识重组与集体探索](#innovation-and-knowledge-evolution) | 9 | [主题页](topics/innovation-and-knowledge-evolution.md) |
 | [科学文献：形成、传播与失真](#scientific-literature) | 10 | [主题页](topics/scientific-literature.md) |
 | [同行评议、研究可靠性与监督](#peer-review-and-reliability) | 6 | [主题页](topics/peer-review-and-reliability.md) |
-| [科研组织、资源分配与竞争激励](#organizations-resources-and-incentives) | 8 | [主题页](topics/organizations-resources-and-incentives.md) |
+| [科研组织、资源分配与竞争激励](#organizations-resources-and-incentives) | 9 | [主题页](topics/organizations-resources-and-incentives.md) |
 
 <a id="paper-index"></a>
 
@@ -158,6 +158,7 @@ AI 如何改变研究评价，科研流程中的错误又怎样被发现、约�
 | 2025 · Journal of Political Economy<br>期刊研究 | <a id="hill-2025-scooped-priority"></a>[Scooped! Estimating Rewards for Priority in Science](https://www.journals.uchicago.edu/doi/10.1086/733398)<br>[解读与来源](topics/organizations-resources-and-incentives.md#hill-2025-scooped-priority) | 提供科研认可、声誉与竞争激励的背景，帮助区分 AI 提速带来的先发优势和真实知识贡献；本文没有 AI 采用干预。 | SoS 核心 · 经典与科研制度 |
 | 2025 · The Quarterly Journal of Economics<br>期刊研究 | <a id="hill-2025-race-to-bottom"></a>[Race to the Bottom: Competition and Quality in Science](https://academic.oup.com/qje/article/140/2/1111/7997678)<br>[解读与来源](topics/organizations-resources-and-incentives.md#hill-2025-race-to-bottom) | 提供科研速度、竞争激励与可靠性之间的机制背景，可用来设计 AI 加速研究的评价问题；不能据此断言 AI 必然降低研究质量。 | SoS 核心 · 经典与科研制度 |
 | 2019 · American Economic Review<br>期刊研究 | <a id="azoulay-2019-funeral-science"></a>[Does Science Advance One Funeral at a Time?](https://www.aeaweb.org/articles?id=10.1257/aer.20161574)<br>[解读与来源](topics/organizations-resources-and-incentives.md#azoulay-2019-funeral-science) | 作为科研权威、领域进入和知识更新的机制背景，帮助分析 AI 是否改变外部研究者的进入机会；不将历史死亡事件的结果写成 AI 效应。 | SoS 核心 · 经典与科研制度 |
+| 2025 · Management Science<br>期刊研究 | <a id="whited-2025-institutional-ties"></a>[Institutional Ties and Publications in Top Accounting Journals](https://pubsonline.informs.org/doi/10.1287/mnsc.2024.04553)<br>[解读与来源](topics/organizations-resources-and-incentives.md#whited-2025-institutional-ties) | 直接研究期刊治理、机构网络和知识传播，为理解学术评价中的制度性机会差异提供背景，不作为AI采用效果证据。 | SoS 核心 · 经典与科研制度 |
 
 <a id="evidence-and-scope"></a>
 
@@ -166,7 +167,7 @@ AI 如何改变研究评价，科研流程中的错误又怎样被发现、约�
 | 研究定位 | 去重条目数 |
 | --- | ---: |
 | SoS 核心 · AI 与科研 | 14 |
-| SoS 核心 · 经典与科研制度 | 18 |
+| SoS 核心 · 经典与科研制度 | 19 |
 | 元研究、理论与治理 | 7 |
 | 技术背景与案例 | 3 |
 | 补充预印本 | 0 |
@@ -175,15 +176,15 @@ AI 如何改变研究评价，科研流程中的错误又怎样被发现、约�
 
 未收录候选：待核验 6、范围外 1、排除 2；不计入论文总数。
 
-已发表条目类型：会议论文 3 篇、期刊研究 31 篇、观点 / 评论 5 篇、政策分析（含实证） 1 篇、综述 2 篇。观点与综述分别标注。
+已发表条目类型：会议论文 3 篇、期刊研究 32 篇、观点 / 评论 5 篇、政策分析（含实证） 1 篇、综述 2 篇。观点与综述分别标注。
 
-内容阅读层次：摘要 11 篇、部分正文 / 图表 31 篇。来源访问、发表身份和阅读深度逐篇说明；**未独立复现实验。**
+内容阅读层次：摘要 12 篇、部分正文 / 图表 31 篇。来源访问、发表身份和阅读深度逐篇说明；**未独立复现实验。**
 
 <a id="known-gaps"></a>
 
 ## 已知缺口
 
-- 2026-11-10及2026-11-11两个定向批次各补入1篇评审制度研究；原检索基线为2026-10-08，尚未补齐此后全部时间缺口。最近定向日期不表示全库逐项重新核验截止。
+- 2026-11-10至2026-11-12为定向补缺批次，补入评议和期刊制度研究；原检索基线为2026-10-08，尚未补齐此后全部时间缺口。最近定向日期不表示全库逐项重新核验截止。
 - 关键词发现和代表作追踪不能证明已覆盖任何完整 venue-year；尤其不声称穷尽 2026 年成果。
 - 目前英文来源和文献计量研究占比较高；非英语科研、全球南方、实验室实际工时、阴性结果与长期科研质量的覆盖有限。
 - 多数采用研究依赖文本或文献代理；语言润色、工具使用、研究过程自动化是不同干预，不能统一解释为一个 AI 效果。

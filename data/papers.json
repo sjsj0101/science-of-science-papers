@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-11",
+  "snapshot_date": "2026-11-12",
   "description_zh": "一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。按研究问题组织全部论文，将科研流程、生产率、创新、文献传播、评议和科研制度串成阅读地图。",
   "scope": {
     "coverage": "curated-not-exhaustive",
@@ -19,7 +19,7 @@
     "year_policy_zh": "不为代表性历史背景设硬起始年；AI 主线优先选择 2022 年以来的工作。年份采用正式卷期年，尚未分配卷期时采用官方在线发表年；不用 DOI 字符串中的年份或机构入库日期推断发表年。预印本与正式版按同一研究去重。",
     "source_policy_zh": "不限定固定期刊清单。除补充预印本外，各分层仅收已核验正式发表的期刊或会议文章；会议 track、社论、邀稿与特殊评审流程逐条说明。每轮文献检索实际查询 EDITH，并结合网络原始来源核验；预印本和待核验候选单列。",
     "gaps_zh": [
-      "2026-11-10及2026-11-11两个定向批次各补入1篇评审制度研究；原检索基线为2026-10-08，尚未补齐此后全部时间缺口。最近定向日期不表示全库逐项重新核验截止。",
+      "2026-11-10至2026-11-12为定向补缺批次，补入评议和期刊制度研究；原检索基线为2026-10-08，尚未补齐此后全部时间缺口。最近定向日期不表示全库逐项重新核验截止。",
       "关键词发现和代表作追踪不能证明已覆盖任何完整 venue-year；尤其不声称穷尽 2026 年成果。",
       "目前英文来源和文献计量研究占比较高；非英语科研、全球南方、实验室实际工时、阴性结果与长期科研质量的覆盖有限。",
       "多数采用研究依赖文本或文献代理；语言润色、工具使用、研究过程自动化是不同干预，不能统一解释为一个 AI 效果。",
@@ -185,7 +185,8 @@
         "hager-2024-measuring-science",
         "hill-2025-scooped-priority",
         "hill-2025-race-to-bottom",
-        "azoulay-2019-funeral-science"
+        "azoulay-2019-funeral-science",
+        "whited-2025-institutional-ties"
       ]
     }
   ],
@@ -2129,6 +2130,45 @@
         "online_date": "2024-07-31",
         "issue_year": 2024
       }
+    },
+    {
+      "id": "whited-2025-institutional-ties",
+      "collection": "foundations",
+      "title": "Institutional Ties and Publications in Top Accounting Journals",
+      "authors": [
+        "Robert L. Whited"
+      ],
+      "authors_complete": true,
+      "year": 2025,
+      "venue": "Management Science",
+      "publication_type": "journal-research",
+      "publication_status": "published",
+      "doi": "10.1287/mnsc.2024.04553",
+      "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.04553",
+      "official_url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.04553",
+      "tags": [
+        "institutions",
+        "peer-review",
+        "inequality",
+        "scientific-literature"
+      ],
+      "summary_zh": "比较会计学期刊的治理和高校联系，考察关联机构作者在对应期刊中的发表分布及后续引用。作者报告，机构关联与发表集中及引用表现存在系统性联系，并讨论投稿偏好能否解释这一模式。",
+      "relevance_zh": "直接研究期刊治理、机构网络和知识传播，为理解学术评价中的制度性机会差异提供背景，不作为AI采用效果证据。",
+      "limitations_zh": "来自特定会计期刊与机构关系的观察性分析；不能把关联直接解释为单一因果机制或普遍学术偏差。短评只据正式摘要，未复核全部识别分析、投稿数据或复现实验。",
+      "evidence_level": "abstract",
+      "verified_on": "2026-11-12",
+      "verification_note_zh": "本轮文献库候选经INFORMS正式页核验单一作者、DOI、2025-02-26在线、Management Science71(11):9041–9070及摘要。在线与卷期均2025，不根据DOI中的2024猜年份。",
+      "sources": [
+        {
+          "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.04553",
+          "role": "publication",
+          "note_zh": "直接读取官方书目、摘要、在线与卷期日期；未声称已阅读全文。"
+        }
+      ],
+      "publication_dates": {
+        "online_date": "2025-02-26",
+        "issue_year": 2025
+      }
     }
   ],
   "incremental_updates": [
@@ -2145,6 +2185,14 @@
       "baseline_date": "2026-10-08",
       "added_ids": [
         "carrell-2024-clubs-networks"
+      ],
+      "coverage": "targeted-not-exhaustive"
+    },
+    {
+      "checked_on": "2026-11-12",
+      "baseline_date": "2026-10-08",
+      "added_ids": [
+        "whited-2025-institutional-ties"
       ],
       "coverage": "targeted-not-exhaustive"
     }

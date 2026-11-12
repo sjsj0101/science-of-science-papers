@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-11",
+  "snapshot_date": "2026-11-12",
   "coverage_claim": "none",
   "method_zh": "按用户选择的 AI 科研主线进行 EDITH 库内检索、网络补充、正式版本核验与方法争议追踪。首版为网络精选；2026-10-08 增补轮已重新实际查询 EDITH。并非按 venue-year 或数据库全量筛查。只保存可公开的查询与原创筛选说明，不存原文全文。",
   "searches": [
@@ -321,6 +321,13 @@
       "checked_on": "2026-11-11",
       "scope_zh": "2022–2026四项精确短语，11次命中、11唯一返回记录、无截断；核验并纳入1篇评审网络制度研究。",
       "limitations_zh": "从昨日候选继续补缺；其余命中含同文重复及待审相关线索，保留私有筛查队列；不把未审完记为排除或完整覆盖。"
+    },
+    {
+      "query": "Institutional Ties; p-hacking; scientific evaluation",
+      "source": "EDITH current corpus + INFORMS official article",
+      "checked_on": "2026-11-12",
+      "scope_zh": "2022–2026三项精确短语，10次命中、10唯一返回记录，无截断；经官方页核验纳入1篇期刊治理研究。",
+      "limitations_zh": "其余文献计量和可靠性线索未完成逐篇审查，含同文重复；保留待审，不以本次日期刷新全库核验范围。"
     }
   ],
   "candidates": [
