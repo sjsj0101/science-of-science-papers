@@ -5,7 +5,7 @@
 
 AI 如何改变研究评价，科研流程中的错误又怎样被发现、约束和纠正？将真实评议中的采用测量与随机反馈实验对照，再考察数据泄漏和自动化科研监督；评语改善、模型表现与最终科学质量分别评价。
 
-本主题 6 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
+本主题 7 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
 
 ## 阅读顺序
 
@@ -15,6 +15,7 @@ AI 如何改变研究评价，科研流程中的错误又怎样被发现、约�
 4. [Risks of AI scientists: prioritizing safeguarding over autonomy](#tang-2025-risks-ai-scientists)（2025）
 5. [Blinded versus Unblinded Review: A Field Study on the Equity of Peer-Review Processes](#pleskac-2026-blinded-review)（2026）
 6. [Clubs and Networks in Economics Reviewing](#carrell-2024-clubs-networks)（2024）
+7. [Unpacking P-hacking and Publication Bias](#brodeur-2023-unpacking-publication-bias)（2023）
 
 <a id="liang-2024-monitoring-ai-peer-reviews"></a>
 
@@ -192,5 +193,35 @@ Scott Carrell; David Figlio; Lester Lusher
 从本轮文献库命中追踪至UChicago官方文章页，直接核验三位作者、JPE132(9)、页2999–3024、DOI和2024-07-31在线日期；期刊卷期为2024。以正式版为单一条目，不重复收录2022工作论文。
 
 - [publication](https://www.journals.uchicago.edu/doi/10.1086/730208)：官方出版社书目与摘要均直接读取；本轮未读付费全文。
+
+</details>
+
+<a id="brodeur-2023-unpacking-publication-bias"></a>
+
+## Unpacking P-hacking and Publication Bias
+
+**2023 · American Economic Review · 期刊研究**
+
+**研究定位：**SoS 核心 · 经典与科研制度
+
+Abel Brodeur; Scott Carrell; David Figlio; Lester Lusher
+
+[论文](https://www.aeaweb.org/articles?id=10.1257/aer.20210795) · [正式来源](https://www.aeaweb.org/articles?id=10.1257/aer.20210795) · [代码](https://doi.org/10.3886/E192271V1)
+
+利用期刊投稿稿件中的检验统计量，区分投稿时的显著性聚集与后续编辑、审稿环节的筛选。作者报告，初投稿已存在聚集，送审和直接退稿的分布不同，审稿建议与显著性正相关；评审流程对总体统计量分布的改变有限。
+
+**为什么读：**为科学可靠性研究区分研究者端的分析选择与发表过程中的选择提供制度和测量基准，可与AI辅助评审研究对照。
+
+**限制：**短评仅依据正式摘要，未审计统计量抽取、密度检验或重跑代码。特定投稿与追踪样本不代表所有学科，不应据此断言发表偏倚不存在，也不是AI评审效果证据。后续复现讨论与作者回应仍待配对细读。
+
+标签：同行评议 / 科研可靠性 / 测量与识别 / 科研制度与资源
+
+<details>
+<summary>核验记录 · 2026-11-13 · 摘要</summary>
+
+本轮文献库命中后直接核验AEA官方题名、四位作者、AER113(11):2974–3002、2023年11月与DOI；官方提供复现包入口，未下载或执行。补接旧缺口，不是新近发表或全覆盖核验。
+
+- [publication](https://www.aeaweb.org/articles?id=10.1257/aer.20210795)：AEA正式文章页的书目信息与摘要，直接读取。
+- [metadata](https://doi.org/10.3886/E192271V1)：AEA文章页直接链接的数据与代码复现包；核验入口，不声称执行。
 
 </details>

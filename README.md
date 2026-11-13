@@ -3,9 +3,9 @@
 
 一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。按研究问题组织全部论文，将科研流程、生产率、创新、文献传播、评议和科研制度串成阅读地图。
 
-**43 篇论文 · 6 个研究主题 · 中文导读**
+**44 篇论文 · 6 个研究主题 · 中文导读**
 
-最近定向检索日期：**2026-11-12**。收录年份：**2007–2026**。精选目录，不声称系统综述或完整 venue-year 覆盖。
+最近定向检索日期：**2026-11-13**。收录年份：**2007–2026**。精选目录，不声称系统综述或完整 venue-year 覆盖。
 
 <a id="scope"></a>
 
@@ -28,8 +28,8 @@
 
 | 项目 | 数量 |
 | --- | ---: |
-| 收录论文 | 43 |
-| SoS 核心（AI 与科研 / 经典与制度） | 33（14 / 19） |
+| 收录论文 | 44 |
+| SoS 核心（AI 与科研 / 经典与制度） | 34（14 / 20） |
 | 交叉研究 / 技术背景 | 7 / 3 |
 | 补充预印本 / 待核验候选 | 0 / 6 |
 
@@ -56,7 +56,7 @@
 | [科研生产率、采用效果与机会差异](#productivity-and-opportunity) | 4 | [主题页](topics/productivity-and-opportunity.md) |
 | [创新方向、知识重组与集体探索](#innovation-and-knowledge-evolution) | 9 | [主题页](topics/innovation-and-knowledge-evolution.md) |
 | [科学文献：形成、传播与失真](#scientific-literature) | 10 | [主题页](topics/scientific-literature.md) |
-| [同行评议、研究可靠性与监督](#peer-review-and-reliability) | 6 | [主题页](topics/peer-review-and-reliability.md) |
+| [同行评议、研究可靠性与监督](#peer-review-and-reliability) | 7 | [主题页](topics/peer-review-and-reliability.md) |
 | [科研组织、资源分配与竞争激励](#organizations-resources-and-incentives) | 9 | [主题页](topics/organizations-resources-and-incentives.md) |
 
 <a id="paper-index"></a>
@@ -141,6 +141,7 @@ AI 如何改变研究评价，科研流程中的错误又怎样被发现、约�
 | 2025 · Nature Communications<br>观点 / 评论 | <a id="tang-2025-risks-ai-scientists"></a>[Risks of AI scientists: prioritizing safeguarding over autonomy](https://www.nature.com/articles/s41467-025-63913-1)<br>[解读与来源](topics/peer-review-and-reliability.md#tang-2025-risks-ai-scientists) | 为AI参与科研后的责任、监督与研究可靠性提供制度视角，可与自动化系统实证案例配对阅读。 | 元研究、理论与治理 |
 | 2026 · Management Science<br>期刊研究 | <a id="pleskac-2026-blinded-review"></a>[Blinded versus Unblinded Review: A Field Study on the Equity of Peer-Review Processes](https://pubsonline.informs.org/doi/10.1287/mnsc.2022.01646)<br>[解读与来源](topics/peer-review-and-reliability.md#pleskac-2026-blinded-review) | 为讨论科学评价中的噪声、身份信号和机会差异提供制度基准，可与AI辅助评审研究对照。 | SoS 核心 · 经典与科研制度 |
 | 2024 · Journal of Political Economy<br>期刊研究 | <a id="carrell-2024-clubs-networks"></a>[Clubs and Networks in Economics Reviewing](https://www.journals.uchicago.edu/doi/10.1086/730208)<br>[解读与来源](topics/peer-review-and-reliability.md#carrell-2024-clubs-networks) | 提供同行评议中身份信号与关系网络的制度背景，可与双盲评审和AI辅助评价研究对照，但不是AI采用效果。 | SoS 核心 · 经典与科研制度 |
+| 2023 · American Economic Review<br>期刊研究 | <a id="brodeur-2023-unpacking-publication-bias"></a>[Unpacking P-hacking and Publication Bias](https://www.aeaweb.org/articles?id=10.1257/aer.20210795)<br>[解读与来源](topics/peer-review-and-reliability.md#brodeur-2023-unpacking-publication-bias) | 为科学可靠性研究区分研究者端的分析选择与发表过程中的选择提供制度和测量基准，可与AI辅助评审研究对照。 | SoS 核心 · 经典与科研制度 |
 
 <a id="organizations-resources-and-incentives"></a>
 
@@ -167,7 +168,7 @@ AI 如何改变研究评价，科研流程中的错误又怎样被发现、约�
 | 研究定位 | 去重条目数 |
 | --- | ---: |
 | SoS 核心 · AI 与科研 | 14 |
-| SoS 核心 · 经典与科研制度 | 19 |
+| SoS 核心 · 经典与科研制度 | 20 |
 | 元研究、理论与治理 | 7 |
 | 技术背景与案例 | 3 |
 | 补充预印本 | 0 |
@@ -176,15 +177,15 @@ AI 如何改变研究评价，科研流程中的错误又怎样被发现、约�
 
 未收录候选：待核验 6、范围外 1、排除 2；不计入论文总数。
 
-已发表条目类型：会议论文 3 篇、期刊研究 32 篇、观点 / 评论 5 篇、政策分析（含实证） 1 篇、综述 2 篇。观点与综述分别标注。
+已发表条目类型：会议论文 3 篇、期刊研究 33 篇、观点 / 评论 5 篇、政策分析（含实证） 1 篇、综述 2 篇。观点与综述分别标注。
 
-内容阅读层次：摘要 12 篇、部分正文 / 图表 31 篇。来源访问、发表身份和阅读深度逐篇说明；**未独立复现实验。**
+内容阅读层次：摘要 13 篇、部分正文 / 图表 31 篇。来源访问、发表身份和阅读深度逐篇说明；**未独立复现实验。**
 
 <a id="known-gaps"></a>
 
 ## 已知缺口
 
-- 2026-11-10至2026-11-12为定向补缺批次，补入评议和期刊制度研究；原检索基线为2026-10-08，尚未补齐此后全部时间缺口。最近定向日期不表示全库逐项重新核验截止。
+- 2026-11-10至2026-11-13为定向补缺批次，补入评议、可靠性和期刊制度研究；原检索基线为2026-10-08，尚未补齐此后全部时间缺口。最近定向日期不表示全库逐项重新核验截止。
 - 关键词发现和代表作追踪不能证明已覆盖任何完整 venue-year；尤其不声称穷尽 2026 年成果。
 - 目前英文来源和文献计量研究占比较高；非英语科研、全球南方、实验室实际工时、阴性结果与长期科研质量的覆盖有限。
 - 多数采用研究依赖文本或文献代理；语言润色、工具使用、研究过程自动化是不同干预，不能统一解释为一个 AI 效果。

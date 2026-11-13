@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-12",
+  "snapshot_date": "2026-11-13",
   "description_zh": "一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。按研究问题组织全部论文，将科研流程、生产率、创新、文献传播、评议和科研制度串成阅读地图。",
   "scope": {
     "coverage": "curated-not-exhaustive",
@@ -19,7 +19,7 @@
     "year_policy_zh": "不为代表性历史背景设硬起始年；AI 主线优先选择 2022 年以来的工作。年份采用正式卷期年，尚未分配卷期时采用官方在线发表年；不用 DOI 字符串中的年份或机构入库日期推断发表年。预印本与正式版按同一研究去重。",
     "source_policy_zh": "不限定固定期刊清单。除补充预印本外，各分层仅收已核验正式发表的期刊或会议文章；会议 track、社论、邀稿与特殊评审流程逐条说明。每轮文献检索实际查询 EDITH，并结合网络原始来源核验；预印本和待核验候选单列。",
     "gaps_zh": [
-      "2026-11-10至2026-11-12为定向补缺批次，补入评议和期刊制度研究；原检索基线为2026-10-08，尚未补齐此后全部时间缺口。最近定向日期不表示全库逐项重新核验截止。",
+      "2026-11-10至2026-11-13为定向补缺批次，补入评议、可靠性和期刊制度研究；原检索基线为2026-10-08，尚未补齐此后全部时间缺口。最近定向日期不表示全库逐项重新核验截止。",
       "关键词发现和代表作追踪不能证明已覆盖任何完整 venue-year；尤其不声称穷尽 2026 年成果。",
       "目前英文来源和文献计量研究占比较高；非英语科研、全球南方、实验室实际工时、阴性结果与长期科研质量的覆盖有限。",
       "多数采用研究依赖文本或文献代理；语言润色、工具使用、研究过程自动化是不同干预，不能统一解释为一个 AI 效果。",
@@ -170,7 +170,8 @@
         "kapoor-2023-leakage",
         "tang-2025-risks-ai-scientists",
         "pleskac-2026-blinded-review",
-        "carrell-2024-clubs-networks"
+        "carrell-2024-clubs-networks",
+        "brodeur-2023-unpacking-publication-bias"
       ]
     },
     {
@@ -2169,6 +2170,50 @@
         "online_date": "2025-02-26",
         "issue_year": 2025
       }
+    },
+    {
+      "id": "brodeur-2023-unpacking-publication-bias",
+      "collection": "foundations",
+      "title": "Unpacking P-hacking and Publication Bias",
+      "authors": [
+        "Abel Brodeur",
+        "Scott Carrell",
+        "David Figlio",
+        "Lester Lusher"
+      ],
+      "authors_complete": true,
+      "year": 2023,
+      "venue": "American Economic Review",
+      "publication_type": "journal-research",
+      "publication_status": "published",
+      "doi": "10.1257/aer.20210795",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20210795",
+      "official_url": "https://www.aeaweb.org/articles?id=10.1257/aer.20210795",
+      "tags": [
+        "peer-review",
+        "reliability",
+        "methods",
+        "institutions"
+      ],
+      "summary_zh": "利用期刊投稿稿件中的检验统计量，区分投稿时的显著性聚集与后续编辑、审稿环节的筛选。作者报告，初投稿已存在聚集，送审和直接退稿的分布不同，审稿建议与显著性正相关；评审流程对总体统计量分布的改变有限。",
+      "limitations_zh": "短评仅依据正式摘要，未审计统计量抽取、密度检验或重跑代码。特定投稿与追踪样本不代表所有学科，不应据此断言发表偏倚不存在，也不是AI评审效果证据。后续复现讨论与作者回应仍待配对细读。",
+      "relevance_zh": "为科学可靠性研究区分研究者端的分析选择与发表过程中的选择提供制度和测量基准，可与AI辅助评审研究对照。",
+      "evidence_level": "abstract",
+      "verified_on": "2026-11-13",
+      "verification_note_zh": "本轮文献库命中后直接核验AEA官方题名、四位作者、AER113(11):2974–3002、2023年11月与DOI；官方提供复现包入口，未下载或执行。补接旧缺口，不是新近发表或全覆盖核验。",
+      "code_url": "https://doi.org/10.3886/E192271V1",
+      "sources": [
+        {
+          "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20210795",
+          "role": "publication",
+          "note_zh": "AEA正式文章页的书目信息与摘要，直接读取。"
+        },
+        {
+          "url": "https://doi.org/10.3886/E192271V1",
+          "role": "metadata",
+          "note_zh": "AEA文章页直接链接的数据与代码复现包；核验入口，不声称执行。"
+        }
+      ]
     }
   ],
   "incremental_updates": [
@@ -2193,6 +2238,14 @@
       "baseline_date": "2026-10-08",
       "added_ids": [
         "whited-2025-institutional-ties"
+      ],
+      "coverage": "targeted-not-exhaustive"
+    },
+    {
+      "checked_on": "2026-11-13",
+      "baseline_date": "2026-10-08",
+      "added_ids": [
+        "brodeur-2023-unpacking-publication-bias"
       ],
       "coverage": "targeted-not-exhaustive"
     }

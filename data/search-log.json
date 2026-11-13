@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-12",
+  "snapshot_date": "2026-11-13",
   "coverage_claim": "none",
   "method_zh": "按用户选择的 AI 科研主线进行 EDITH 库内检索、网络补充、正式版本核验与方法争议追踪。首版为网络精选；2026-10-08 增补轮已重新实际查询 EDITH。并非按 venue-year 或数据库全量筛查。只保存可公开的查询与原创筛选说明，不存原文全文。",
   "searches": [
@@ -328,6 +328,13 @@
       "checked_on": "2026-11-12",
       "scope_zh": "2022–2026三项精确短语，10次命中、10唯一返回记录，无截断；经官方页核验纳入1篇期刊治理研究。",
       "limitations_zh": "其余文献计量和可靠性线索未完成逐篇审查，含同文重复；保留待审，不以本次日期刷新全库核验范围。"
+    },
+    {
+      "query": "Unpacking p-Hacking and Publication Bias; research integrity; scientific reliability",
+      "source": "EDITH current corpus + AEA official article and replication-package record",
+      "checked_on": "2026-11-13",
+      "scope_zh": "2022–2026，3项精确短语查询，累计2次命中、唯一返回2条、无截断；纳入1篇2023年AER投稿与评审研究，另一条计算复现线索保留待审。",
+      "limitations_zh": "定向补接积压，不刷新2026-10-08基线或声明完整覆盖；摘要核验与独立复现不同，后续方法讨论尚待配对阅读。"
     }
   ],
   "candidates": [
