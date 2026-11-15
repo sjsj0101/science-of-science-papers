@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-13",
+  "snapshot_date": "2026-11-15",
   "description_zh": "一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。按研究问题组织全部论文，将科研流程、生产率、创新、文献传播、评议和科研制度串成阅读地图。",
   "scope": {
     "coverage": "curated-not-exhaustive",
@@ -19,7 +19,7 @@
     "year_policy_zh": "不为代表性历史背景设硬起始年；AI 主线优先选择 2022 年以来的工作。年份采用正式卷期年，尚未分配卷期时采用官方在线发表年；不用 DOI 字符串中的年份或机构入库日期推断发表年。预印本与正式版按同一研究去重。",
     "source_policy_zh": "不限定固定期刊清单。除补充预印本外，各分层仅收已核验正式发表的期刊或会议文章；会议 track、社论、邀稿与特殊评审流程逐条说明。每轮文献检索实际查询 EDITH，并结合网络原始来源核验；预印本和待核验候选单列。",
     "gaps_zh": [
-      "2026-11-10至2026-11-13为定向补缺批次，补入评议、可靠性和期刊制度研究；原检索基线为2026-10-08，尚未补齐此后全部时间缺口。最近定向日期不表示全库逐项重新核验截止。",
+      "2026-11-10至2026-11-15为定向补缺批次，原检索基线为2026-10-08，尚未补齐此后全部时间缺口。最近定向日期不表示全库逐项重新核验截止。",
       "关键词发现和代表作追踪不能证明已覆盖任何完整 venue-year；尤其不声称穷尽 2026 年成果。",
       "目前英文来源和文献计量研究占比较高；非英语科研、全球南方、实验室实际工时、阴性结果与长期科研质量的覆盖有限。",
       "多数采用研究依赖文本或文献代理；语言润色、工具使用、研究过程自动化是不同干预，不能统一解释为一个 AI 效果。",
@@ -171,7 +171,8 @@
         "tang-2025-risks-ai-scientists",
         "pleskac-2026-blinded-review",
         "carrell-2024-clubs-networks",
-        "brodeur-2023-unpacking-publication-bias"
+        "brodeur-2023-unpacking-publication-bias",
+        "machado-2026-ai-novelty-grant-review"
       ]
     },
     {
@@ -2214,6 +2215,51 @@
           "note_zh": "AEA文章页直接链接的数据与代码复现包；核验入口，不声称执行。"
         }
       ]
+    },
+    {
+      "id": "machado-2026-ai-novelty-grant-review",
+      "collection": "ai-core",
+      "title": "Generative AI bias against scientific novelty: a cautionary tale from a small-sample evaluation of research proposals",
+      "authors": [
+        "Diogo Machado"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "Scientometrics",
+      "publication_type": "journal-research",
+      "publication_status": "published",
+      "doi": "10.1007/s11192-026-05792-x",
+      "url": "https://link.springer.com/article/10.1007/s11192-026-05792-x",
+      "official_url": "https://link.springer.com/article/10.1007/s11192-026-05792-x",
+      "tags": [
+        "ai-science",
+        "peer-review",
+        "innovation",
+        "institutions",
+        "methods"
+      ],
+      "summary_zh": "用GPT-4o对同领域基金申请进行两两比较并汇总排序，再与人工资助决定及评审维度对照。作者报告，模型与人工的分歧集中在新颖性较高的申请，提示总体一致率可能掩盖选择方向上的差异。",
+      "limitations_zh": "单一资助机构、年份与模型配置的小样本，且提示未显式提供人工使用的四维评审标准；不能据关联认定新颖性是唯一因果机制，也不能推出长期科学产出损失。原始申请及评分保密，聚合数据和代码需依政策申请；本轮只读摘要及限制/数据可用性段落，未通读或复现。",
+      "relevance_zh": "直接研究AI参与科研资源分配时的评价偏向，把模型与人工意见一致性同创新选择及制度后果区分开。",
+      "evidence_level": "selected-full-text",
+      "verified_on": "2026-11-15",
+      "verification_note_zh": "从Nature Index新闻追溯至Springer正式研究页，直接核验独立作者、131卷7479–7497、2026-08-27与DOI；新闻不作为论文重复收录。",
+      "publication_dates": {
+        "online_date": "2026-08-27",
+        "issue_year": 2026
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s11192-026-05792-x",
+          "role": "publication",
+          "note_zh": "正式文章元数据、摘要及限制/数据可用性段落直接读取；不把观察性分歧写成已识别的机制。"
+        },
+        {
+          "url": "https://www.nature.com/articles/d41586-026-03340-4",
+          "role": "metadata",
+          "note_zh": "仅为发现原始研究的新闻入口，不单列论文或作为内容结论的替代来源。"
+        }
+      ]
     }
   ],
   "incremental_updates": [
@@ -2248,6 +2294,13 @@
         "brodeur-2023-unpacking-publication-bias"
       ],
       "coverage": "targeted-not-exhaustive"
+    },
+    {
+      "checked_on": "2026-11-15",
+      "added_ids": [
+        "machado-2026-ai-novelty-grant-review"
+      ],
+      "scope_zh": "定向补接候选，不刷新原全库基线或其他论文核验日；未复现实验。"
     }
   ]
 }

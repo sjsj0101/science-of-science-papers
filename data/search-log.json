@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-13",
+  "snapshot_date": "2026-11-15",
   "coverage_claim": "none",
   "method_zh": "按用户选择的 AI 科研主线进行 EDITH 库内检索、网络补充、正式版本核验与方法争议追踪。首版为网络精选；2026-10-08 增补轮已重新实际查询 EDITH。并非按 venue-year 或数据库全量筛查。只保存可公开的查询与原创筛选说明，不存原文全文。",
   "searches": [
@@ -335,6 +335,13 @@
       "checked_on": "2026-11-13",
       "scope_zh": "2022–2026，3项精确短语查询，累计2次命中、唯一返回2条、无截断；纳入1篇2023年AER投稿与评审研究，另一条计算复现线索保留待审。",
       "limitations_zh": "定向补接积压，不刷新2026-10-08基线或声明完整覆盖；摘要核验与独立复现不同，后续方法讨论尚待配对阅读。"
+    },
+    {
+      "query": "grant review; AI peer review; scientific innovation; Nature news reference follow-up",
+      "source": "EDITH current corpus + official Springer article and Nature reference link",
+      "checked_on": "2026-11-15",
+      "scope_zh": "2022–2026三项精确短语查询成功、0命中、无截断；网络追溯原始研究后纳入1篇正式文章。",
+      "limitations_zh": "补接既有候选，不重算2026-10-08全库基线；只阅读摘要与部分正文，未复现实验。"
     }
   ],
   "candidates": [

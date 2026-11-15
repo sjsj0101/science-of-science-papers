@@ -5,7 +5,7 @@
 
 AI 如何改变研究评价，科研流程中的错误又怎样被发现、约束和纠正？将真实评议中的采用测量与随机反馈实验对照，再考察数据泄漏和自动化科研监督；评语改善、模型表现与最终科学质量分别评价。
 
-本主题 7 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
+本主题 8 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
 
 ## 阅读顺序
 
@@ -16,6 +16,7 @@ AI 如何改变研究评价，科研流程中的错误又怎样被发现、约�
 5. [Blinded versus Unblinded Review: A Field Study on the Equity of Peer-Review Processes](#pleskac-2026-blinded-review)（2026）
 6. [Clubs and Networks in Economics Reviewing](#carrell-2024-clubs-networks)（2024）
 7. [Unpacking P-hacking and Publication Bias](#brodeur-2023-unpacking-publication-bias)（2023）
+8. [Generative AI bias against scientific novelty: a cautionary tale from a small-sample evaluation of research proposals](#machado-2026-ai-novelty-grant-review)（2026）
 
 <a id="liang-2024-monitoring-ai-peer-reviews"></a>
 
@@ -223,5 +224,35 @@ Abel Brodeur; Scott Carrell; David Figlio; Lester Lusher
 
 - [publication](https://www.aeaweb.org/articles?id=10.1257/aer.20210795)：AEA正式文章页的书目信息与摘要，直接读取。
 - [metadata](https://doi.org/10.3886/E192271V1)：AEA文章页直接链接的数据与代码复现包；核验入口，不声称执行。
+
+</details>
+
+<a id="machado-2026-ai-novelty-grant-review"></a>
+
+## Generative AI bias against scientific novelty: a cautionary tale from a small-sample evaluation of research proposals
+
+**2026 · Scientometrics · 期刊研究**
+
+**研究定位：**SoS 核心 · AI 与科研
+
+Diogo Machado
+
+[论文](https://link.springer.com/article/10.1007/s11192-026-05792-x) · [正式来源](https://link.springer.com/article/10.1007/s11192-026-05792-x)
+
+用GPT-4o对同领域基金申请进行两两比较并汇总排序，再与人工资助决定及评审维度对照。作者报告，模型与人工的分歧集中在新颖性较高的申请，提示总体一致率可能掩盖选择方向上的差异。
+
+**为什么读：**直接研究AI参与科研资源分配时的评价偏向，把模型与人工意见一致性同创新选择及制度后果区分开。
+
+**限制：**单一资助机构、年份与模型配置的小样本，且提示未显式提供人工使用的四维评审标准；不能据关联认定新颖性是唯一因果机制，也不能推出长期科学产出损失。原始申请及评分保密，聚合数据和代码需依政策申请；本轮只读摘要及限制/数据可用性段落，未通读或复现。
+
+标签：AI 与科研 / 同行评议 / 创新 / 科研制度与资源 / 测量与识别
+
+<details>
+<summary>核验记录 · 2026-11-15 · 部分正文 / 图表</summary>
+
+从Nature Index新闻追溯至Springer正式研究页，直接核验独立作者、131卷7479–7497、2026-08-27与DOI；新闻不作为论文重复收录。
+
+- [publication](https://link.springer.com/article/10.1007/s11192-026-05792-x)：正式文章元数据、摘要及限制/数据可用性段落直接读取；不把观察性分歧写成已识别的机制。
+- [metadata](https://www.nature.com/articles/d41586-026-03340-4)：仅为发现原始研究的新闻入口，不单列论文或作为内容结论的替代来源。
 
 </details>
