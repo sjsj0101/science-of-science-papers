@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-15",
+  "snapshot_date": "2026-11-18",
   "description_zh": "一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。按研究问题组织全部论文，将科研流程、生产率、创新、文献传播、评议和科研制度串成阅读地图。",
   "scope": {
     "coverage": "curated-not-exhaustive",
@@ -19,7 +19,7 @@
     "year_policy_zh": "不为代表性历史背景设硬起始年；AI 主线优先选择 2022 年以来的工作。年份采用正式卷期年，尚未分配卷期时采用官方在线发表年；不用 DOI 字符串中的年份或机构入库日期推断发表年。预印本与正式版按同一研究去重。",
     "source_policy_zh": "不限定固定期刊清单。除补充预印本外，各分层仅收已核验正式发表的期刊或会议文章；会议 track、社论、邀稿与特殊评审流程逐条说明。每轮文献检索实际查询 EDITH，并结合网络原始来源核验；预印本和待核验候选单列。",
     "gaps_zh": [
-      "2026-11-10至2026-11-15为定向补缺批次，原检索基线为2026-10-08，尚未补齐此后全部时间缺口。最近定向日期不表示全库逐项重新核验截止。",
+      "2026-11-10至2026-11-18为定向补缺批次；原检索基线为2026-10-08，尚未补齐此后全部时间缺口。最近定向日期不表示全库逐项重新核验截止。",
       "关键词发现和代表作追踪不能证明已覆盖任何完整 venue-year；尤其不声称穷尽 2026 年成果。",
       "目前英文来源和文献计量研究占比较高；非英语科研、全球南方、实验室实际工时、阴性结果与长期科研质量的覆盖有限。",
       "多数采用研究依赖文本或文献代理；语言润色、工具使用、研究过程自动化是不同干预，不能统一解释为一个 AI 效果。",
@@ -113,7 +113,8 @@
         "wang-2023-scientific-discovery-ai",
         "gopal-2025-inventing-with-machines",
         "messeri-2024-illusions-understanding",
-        "lu-2026-end-to-end-ai-research"
+        "lu-2026-end-to-end-ai-research",
+        "shao-2026-sciscigpt"
       ]
     },
     {
@@ -2260,6 +2261,61 @@
           "note_zh": "仅为发现原始研究的新闻入口，不单列论文或作为内容结论的替代来源。"
         }
       ]
+    },
+    {
+      "id": "shao-2026-sciscigpt",
+      "collection": "technical-background",
+      "title": "SciSciGPT: advancing human–AI collaboration in the science of science",
+      "authors": [
+        "Erzhuo Shao",
+        "Yifang Wang",
+        "Yifan Qian",
+        "Zhenyu Pan",
+        "Han Liu",
+        "Dashun Wang"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "Nature Computational Science",
+      "publication_type": "journal-research",
+      "publication_status": "published",
+      "doi": "10.1038/s43588-025-00906-6",
+      "url": "https://www.nature.com/articles/s43588-025-00906-6",
+      "official_url": "https://www.nature.com/articles/s43588-025-00906-6",
+      "tags": [
+        "ai-science",
+        "knowledge-production",
+        "methods",
+        "reliability"
+      ],
+      "summary_zh": "以科学计量研究为场景，把文献、数据库、分析和评价组织为多agent协作原型，通过案例与探索性专家评价讨论人机分工和流程透明性。",
+      "limitations_zh": "小样本探索性评价；对照研究者可使用通用AI工具，不能解释为无AI人类与AI的严格比较。案例不足以证明跨学科生产率提升；仅读摘要及部分评价、讨论和可用性段落，未审计全文或运行代码。",
+      "relevance_zh": "作为领域化科研协作的技术案例，帮助比较工具编排、研究者监督与可追溯流程；不把系统案例当作科研生态或采用效果的普遍证据。",
+      "evidence_level": "selected-full-text",
+      "verified_on": "2026-11-18",
+      "verification_note_zh": "官方页直接可读，确认六位作者、Resource类型、6卷301–315及2025-12-09在线日期；按本库正式卷期年归档2026。代码链接来自官方Code availability，未执行。原检索基线不变。",
+      "publication_dates": {
+        "online_date": "2025-12-09",
+        "issue_year": 2026
+      },
+      "code_url": "https://github.com/Northwestern-CSSI/SciSciGPT",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s43588-025-00906-6",
+          "role": "publication",
+          "note_zh": "官方文章页元数据和摘要直接读取；Resource按研究文章记，保留原始类型与在线/卷期年区别。"
+        },
+        {
+          "url": "https://www.nature.com/articles/s43588-025-00906-6",
+          "role": "content",
+          "note_zh": "部分正文：Expert review、Discussion、Code availability；评价为探索性而非普遍能力证明。"
+        },
+        {
+          "url": "https://github.com/Northwestern-CSSI/SciSciGPT",
+          "role": "metadata",
+          "note_zh": "出版商直接给出的代码仓库入口，已打开，未下载或运行。"
+        }
+      ]
     }
   ],
   "incremental_updates": [
@@ -2301,6 +2357,14 @@
         "machado-2026-ai-novelty-grant-review"
       ],
       "scope_zh": "定向补接候选，不刷新原全库基线或其他论文核验日；未复现实验。"
+    },
+    {
+      "checked_on": "2026-11-18",
+      "baseline_date": "2026-10-08",
+      "added_ids": [
+        "shao-2026-sciscigpt"
+      ],
+      "coverage": "targeted-not-exhaustive"
     }
   ]
 }

@@ -5,7 +5,7 @@
 
 AI 可以进入哪些科研环节，研究者应保留哪些判断与解释责任？从科学学的问题地图出发，对照技术综述、学科实践框架、认知风险和自动化系统案例；能力演示与规范建议不等于真实科研收益已得到验证。
 
-本主题 5 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
+本主题 6 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
 
 ## 阅读顺序
 
@@ -14,6 +14,7 @@ AI 可以进入哪些科研环节，研究者应保留哪些判断与解释责�
 3. [Inventing with Machines: Generative AI and the Evolving Landscape of IS Research](#gopal-2025-inventing-with-machines)（2025）
 4. [Artificial intelligence and illusions of understanding in scientific research](#messeri-2024-illusions-understanding)（2024）
 5. [Towards end-to-end automation of AI research](#lu-2026-end-to-end-ai-research)（2026）
+6. [SciSciGPT: advancing human–AI collaboration in the science of science](#shao-2026-sciscigpt)（2026）
 
 <a id="fortunato-2018-science-of-science"></a>
 
@@ -161,5 +162,36 @@ Chris Lu; Cong Lu; Robert Tjarko Lange; Yutaro Yamada; Shengran Hu; Jakob Foerst
 Nature开放原文核验2026年正式文章、八位作者、卷651页914–919及DOI；阅读工作流程、Human evaluation results、Limitations和部分Methods。旧The AI Scientist预印本按版本关系不重复收录。
 
 - [publication](https://www.nature.com/articles/s41586-026-10265-5)：Nature正式开放文章；正文明确人工筛选、workshop评议门槛、按协议撤回及未达主会水平。
+
+</details>
+
+<a id="shao-2026-sciscigpt"></a>
+
+## SciSciGPT: advancing human–AI collaboration in the science of science
+
+**2026 · Nature Computational Science · 期刊研究**
+
+**研究定位：**技术背景与案例
+
+Erzhuo Shao; Yifang Wang; Yifan Qian; Zhenyu Pan; Han Liu; Dashun Wang
+
+[论文](https://www.nature.com/articles/s43588-025-00906-6) · [正式来源](https://www.nature.com/articles/s43588-025-00906-6) · [代码](https://github.com/Northwestern-CSSI/SciSciGPT)
+
+以科学计量研究为场景，把文献、数据库、分析和评价组织为多agent协作原型，通过案例与探索性专家评价讨论人机分工和流程透明性。
+
+**为什么读：**作为领域化科研协作的技术案例，帮助比较工具编排、研究者监督与可追溯流程；不把系统案例当作科研生态或采用效果的普遍证据。
+
+**限制：**小样本探索性评价；对照研究者可使用通用AI工具，不能解释为无AI人类与AI的严格比较。案例不足以证明跨学科生产率提升；仅读摘要及部分评价、讨论和可用性段落，未审计全文或运行代码。
+
+标签：AI 与科研 / 科研生产 / 测量与识别 / 科研可靠性
+
+<details>
+<summary>核验记录 · 2026-11-18 · 部分正文 / 图表</summary>
+
+官方页直接可读，确认六位作者、Resource类型、6卷301–315及2025-12-09在线日期；按本库正式卷期年归档2026。代码链接来自官方Code availability，未执行。原检索基线不变。
+
+- [publication](https://www.nature.com/articles/s43588-025-00906-6)：官方文章页元数据和摘要直接读取；Resource按研究文章记，保留原始类型与在线/卷期年区别。
+- [content](https://www.nature.com/articles/s43588-025-00906-6)：部分正文：Expert review、Discussion、Code availability；评价为探索性而非普遍能力证明。
+- [metadata](https://github.com/Northwestern-CSSI/SciSciGPT)：出版商直接给出的代码仓库入口，已打开，未下载或运行。
 
 </details>

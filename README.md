@@ -3,9 +3,9 @@
 
 一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。按研究问题组织全部论文，将科研流程、生产率、创新、文献传播、评议和科研制度串成阅读地图。
 
-**45 篇论文 · 6 个研究主题 · 中文导读**
+**46 篇论文 · 6 个研究主题 · 中文导读**
 
-最近定向检索日期：**2026-11-15**。收录年份：**2007–2026**。精选目录，不声称系统综述或完整 venue-year 覆盖。
+最近定向检索日期：**2026-11-18**。收录年份：**2007–2026**。精选目录，不声称系统综述或完整 venue-year 覆盖。
 
 <a id="scope"></a>
 
@@ -28,9 +28,9 @@
 
 | 项目 | 数量 |
 | --- | ---: |
-| 收录论文 | 45 |
+| 收录论文 | 46 |
 | SoS 核心（AI 与科研 / 经典与制度） | 35（15 / 20） |
-| 交叉研究 / 技术背景 | 7 / 3 |
+| 交叉研究 / 技术背景 | 7 / 4 |
 | 补充预印本 / 待核验候选 | 0 / 6 |
 
 主题回答“这篇研究在讨论什么”；研究定位说明它与 SoS 主线的关系。两者独立：同一主题可以包含核心研究、元研究和技术背景，后两者会逐条标明。
@@ -52,7 +52,7 @@
 
 | 主题 | 篇数 | 完整条目 |
 | --- | ---: | --- |
-| [科研流程、人机分工与科学理解](#workflow-and-human-ai-roles) | 5 | [主题页](topics/workflow-and-human-ai-roles.md) |
+| [科研流程、人机分工与科学理解](#workflow-and-human-ai-roles) | 6 | [主题页](topics/workflow-and-human-ai-roles.md) |
 | [科研生产率、采用效果与机会差异](#productivity-and-opportunity) | 4 | [主题页](topics/productivity-and-opportunity.md) |
 | [创新方向、知识重组与集体探索](#innovation-and-knowledge-evolution) | 9 | [主题页](topics/innovation-and-knowledge-evolution.md) |
 | [科学文献：形成、传播与失真](#scientific-literature) | 10 | [主题页](topics/scientific-literature.md) |
@@ -76,6 +76,7 @@ AI 可以进入哪些科研环节，研究者应保留哪些判断与解释责�
 | 2025 · Information Systems Research<br>观点 / 评论 | <a id="gopal-2025-inventing-with-machines"></a>[Inventing with Machines: Generative AI and the Evolving Landscape of IS Research](https://pubsonline.informs.org/doi/full/10.1287/isre.2025.editorial.v36.n4)<br>[解读与来源](topics/workflow-and-human-ai-roles.md#gopal-2025-inventing-with-machines) | 提供 AI 改变学科研究流程和学术规范的具体参照，放入跨学科关联；它为科学学提出治理问题，不能替代对科研生态变化的直接测量。 | 元研究、理论与治理 |
 | 2024 · Nature<br>观点 / 评论 | <a id="messeri-2024-illusions-understanding"></a>[Artificial intelligence and illusions of understanding in scientific research](https://www.nature.com/articles/s41586-024-07146-0)<br>[解读与来源](topics/workflow-and-human-ai-roles.md#messeri-2024-illusions-understanding) | 把研究重点从模型能力转向科学共同体如何理解、选择和评价知识，直接连接AI与Science of Science。 | 元研究、理论与治理 |
 | 2026 · Nature<br>期刊研究 | <a id="lu-2026-end-to-end-ai-research"></a>[Towards end-to-end automation of AI research](https://www.nature.com/articles/s41586-026-10265-5)<br>[解读与来源](topics/workflow-and-human-ai-roles.md#lu-2026-end-to-end-ai-research) | 用单篇系统案例连接科研生产和评议制度，重点阅读人类筛选、外部评价与科研诚信限制，不将仓库扩成Agent排行榜。 | 技术背景与案例 |
+| 2026 · Nature Computational Science<br>期刊研究 | <a id="shao-2026-sciscigpt"></a>[SciSciGPT: advancing human–AI collaboration in the science of science](https://www.nature.com/articles/s43588-025-00906-6)<br>[解读与来源](topics/workflow-and-human-ai-roles.md#shao-2026-sciscigpt) | 作为领域化科研协作的技术案例，帮助比较工具编排、研究者监督与可追溯流程；不把系统案例当作科研生态或采用效果的普遍证据。 | 技术背景与案例 |
 
 <a id="productivity-and-opportunity"></a>
 
@@ -171,22 +172,22 @@ AI 如何改变研究评价，科研流程中的错误又怎样被发现、约�
 | SoS 核心 · AI 与科研 | 15 |
 | SoS 核心 · 经典与科研制度 | 20 |
 | 元研究、理论与治理 | 7 |
-| 技术背景与案例 | 3 |
+| 技术背景与案例 | 4 |
 | 补充预印本 | 0 |
 
 前两类合计为 SoS 核心；经典机制不直接证明 AI 效果，技术系统的任务表现不直接代表科学整体收益。研究定位是编辑判断，不是论文质量排名。
 
 未收录候选：待核验 6、范围外 1、排除 2；不计入论文总数。
 
-已发表条目类型：会议论文 3 篇、期刊研究 34 篇、观点 / 评论 5 篇、政策分析（含实证） 1 篇、综述 2 篇。观点与综述分别标注。
+已发表条目类型：会议论文 3 篇、期刊研究 35 篇、观点 / 评论 5 篇、政策分析（含实证） 1 篇、综述 2 篇。观点与综述分别标注。
 
-内容阅读层次：摘要 13 篇、部分正文 / 图表 32 篇。来源访问、发表身份和阅读深度逐篇说明；**未独立复现实验。**
+内容阅读层次：摘要 13 篇、部分正文 / 图表 33 篇。来源访问、发表身份和阅读深度逐篇说明；**未独立复现实验。**
 
 <a id="known-gaps"></a>
 
 ## 已知缺口
 
-- 2026-11-10至2026-11-15为定向补缺批次，原检索基线为2026-10-08，尚未补齐此后全部时间缺口。最近定向日期不表示全库逐项重新核验截止。
+- 2026-11-10至2026-11-18为定向补缺批次；原检索基线为2026-10-08，尚未补齐此后全部时间缺口。最近定向日期不表示全库逐项重新核验截止。
 - 关键词发现和代表作追踪不能证明已覆盖任何完整 venue-year；尤其不声称穷尽 2026 年成果。
 - 目前英文来源和文献计量研究占比较高；非英语科研、全球南方、实验室实际工时、阴性结果与长期科研质量的覆盖有限。
 - 多数采用研究依赖文本或文献代理；语言润色、工具使用、研究过程自动化是不同干预，不能统一解释为一个 AI 效果。
