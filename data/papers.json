@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-18",
+  "snapshot_date": "2026-11-21",
   "description_zh": "一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。按研究问题组织全部论文，将科研流程、生产率、创新、文献传播、评议和科研制度串成阅读地图。",
   "scope": {
     "coverage": "curated-not-exhaustive",
@@ -189,7 +189,8 @@
         "hill-2025-scooped-priority",
         "hill-2025-race-to-bottom",
         "azoulay-2019-funeral-science",
-        "whited-2025-institutional-ties"
+        "whited-2025-institutional-ties",
+        "mohnen-2022-stars-brokers"
       ]
     }
   ],
@@ -2316,6 +2317,45 @@
           "note_zh": "出版商直接给出的代码仓库入口，已打开，未下载或运行。"
         }
       ]
+    },
+    {
+      "id": "mohnen-2022-stars-brokers",
+      "collection": "foundations",
+      "title": "Stars and Brokers: Knowledge Spillovers Among Medical Scientists",
+      "authors": [
+        "Myra Mohnen"
+      ],
+      "authors_complete": true,
+      "year": 2022,
+      "venue": "Management Science",
+      "publication_type": "journal-research",
+      "publication_status": "published",
+      "doi": "10.1287/mnsc.2021.4032",
+      "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2021.4032",
+      "official_url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2021.4032",
+      "tags": [
+        "teams",
+        "knowledge-production",
+        "innovation",
+        "methods"
+      ],
+      "summary_zh": "以医学科学家的合著网络构造知识经纪位置指标，考察明星科学家去世后合作者的发表变化。作者报告，失去通往非冗余知识的网络联系与后续产出下降相关，提示同一合作者冲击的影响依赖网络位置。",
+      "limitations_zh": "识别依赖作者关于死亡冲击与网络暴露的设计假设，本轮仅读正式摘要，未审计全文识别和稳健性。医学合著网络不代表所有学科；这是科研合作制度背景，不是AI采用效果或已复现的因果结论。",
+      "relevance_zh": "为研究科研团队中的知识流动和网络桥梁提供基础对照，帮助区分合作数量与非冗余信息渠道。",
+      "evidence_level": "abstract",
+      "verified_on": "2026-11-21",
+      "verification_note_zh": "本轮文献库命中后，直接读取INFORMS官方文章页：核验独立作者、DOI、68(4):2513–2532、2021-07-09在线日期与摘要。沿本库正式卷期年归2022，不把新发现旧论文说成新近发表。",
+      "publication_dates": {
+        "online_date": "2021-07-09",
+        "issue_year": 2022
+      },
+      "sources": [
+        {
+          "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2021.4032",
+          "role": "publication",
+          "note_zh": "官方元数据与摘要直接读取；本轮补接既有制度研究缺口，未通读或复现。"
+        }
+      ]
     }
   ],
   "incremental_updates": [
@@ -2365,6 +2405,13 @@
         "shao-2026-sciscigpt"
       ],
       "coverage": "targeted-not-exhaustive"
+    },
+    {
+      "checked_on": "2026-11-21",
+      "added_ids": [
+        "mohnen-2022-stars-brokers"
+      ],
+      "scope_zh": "定向补接1篇科研合作网络基础研究，按正式卷期年归2022；AI核心不变，原全库基线及阅读路线保留。"
     }
   ]
 }

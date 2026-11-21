@@ -5,7 +5,7 @@
 
 谁能够组织研究、获得资源与认可，合作结构、评价规则和竞争如何塑造科研行为？从团队与产业资源格局，读到 AI 资助申请、人才配置、优先权奖励及领域进入；历史机制为 AI 时代的问题提供参照，不直接充当 AI 效果证据。
 
-本主题 9 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
+本主题 10 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
 
 ## 阅读顺序
 
@@ -18,6 +18,7 @@
 7. [Race to the Bottom: Competition and Quality in Science](#hill-2025-race-to-bottom)（2025）
 8. [Does Science Advance One Funeral at a Time?](#azoulay-2019-funeral-science)（2019）
 9. [Institutional Ties and Publications in Top Accounting Journals](#whited-2025-institutional-ties)（2025）
+10. [Stars and Brokers: Knowledge Spillovers Among Medical Scientists](#mohnen-2022-stars-brokers)（2022）
 
 <a id="wuchty-2007-dominance-teams"></a>
 
@@ -288,5 +289,34 @@ Robert L. Whited
 本轮文献库候选经INFORMS正式页核验单一作者、DOI、2025-02-26在线、Management Science71(11):9041–9070及摘要。在线与卷期均2025，不根据DOI中的2024猜年份。
 
 - [publication](https://pubsonline.informs.org/doi/10.1287/mnsc.2024.04553)：直接读取官方书目、摘要、在线与卷期日期；未声称已阅读全文。
+
+</details>
+
+<a id="mohnen-2022-stars-brokers"></a>
+
+## Stars and Brokers: Knowledge Spillovers Among Medical Scientists
+
+**2022 · Management Science · 期刊研究**
+
+**研究定位：**SoS 核心 · 经典与科研制度
+
+Myra Mohnen
+
+[论文](https://pubsonline.informs.org/doi/10.1287/mnsc.2021.4032) · [正式来源](https://pubsonline.informs.org/doi/10.1287/mnsc.2021.4032)
+
+以医学科学家的合著网络构造知识经纪位置指标，考察明星科学家去世后合作者的发表变化。作者报告，失去通往非冗余知识的网络联系与后续产出下降相关，提示同一合作者冲击的影响依赖网络位置。
+
+**为什么读：**为研究科研团队中的知识流动和网络桥梁提供基础对照，帮助区分合作数量与非冗余信息渠道。
+
+**限制：**识别依赖作者关于死亡冲击与网络暴露的设计假设，本轮仅读正式摘要，未审计全文识别和稳健性。医学合著网络不代表所有学科；这是科研合作制度背景，不是AI采用效果或已复现的因果结论。
+
+标签：团队组织 / 科研生产 / 创新 / 测量与识别
+
+<details>
+<summary>核验记录 · 2026-11-21 · 摘要</summary>
+
+本轮文献库命中后，直接读取INFORMS官方文章页：核验独立作者、DOI、68(4):2513–2532、2021-07-09在线日期与摘要。沿本库正式卷期年归2022，不把新发现旧论文说成新近发表。
+
+- [publication](https://pubsonline.informs.org/doi/10.1287/mnsc.2021.4032)：官方元数据与摘要直接读取；本轮补接既有制度研究缺口，未通读或复现。
 
 </details>
