@@ -5,7 +5,7 @@
 
 AI 如何改变研究评价，科研流程中的错误又怎样被发现、约束和纠正？将真实评议中的采用测量与随机反馈实验对照，再考察数据泄漏和自动化科研监督；评语改善、模型表现与最终科学质量分别评价。
 
-本主题 8 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
+本主题 9 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
 
 ## 阅读顺序
 
@@ -17,6 +17,7 @@ AI 如何改变研究评价，科研流程中的错误又怎样被发现、约�
 6. [Clubs and Networks in Economics Reviewing](#carrell-2024-clubs-networks)（2024）
 7. [Unpacking P-hacking and Publication Bias](#brodeur-2023-unpacking-publication-bias)（2023）
 8. [Generative AI bias against scientific novelty: a cautionary tale from a small-sample evaluation of research proposals](#machado-2026-ai-novelty-grant-review)（2026）
+9. [When AI-assisted criticism scales, peer review needs an obligation threshold](#sun-2026-criticism-obligation)（2026）
 
 <a id="liang-2024-monitoring-ai-peer-reviews"></a>
 
@@ -254,5 +255,34 @@ Diogo Machado
 
 - [publication](https://link.springer.com/article/10.1007/s11192-026-05792-x)：正式文章元数据、摘要及限制/数据可用性段落直接读取；不把观察性分歧写成已识别的机制。
 - [metadata](https://www.nature.com/articles/d41586-026-03340-4)：仅为发现原始研究的新闻入口，不单列论文或作为内容结论的替代来源。
+
+</details>
+
+<a id="sun-2026-criticism-obligation"></a>
+
+## When AI-assisted criticism scales, peer review needs an obligation threshold
+
+**2026 · Nature Machine Intelligence · 观点 / 评论**
+
+**研究定位：**SoS 核心 · AI 与科研
+
+Yiteng Sun; Fan Li; Ching-Hung Lee; Chun-Hsien Chen
+
+[论文](https://www.nature.com/articles/s42256-026-01349-y) · [正式来源](https://www.nature.com/articles/s42256-026-01349-y)
+
+讨论AI降低提出评审意见的边际成本后，专家判断哪些意见影响核心结论的成本未必同步下降。作者由此将哪些批评应形成作者回应义务作为评议制度问题，题名提出义务阈值；本轮不补写未读正文中的具体规则。
+
+**为什么读：**直接讨论AI改变科研评议中的注意力成本、权威与作者回应义务，归AI与科研核心，而非通用模型能力案例。
+
+**限制：**正式类型为Correspondence，属于观点而非实验或因果估计。本轮只读官网公开预览的两段正文和元数据，其余订阅正文未读；未核验阈值的具体实施规则或效果，不能推断已证明其改善公平性、质量或评审效率。
+
+标签：AI 与科研 / 同行评议 / 科研制度与资源 / 科研可靠性
+
+<details>
+<summary>核验记录 · 2026-11-22 · 部分正文 / 图表</summary>
+
+普通公开GET核验四位作者、2026-11-18与DOI；公开页明确Correspondence，不能因机器元数据dc.type=Letter就标为原创研究。仅阅读公开预览，不绕过订阅限制。
+
+- [publication](https://www.nature.com/articles/s42256-026-01349-y)：官方Correspondence书目与公开预览正文；付费部分未读，观点有效性未作实证核验。
 
 </details>

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-21",
+  "snapshot_date": "2026-11-22",
   "description_zh": "一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。按研究问题组织全部论文，将科研流程、生产率、创新、文献传播、评议和科研制度串成阅读地图。",
   "scope": {
     "coverage": "curated-not-exhaustive",
@@ -173,7 +173,8 @@
         "pleskac-2026-blinded-review",
         "carrell-2024-clubs-networks",
         "brodeur-2023-unpacking-publication-bias",
-        "machado-2026-ai-novelty-grant-review"
+        "machado-2026-ai-novelty-grant-review",
+        "sun-2026-criticism-obligation"
       ]
     },
     {
@@ -2356,6 +2357,47 @@
           "note_zh": "官方元数据与摘要直接读取；本轮补接既有制度研究缺口，未通读或复现。"
         }
       ]
+    },
+    {
+      "id": "sun-2026-criticism-obligation",
+      "collection": "ai-core",
+      "title": "When AI-assisted criticism scales, peer review needs an obligation threshold",
+      "authors": [
+        "Yiteng Sun",
+        "Fan Li",
+        "Ching-Hung Lee",
+        "Chun-Hsien Chen"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "Nature Machine Intelligence",
+      "publication_type": "perspective",
+      "publication_status": "published",
+      "doi": "10.1038/s42256-026-01349-y",
+      "url": "https://www.nature.com/articles/s42256-026-01349-y",
+      "official_url": "https://www.nature.com/articles/s42256-026-01349-y",
+      "tags": [
+        "ai-science",
+        "peer-review",
+        "institutions",
+        "reliability"
+      ],
+      "summary_zh": "讨论AI降低提出评审意见的边际成本后，专家判断哪些意见影响核心结论的成本未必同步下降。作者由此将哪些批评应形成作者回应义务作为评议制度问题，题名提出义务阈值；本轮不补写未读正文中的具体规则。",
+      "limitations_zh": "正式类型为Correspondence，属于观点而非实验或因果估计。本轮只读官网公开预览的两段正文和元数据，其余订阅正文未读；未核验阈值的具体实施规则或效果，不能推断已证明其改善公平性、质量或评审效率。",
+      "relevance_zh": "直接讨论AI改变科研评议中的注意力成本、权威与作者回应义务，归AI与科研核心，而非通用模型能力案例。",
+      "evidence_level": "selected-full-text",
+      "verified_on": "2026-11-22",
+      "verification_note_zh": "普通公开GET核验四位作者、2026-11-18与DOI；公开页明确Correspondence，不能因机器元数据dc.type=Letter就标为原创研究。仅阅读公开预览，不绕过订阅限制。",
+      "publication_dates": {
+        "online_date": "2026-11-18"
+      },
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s42256-026-01349-y",
+          "role": "publication",
+          "note_zh": "官方Correspondence书目与公开预览正文；付费部分未读，观点有效性未作实证核验。"
+        }
+      ]
     }
   ],
   "incremental_updates": [
@@ -2412,6 +2454,13 @@
         "mohnen-2022-stars-brokers"
       ],
       "scope_zh": "定向补接1篇科研合作网络基础研究，按正式卷期年归2022；AI核心不变，原全库基线及阅读路线保留。"
+    },
+    {
+      "checked_on": "2026-11-22",
+      "added_ids": [
+        "sun-2026-criticism-obligation"
+      ],
+      "scope_zh": "定向增补AI评议制度Correspondence，观点单列，原全库基线及阅读路线保留。"
     }
   ]
 }
