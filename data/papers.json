@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-22",
+  "snapshot_date": "2026-11-24",
   "description_zh": "一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。按研究问题组织全部论文，将科研流程、生产率、创新、文献传播、评议和科研制度串成阅读地图。",
   "scope": {
     "coverage": "curated-not-exhaustive",
@@ -114,7 +114,8 @@
         "gopal-2025-inventing-with-machines",
         "messeri-2024-illusions-understanding",
         "lu-2026-end-to-end-ai-research",
-        "shao-2026-sciscigpt"
+        "shao-2026-sciscigpt",
+        "liu-2026-scientific-maturity"
       ]
     },
     {
@@ -2398,6 +2399,52 @@
           "note_zh": "官方Correspondence书目与公开预览正文；付费部分未读，观点有效性未作实证核验。"
         }
       ]
+    },
+    {
+      "id": "liu-2026-scientific-maturity",
+      "collection": "ai-core",
+      "title": "AI-driven scientific discovery requires scientific maturity beyond model opacity",
+      "authors": [
+        "Yuqiang Liu",
+        "Siguang Zhang"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "Discover Artificial Intelligence",
+      "publication_type": "journal-research",
+      "publication_status": "published",
+      "doi": "10.1007/s44163-026-02577-2",
+      "url": "https://link.springer.com/article/10.1007/s44163-026-02577-2",
+      "official_url": "https://link.springer.com/article/10.1007/s44163-026-02577-2",
+      "tags": [
+        "ai-science",
+        "knowledge-production",
+        "reliability",
+        "institutions"
+      ],
+      "summary_zh": "区分AI生成候选结果与科学共同体能够验证、使用和纠错的知识，提出领域验证、表征整合、失败阐释与共同体问责四维框架，并以AlphaFold、GNoME和FunSearch作概念性对照。",
+      "limitations_zh": "出版商分类为Research，但贡献是理论框架与案例阐释，不是代表性样本、因果估计或已校准的数量量表。作者不提供统一加权总分，也不主张四维足以定义全部科学知识；案例差异不能当作模型形式的因果效果。仅阅读摘要、引言及框架/案例选段，未核查全部领域争议或复现。",
+      "relevance_zh": "直接研究AI产出如何取得科学地位，以及验证资源、解释与责任的分工，不是仅展示某领域模型性能。",
+      "evidence_level": "selected-full-text",
+      "verified_on": "2026-11-24",
+      "verification_note_zh": "直接读取官方开放文章，核验两位作者、Research分类、2026-10-25最终版、6卷文章1633与DOI；读引言、框架与案例选择说明，保留作者关于非测量、非代表性及非因果的限制。",
+      "publication_dates": {
+        "online_date": "2026-10-25",
+        "volume": "6",
+        "article_number": "1633"
+      },
+      "sources": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s44163-026-02577-2",
+          "role": "publication",
+          "note_zh": "官方最终出版身份与摘要直接核验；不是预印本、新闻或系统性能基准。"
+        },
+        {
+          "url": "https://link.springer.com/article/10.1007/s44163-026-02577-2",
+          "role": "content",
+          "note_zh": "引言、四维框架及案例选择/比较选段；未通读全部引文和争议原文，不将框架转成已验证评分工具。"
+        }
+      ]
     }
   ],
   "incremental_updates": [
@@ -2461,6 +2508,13 @@
         "sun-2026-criticism-obligation"
       ],
       "scope_zh": "定向增补AI评议制度Correspondence，观点单列，原全库基线及阅读路线保留。"
+    },
+    {
+      "checked_on": "2026-11-24",
+      "added_ids": [
+        "liu-2026-scientific-maturity"
+      ],
+      "scope_zh": "补接正式发表的AI科学知识成熟度理论研究，不作已验证量表或因果效果；原全库基线与阅读路线保留。"
     }
   ]
 }

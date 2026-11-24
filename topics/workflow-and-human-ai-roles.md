@@ -5,7 +5,7 @@
 
 AI 可以进入哪些科研环节，研究者应保留哪些判断与解释责任？从科学学的问题地图出发，对照技术综述、学科实践框架、认知风险和自动化系统案例；能力演示与规范建议不等于真实科研收益已得到验证。
 
-本主题 6 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
+本主题 7 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
 
 ## 阅读顺序
 
@@ -15,6 +15,7 @@ AI 可以进入哪些科研环节，研究者应保留哪些判断与解释责�
 4. [Artificial intelligence and illusions of understanding in scientific research](#messeri-2024-illusions-understanding)（2024）
 5. [Towards end-to-end automation of AI research](#lu-2026-end-to-end-ai-research)（2026）
 6. [SciSciGPT: advancing human–AI collaboration in the science of science](#shao-2026-sciscigpt)（2026）
+7. [AI-driven scientific discovery requires scientific maturity beyond model opacity](#liu-2026-scientific-maturity)（2026）
 
 <a id="fortunato-2018-science-of-science"></a>
 
@@ -193,5 +194,35 @@ Erzhuo Shao; Yifang Wang; Yifan Qian; Zhenyu Pan; Han Liu; Dashun Wang
 - [publication](https://www.nature.com/articles/s43588-025-00906-6)：官方文章页元数据和摘要直接读取；Resource按研究文章记，保留原始类型与在线/卷期年区别。
 - [content](https://www.nature.com/articles/s43588-025-00906-6)：部分正文：Expert review、Discussion、Code availability；评价为探索性而非普遍能力证明。
 - [metadata](https://github.com/Northwestern-CSSI/SciSciGPT)：出版商直接给出的代码仓库入口，已打开，未下载或运行。
+
+</details>
+
+<a id="liu-2026-scientific-maturity"></a>
+
+## AI-driven scientific discovery requires scientific maturity beyond model opacity
+
+**2026 · Discover Artificial Intelligence · 期刊研究**
+
+**研究定位：**SoS 核心 · AI 与科研
+
+Yuqiang Liu; Siguang Zhang
+
+[论文](https://link.springer.com/article/10.1007/s44163-026-02577-2) · [正式来源](https://link.springer.com/article/10.1007/s44163-026-02577-2)
+
+区分AI生成候选结果与科学共同体能够验证、使用和纠错的知识，提出领域验证、表征整合、失败阐释与共同体问责四维框架，并以AlphaFold、GNoME和FunSearch作概念性对照。
+
+**为什么读：**直接研究AI产出如何取得科学地位，以及验证资源、解释与责任的分工，不是仅展示某领域模型性能。
+
+**限制：**出版商分类为Research，但贡献是理论框架与案例阐释，不是代表性样本、因果估计或已校准的数量量表。作者不提供统一加权总分，也不主张四维足以定义全部科学知识；案例差异不能当作模型形式的因果效果。仅阅读摘要、引言及框架/案例选段，未核查全部领域争议或复现。
+
+标签：AI 与科研 / 科研生产 / 科研可靠性 / 科研制度与资源
+
+<details>
+<summary>核验记录 · 2026-11-24 · 部分正文 / 图表</summary>
+
+直接读取官方开放文章，核验两位作者、Research分类、2026-10-25最终版、6卷文章1633与DOI；读引言、框架与案例选择说明，保留作者关于非测量、非代表性及非因果的限制。
+
+- [publication](https://link.springer.com/article/10.1007/s44163-026-02577-2)：官方最终出版身份与摘要直接核验；不是预印本、新闻或系统性能基准。
+- [content](https://link.springer.com/article/10.1007/s44163-026-02577-2)：引言、四维框架及案例选择/比较选段；未通读全部引文和争议原文，不将框架转成已验证评分工具。
 
 </details>
