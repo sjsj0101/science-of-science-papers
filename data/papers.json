@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-11-24",
+  "snapshot_date": "2026-11-26",
   "description_zh": "一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。按研究问题组织全部论文，将科研流程、生产率、创新、文献传播、评议和科研制度串成阅读地图。",
   "scope": {
     "coverage": "curated-not-exhaustive",
@@ -159,7 +159,8 @@
         "algaba-2025-heightened-citation-bias",
         "isch-2026-overreaching-causal-claims",
         "peters-2025-generalization-bias",
-        "asai-2026-openscholar"
+        "asai-2026-openscholar",
+        "choi-2026-submission-caps"
       ]
     },
     {
@@ -2445,6 +2446,44 @@
           "note_zh": "引言、四维框架及案例选择/比较选段；未通读全部引文和争议原文，不将框架转成已验证评分工具。"
         }
       ]
+    },
+    {
+      "id": "choi-2026-submission-caps",
+      "collection": "ai-core",
+      "title": "Submission caps aren’t enough to tackle AI slop",
+      "authors": [
+        "Sang-ji Choi"
+      ],
+      "authors_complete": true,
+      "year": 2026,
+      "venue": "Nature",
+      "publication_type": "perspective",
+      "publication_status": "published",
+      "doi": "10.1038/d41586-026-03823-4",
+      "url": "https://www.nature.com/articles/d41586-026-03823-4",
+      "official_url": "https://www.nature.com/articles/d41586-026-03823-4",
+      "tags": [
+        "ai-science",
+        "scholarly-communication",
+        "institutions",
+        "reliability"
+      ],
+      "summary_zh": "从预印本平台的审核负担讨论AI低质量内容治理。公开预览认为限制投稿量可减轻志愿审核压力，但将问题仅视为单个平台的工作量不足以解决内容向其他平台转移。",
+      "limitations_zh": "正式类型为Correspondence，属于观点而非制度效果的实证研究。本轮只读官网一段公开预览与书目信息，付费正文未读；不补写其完整治理方案，不推断已证明限额的效果或平台间转移规模。文中对平台规则的描述是作者讨论背景，本轮未独立审计平台现行政策。",
+      "relevance_zh": "直接研究AI生成内容对科学传播、审核资源和跨平台治理的挑战，属于AI与科研制度核心，不是通用AI新闻。",
+      "evidence_level": "selected-full-text",
+      "verified_on": "2026-11-26",
+      "verification_note_zh": "官方Nature页面核验单作者、Correspondence、2026-11-24、659卷1180页及DOI；普通公开访问，不绕过订阅限制。",
+      "publication_dates": {
+        "online_date": "2026-11-24"
+      },
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/d41586-026-03823-4",
+          "role": "publication",
+          "note_zh": "官方Correspondence书目信息与一段公开预览；其余正文未读，不作为原始研究或已验证政策效果。"
+        }
+      ]
     }
   ],
   "incremental_updates": [
@@ -2515,6 +2554,13 @@
         "liu-2026-scientific-maturity"
       ],
       "scope_zh": "补接正式发表的AI科学知识成熟度理论研究，不作已验证量表或因果效果；原全库基线与阅读路线保留。"
+    },
+    {
+      "checked_on": "2026-11-26",
+      "added_ids": [
+        "choi-2026-submission-caps"
+      ],
+      "scope_zh": "定向补入AI论文洪流治理Correspondence，观点与实证分开；仅读公开预览，原全库基线及阅读路线保留。"
     }
   ]
 }

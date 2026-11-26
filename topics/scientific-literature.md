@@ -5,7 +5,7 @@
 
 哪些结果进入文献，AI 如何参与写作，学术注意力与科学主张又怎样在引用、摘要和综合中分配或失真？沿发表选择、证据报告、辅助写作、注意力分配和转述保真展开；语料层面的采用测量、机制模型与系统评测分别解释。
 
-本主题 10 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
+本主题 11 篇。以下保留每篇研究的定位、文章类型和证据边界；书目核验日期沿用各条目记录。
 
 ## 阅读顺序
 
@@ -19,6 +19,7 @@
 8. [Quantifying the prevalence and impact of overreaching causal claims in social science](#isch-2026-overreaching-causal-claims)（2026）
 9. [Generalization bias in large language model summarization of scientific research](#peters-2025-generalization-bias)（2025）
 10. [Synthesizing scientific literature with retrieval-augmented language models](#asai-2026-openscholar)（2026）
+11. [Submission caps aren’t enough to tackle AI slop](#choi-2026-submission-caps)（2026）
 
 <a id="andrews-2019-publication-bias"></a>
 
@@ -321,5 +322,34 @@ Akari Asai; Jacqueline He; Rulin Shao; Weijia Shi; Amanpreet Singh; Joseph Chee 
 
 - [publication](https://www.nature.com/articles/s41586-025-10072-4)：Nature 官方页索引确认正式发表身份、卷期年及完整作者；DOI 含 2025 不代表正式发表年。
 - [content](https://www.nature.com/articles/s41586-025-10072-4)：官方页索引中的 Main 和 Limitations 支持系统设计、评价任务及边界；更新明细未核实。
+
+</details>
+
+<a id="choi-2026-submission-caps"></a>
+
+## Submission caps aren’t enough to tackle AI slop
+
+**2026 · Nature · 观点 / 评论**
+
+**研究定位：**SoS 核心 · AI 与科研
+
+Sang-ji Choi
+
+[论文](https://www.nature.com/articles/d41586-026-03823-4) · [正式来源](https://www.nature.com/articles/d41586-026-03823-4)
+
+从预印本平台的审核负担讨论AI低质量内容治理。公开预览认为限制投稿量可减轻志愿审核压力，但将问题仅视为单个平台的工作量不足以解决内容向其他平台转移。
+
+**为什么读：**直接研究AI生成内容对科学传播、审核资源和跨平台治理的挑战，属于AI与科研制度核心，不是通用AI新闻。
+
+**限制：**正式类型为Correspondence，属于观点而非制度效果的实证研究。本轮只读官网一段公开预览与书目信息，付费正文未读；不补写其完整治理方案，不推断已证明限额的效果或平台间转移规模。文中对平台规则的描述是作者讨论背景，本轮未独立审计平台现行政策。
+
+标签：AI 与科研 / 学术传播 / 科研制度与资源 / 科研可靠性
+
+<details>
+<summary>核验记录 · 2026-11-26 · 部分正文 / 图表</summary>
+
+官方Nature页面核验单作者、Correspondence、2026-11-24、659卷1180页及DOI；普通公开访问，不绕过订阅限制。
+
+- [publication](https://www.nature.com/articles/d41586-026-03823-4)：官方Correspondence书目信息与一段公开预览；其余正文未读，不作为原始研究或已验证政策效果。
 
 </details>

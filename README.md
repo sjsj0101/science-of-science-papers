@@ -3,9 +3,9 @@
 
 一份以 AI 如何改变科研生产、创新和学术生态为主线的 Science of Science 中文精选文献仓库。按研究问题组织全部论文，将科研流程、生产率、创新、文献传播、评议和科研制度串成阅读地图。
 
-**49 篇论文 · 6 个研究主题 · 中文导读**
+**50 篇论文 · 6 个研究主题 · 中文导读**
 
-最近定向检索日期：**2026-11-24**。收录年份：**2007–2026**。精选目录，不声称系统综述或完整 venue-year 覆盖。
+最近定向检索日期：**2026-11-26**。收录年份：**2007–2026**。精选目录，不声称系统综述或完整 venue-year 覆盖。
 
 <a id="scope"></a>
 
@@ -28,8 +28,8 @@
 
 | 项目 | 数量 |
 | --- | ---: |
-| 收录论文 | 49 |
-| SoS 核心（AI 与科研 / 经典与制度） | 38（17 / 21） |
+| 收录论文 | 50 |
+| SoS 核心（AI 与科研 / 经典与制度） | 39（18 / 21） |
 | 交叉研究 / 技术背景 | 7 / 4 |
 | 补充预印本 / 待核验候选 | 0 / 6 |
 
@@ -55,7 +55,7 @@
 | [科研流程、人机分工与科学理解](#workflow-and-human-ai-roles) | 7 | [主题页](topics/workflow-and-human-ai-roles.md) |
 | [科研生产率、采用效果与机会差异](#productivity-and-opportunity) | 4 | [主题页](topics/productivity-and-opportunity.md) |
 | [创新方向、知识重组与集体探索](#innovation-and-knowledge-evolution) | 9 | [主题页](topics/innovation-and-knowledge-evolution.md) |
-| [科学文献：形成、传播与失真](#scientific-literature) | 10 | [主题页](topics/scientific-literature.md) |
+| [科学文献：形成、传播与失真](#scientific-literature) | 11 | [主题页](topics/scientific-literature.md) |
 | [同行评议、研究可靠性与监督](#peer-review-and-reliability) | 9 | [主题页](topics/peer-review-and-reliability.md) |
 | [科研组织、资源分配与竞争激励](#organizations-resources-and-incentives) | 10 | [主题页](topics/organizations-resources-and-incentives.md) |
 
@@ -128,6 +128,7 @@ AI 是否改变研究者探索的问题、知识组合与科学整体的多样�
 | 2026 · Nature Human Behaviour<br>期刊研究 | <a id="isch-2026-overreaching-causal-claims"></a>[Quantifying the prevalence and impact of overreaching causal claims in social science](https://www.nature.com/articles/s41562-026-02553-x)<br>[解读与来源](topics/scientific-literature.md#isch-2026-overreaching-causal-claims) | 研究科学文本如何表达和传递证据，AI 同时用于测量和接受传播测试；作为科研可靠性的元研究，与文献摘要失真和引用保真研究相连。 | 元研究、理论与治理 |
 | 2025 · Royal Society Open Science<br>期刊研究 | <a id="peters-2025-generalization-bias"></a>[Generalization bias in large language model summarization of scientific research](https://doi.org/10.1098/rsos.241776)<br>[解读与来源](topics/scientific-literature.md#peters-2025-generalization-bias) | 将科学主张的限定条件作为评价对象，连接 LLM 文献摘要与元研究、科学传播可靠性。 | 元研究、理论与治理 |
 | 2026 · Nature<br>期刊研究 | <a id="asai-2026-openscholar"></a>[Synthesizing scientific literature with retrieval-augmented language models](https://www.nature.com/articles/s41586-025-10072-4)<br>[解读与来源](topics/scientific-literature.md#asai-2026-openscholar) | 提供 AI 辅助文献综合的技术案例，用于理解检索与引用核验的能力边界。 | 技术背景与案例 |
+| 2026 · Nature<br>观点 / 评论 | <a id="choi-2026-submission-caps"></a>[Submission caps aren’t enough to tackle AI slop](https://www.nature.com/articles/d41586-026-03823-4)<br>[解读与来源](topics/scientific-literature.md#choi-2026-submission-caps) | 直接研究AI生成内容对科学传播、审核资源和跨平台治理的挑战，属于AI与科研制度核心，不是通用AI新闻。 | SoS 核心 · AI 与科研 |
 
 <a id="peer-review-and-reliability"></a>
 
@@ -172,7 +173,7 @@ AI 如何改变研究评价，科研流程中的错误又怎样被发现、约�
 
 | 研究定位 | 去重条目数 |
 | --- | ---: |
-| SoS 核心 · AI 与科研 | 17 |
+| SoS 核心 · AI 与科研 | 18 |
 | SoS 核心 · 经典与科研制度 | 21 |
 | 元研究、理论与治理 | 7 |
 | 技术背景与案例 | 4 |
@@ -182,9 +183,9 @@ AI 如何改变研究评价，科研流程中的错误又怎样被发现、约�
 
 未收录候选：待核验 6、范围外 1、排除 2；不计入论文总数。
 
-已发表条目类型：会议论文 3 篇、期刊研究 37 篇、观点 / 评论 6 篇、政策分析（含实证） 1 篇、综述 2 篇。观点与综述分别标注。
+已发表条目类型：会议论文 3 篇、期刊研究 37 篇、观点 / 评论 7 篇、政策分析（含实证） 1 篇、综述 2 篇。观点与综述分别标注。
 
-内容阅读层次：摘要 14 篇、部分正文 / 图表 35 篇。来源访问、发表身份和阅读深度逐篇说明；**未独立复现实验。**
+内容阅读层次：摘要 14 篇、部分正文 / 图表 36 篇。来源访问、发表身份和阅读深度逐篇说明；**未独立复现实验。**
 
 <a id="known-gaps"></a>
 
